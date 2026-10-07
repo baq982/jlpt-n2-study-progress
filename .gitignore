@@ -1,0 +1,7 @@
+# Local credentials and generated caches are not study records.
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+*.tmp

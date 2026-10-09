@@ -5,3 +5,6 @@
 __pycache__/
 *.pyc
 *.tmp
+
+# Private original textbooks and OCR; never upload to the public progress repository.
+.教材缓存/

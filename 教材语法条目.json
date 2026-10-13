@@ -8,17 +8,18 @@
     "page_scope": "章节起始页",
     "forms": "際（に）",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-09",
     "target_review_dates": [
       "2026-10-10",
       "2026-10-12",
       "2026-10-16"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-10",
     "actual_review_records": [],
     "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
-    "catchup_target_date": "2026-10-10"
+    "catchup_target_date": "2026-10-10",
+    "actual_first_record": "练习记录/2026-10-10/233745-综合-本场收束s1010.md"
   },
   {
     "id": "N2-01-02",
@@ -29,17 +30,18 @@
     "page_scope": "章节起始页",
     "forms": "に際して／にあたって",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-09",
     "target_review_dates": [
       "2026-10-10",
       "2026-10-12",
       "2026-10-16"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-10",
     "actual_review_records": [],
     "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
-    "catchup_target_date": "2026-10-10"
+    "catchup_target_date": "2026-10-10",
+    "actual_first_record": "练习记录/2026-10-10/233745-综合-本场收束s1010.md"
   },
   {
     "id": "N2-01-03",
@@ -50,17 +52,18 @@
     "page_scope": "章节起始页",
     "forms": "たとたん（に）",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-09",
     "target_review_dates": [
       "2026-10-10",
       "2026-10-12",
       "2026-10-16"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-10",
     "actual_review_records": [],
     "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
-    "catchup_target_date": "2026-10-10"
+    "catchup_target_date": "2026-10-10",
+    "actual_first_record": "练习记录/2026-10-10/233745-综合-本场收束s1010.md"
   },
   {
     "id": "N2-01-04",
@@ -71,17 +74,18 @@
     "page_scope": "章节起始页",
     "forms": "（か）と思うと／（か）と思ったら",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-09",
     "target_review_dates": [
       "2026-10-10",
       "2026-10-12",
       "2026-10-16"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-10",
     "actual_review_records": [],
     "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
-    "catchup_target_date": "2026-10-10"
+    "catchup_target_date": "2026-10-10",
+    "actual_first_record": "练习记录/2026-10-10/233745-综合-本场收束s1010.md"
   },
   {
     "id": "N2-01-05",
@@ -92,17 +96,18 @@
     "page_scope": "章节起始页",
     "forms": "か〜ないかのうちに",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-09",
     "target_review_dates": [
       "2026-10-10",
       "2026-10-12",
       "2026-10-16"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-10",
     "actual_review_records": [],
     "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
-    "catchup_target_date": "2026-10-10"
+    "catchup_target_date": "2026-10-10",
+    "actual_first_record": "练习记录/2026-10-10/233745-综合-本场收束s1010.md"
   },
   {
     "id": "N2-02-01",
@@ -113,16 +118,23 @@
     "page_scope": "章节起始页",
     "forms": "最中だ",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学，复测接续仍弱",
     "target_first_date": "2026-10-10",
     "target_review_dates": [
       "2026-10-11",
       "2026-10-13",
       "2026-10-17"
     ],
-    "actual_first_date": null,
-    "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "actual_first_date": "2026-10-10",
+    "actual_review_records": [
+      {
+        "date": "2026-10-13",
+        "record": "练习记录/2026-10-13/120658-综合-online1013a.md",
+        "note": "后助词正确，名词/动词接续及整句产出仍错；有同日讲解"
+      }
+    ],
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-10/233745-综合-本场收束s1010.md"
   },
   {
     "id": "N2-02-02",
@@ -133,16 +145,26 @@
     "page_scope": "章节起始页",
     "forms": "うちに",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，提示后表现不等掌握",
     "target_first_date": "2026-10-10",
     "target_review_dates": [
       "2026-10-11",
       "2026-10-13",
       "2026-10-17"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-13",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-13/120658-综合-online1013a.md",
+    "actual_first_records": [
+      "练习记录/2026-10-13/120658-综合-online1013a.md",
+      "练习记录/2026-10-13/120659-综合-online1013b.md"
+    ],
+    "review_dates_from_actual_first": [
+      "2026-10-14",
+      "2026-10-16",
+      "2026-10-20"
+    ]
   },
   {
     "id": "N2-02-03",
@@ -153,16 +175,26 @@
     "page_scope": "章节起始页",
     "forms": "ばかりだ／一方だ",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，提示后表现不等掌握",
     "target_first_date": "2026-10-10",
     "target_review_dates": [
       "2026-10-11",
       "2026-10-13",
       "2026-10-17"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-13",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-13/120658-综合-online1013a.md",
+    "actual_first_records": [
+      "练习记录/2026-10-13/120658-综合-online1013a.md",
+      "练习记录/2026-10-13/120659-综合-online1013b.md"
+    ],
+    "review_dates_from_actual_first": [
+      "2026-10-14",
+      "2026-10-16",
+      "2026-10-20"
+    ]
   },
   {
     "id": "N2-02-04",
@@ -173,16 +205,26 @@
     "page_scope": "章节起始页",
     "forms": "（よ）うとしている",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，提示后表现不等掌握",
     "target_first_date": "2026-10-10",
     "target_review_dates": [
       "2026-10-11",
       "2026-10-13",
       "2026-10-17"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-13",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-13/120658-综合-online1013a.md",
+    "actual_first_records": [
+      "练习记录/2026-10-13/120658-综合-online1013a.md",
+      "练习记录/2026-10-13/120659-综合-online1013b.md"
+    ],
+    "review_dates_from_actual_first": [
+      "2026-10-14",
+      "2026-10-16",
+      "2026-10-20"
+    ]
   },
   {
     "id": "N2-02-05",
@@ -193,16 +235,26 @@
     "page_scope": "章节起始页",
     "forms": "つつある",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，提示后表现不等掌握",
     "target_first_date": "2026-10-10",
     "target_review_dates": [
       "2026-10-11",
       "2026-10-13",
       "2026-10-17"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-13",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-13/120658-综合-online1013a.md",
+    "actual_first_records": [
+      "练习记录/2026-10-13/120658-综合-online1013a.md",
+      "练习记录/2026-10-13/120659-综合-online1013b.md"
+    ],
+    "review_dates_from_actual_first": [
+      "2026-10-14",
+      "2026-10-16",
+      "2026-10-20"
+    ]
   },
   {
     "id": "N2-02-06",
@@ -213,16 +265,26 @@
     "page_scope": "章节起始页",
     "forms": "つつ",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，提示后表现不等掌握",
     "target_first_date": "2026-10-10",
     "target_review_dates": [
       "2026-10-11",
       "2026-10-13",
       "2026-10-17"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-13",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-13/120658-综合-online1013a.md",
+    "actual_first_records": [
+      "练习记录/2026-10-13/120658-综合-online1013a.md",
+      "练习记录/2026-10-13/120659-综合-online1013b.md"
+    ],
+    "review_dates_from_actual_first": [
+      "2026-10-14",
+      "2026-10-16",
+      "2026-10-20"
+    ]
   },
   {
     "id": "N2-03-01",
@@ -233,16 +295,26 @@
     "page_scope": "章节起始页",
     "forms": "てはじめて",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，提示后表现不等掌握",
     "target_first_date": "2026-10-11",
     "target_review_dates": [
       "2026-10-12",
       "2026-10-14",
       "2026-10-18"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-13",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-13/120659-综合-online1013b.md",
+    "actual_first_records": [
+      "练习记录/2026-10-13/120658-综合-online1013a.md",
+      "练习记录/2026-10-13/120659-综合-online1013b.md"
+    ],
+    "review_dates_from_actual_first": [
+      "2026-10-14",
+      "2026-10-16",
+      "2026-10-20"
+    ]
   },
   {
     "id": "N2-03-02",

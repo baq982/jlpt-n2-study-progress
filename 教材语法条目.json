@@ -325,16 +325,23 @@
     "page_scope": "章节起始页",
     "forms": "上（で）",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-11",
     "target_review_dates": [
       "2026-10-12",
       "2026-10-14",
       "2026-10-18"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-15",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-15/补登记-第3至4课-lesson1015catchup.md",
+    "review_dates_from_actual_first": [
+      "2026-10-16",
+      "2026-10-18",
+      "2026-10-22"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-03-03",
@@ -345,16 +352,23 @@
     "page_scope": "章节起始页",
     "forms": "次第",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-11",
     "target_review_dates": [
       "2026-10-12",
       "2026-10-14",
       "2026-10-18"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-15",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-15/补登记-第3至4课-lesson1015catchup.md",
+    "review_dates_from_actual_first": [
+      "2026-10-16",
+      "2026-10-18",
+      "2026-10-22"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-03-04",
@@ -365,16 +379,23 @@
     "page_scope": "章节起始页",
     "forms": "て以来／てこのかた",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-11",
     "target_review_dates": [
       "2026-10-12",
       "2026-10-14",
       "2026-10-18"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-15",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-15/补登记-第3至4课-lesson1015catchup.md",
+    "review_dates_from_actual_first": [
+      "2026-10-16",
+      "2026-10-18",
+      "2026-10-22"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-03-05",
@@ -385,16 +406,23 @@
     "page_scope": "章节起始页",
     "forms": "てからでないと／てからでなければ",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-11",
     "target_review_dates": [
       "2026-10-12",
       "2026-10-14",
       "2026-10-18"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-15",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-15/补登记-第3至4课-lesson1015catchup.md",
+    "review_dates_from_actual_first": [
+      "2026-10-16",
+      "2026-10-18",
+      "2026-10-22"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-04-01",
@@ -405,16 +433,23 @@
     "page_scope": "章节起始页",
     "forms": "をはじめ（として）",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-12",
     "target_review_dates": [
       "2026-10-13",
       "2026-10-15",
       "2026-10-19"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-15",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-15/补登记-第3至4课-lesson1015catchup.md",
+    "review_dates_from_actual_first": [
+      "2026-10-16",
+      "2026-10-18",
+      "2026-10-22"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-04-02",
@@ -425,16 +460,23 @@
     "page_scope": "章节起始页",
     "forms": "からして",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-12",
     "target_review_dates": [
       "2026-10-13",
       "2026-10-15",
       "2026-10-19"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-15",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-15/补登记-第3至4课-lesson1015catchup.md",
+    "review_dates_from_actual_first": [
+      "2026-10-16",
+      "2026-10-18",
+      "2026-10-22"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-04-03",
@@ -445,16 +487,23 @@
     "page_scope": "章节起始页",
     "forms": "にわたって",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-12",
     "target_review_dates": [
       "2026-10-13",
       "2026-10-15",
       "2026-10-19"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-15",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-15/补登记-第3至4课-lesson1015catchup.md",
+    "review_dates_from_actual_first": [
+      "2026-10-16",
+      "2026-10-18",
+      "2026-10-22"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-04-04",
@@ -465,16 +514,23 @@
     "page_scope": "章节起始页",
     "forms": "を通じて／を通して",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-12",
     "target_review_dates": [
       "2026-10-13",
       "2026-10-15",
       "2026-10-19"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-16",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
+    "review_dates_from_actual_first": [
+      "2026-10-17",
+      "2026-10-19",
+      "2026-10-23"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-04-05",
@@ -485,16 +541,23 @@
     "page_scope": "章节起始页",
     "forms": "限り",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-12",
     "target_review_dates": [
       "2026-10-13",
       "2026-10-15",
       "2026-10-19"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-16",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
+    "review_dates_from_actual_first": [
+      "2026-10-17",
+      "2026-10-19",
+      "2026-10-23"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-04-06",
@@ -505,16 +568,23 @@
     "page_scope": "章节起始页",
     "forms": "だけ",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-12",
     "target_review_dates": [
       "2026-10-13",
       "2026-10-15",
       "2026-10-19"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-16",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
+    "review_dates_from_actual_first": [
+      "2026-10-17",
+      "2026-10-19",
+      "2026-10-23"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-05-01",
@@ -525,16 +595,23 @@
     "page_scope": "章节起始页",
     "forms": "に限り",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-13",
     "target_review_dates": [
       "2026-10-14",
       "2026-10-16",
       "2026-10-20"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-16",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
+    "review_dates_from_actual_first": [
+      "2026-10-17",
+      "2026-10-19",
+      "2026-10-23"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-05-02",
@@ -545,16 +622,23 @@
     "page_scope": "章节起始页",
     "forms": "限り（は）",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-13",
     "target_review_dates": [
       "2026-10-14",
       "2026-10-16",
       "2026-10-20"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-16",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
+    "review_dates_from_actual_first": [
+      "2026-10-17",
+      "2026-10-19",
+      "2026-10-23"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-05-03",
@@ -565,16 +649,23 @@
     "page_scope": "章节起始页",
     "forms": "限りでは",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-13",
     "target_review_dates": [
       "2026-10-14",
       "2026-10-16",
       "2026-10-20"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-16",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
+    "review_dates_from_actual_first": [
+      "2026-10-17",
+      "2026-10-19",
+      "2026-10-23"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-05-04",
@@ -585,16 +676,23 @@
     "page_scope": "章节起始页",
     "forms": "に限って",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-13",
     "target_review_dates": [
       "2026-10-14",
       "2026-10-16",
       "2026-10-20"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-16",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
+    "review_dates_from_actual_first": [
+      "2026-10-17",
+      "2026-10-19",
+      "2026-10-23"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-06-01",
@@ -605,16 +703,23 @@
     "page_scope": "章节起始页",
     "forms": "に限らず",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-14",
     "target_review_dates": [
       "2026-10-15",
       "2026-10-17",
       "2026-10-21"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-16",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
+    "review_dates_from_actual_first": [
+      "2026-10-17",
+      "2026-10-19",
+      "2026-10-23"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-06-02",
@@ -625,16 +730,23 @@
     "page_scope": "章节起始页",
     "forms": "のみならず",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-14",
     "target_review_dates": [
       "2026-10-15",
       "2026-10-17",
       "2026-10-21"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-16",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
+    "review_dates_from_actual_first": [
+      "2026-10-17",
+      "2026-10-19",
+      "2026-10-23"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-06-03",
@@ -645,16 +757,23 @@
     "page_scope": "章节起始页",
     "forms": "ばかりか",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-14",
     "target_review_dates": [
       "2026-10-15",
       "2026-10-17",
       "2026-10-21"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-16",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
+    "review_dates_from_actual_first": [
+      "2026-10-17",
+      "2026-10-19",
+      "2026-10-23"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-06-04",
@@ -665,16 +784,23 @@
     "page_scope": "章节起始页",
     "forms": "はもとより",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-14",
     "target_review_dates": [
       "2026-10-15",
       "2026-10-17",
       "2026-10-21"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-16",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
+    "review_dates_from_actual_first": [
+      "2026-10-17",
+      "2026-10-19",
+      "2026-10-23"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-06-05",
@@ -685,16 +811,23 @@
     "page_scope": "章节起始页",
     "forms": "上（に）",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-14",
     "target_review_dates": [
       "2026-10-15",
       "2026-10-17",
       "2026-10-21"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-16",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
+    "review_dates_from_actual_first": [
+      "2026-10-17",
+      "2026-10-19",
+      "2026-10-23"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-07-01",
@@ -705,16 +838,23 @@
     "page_scope": "章节起始页",
     "forms": "に関して",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-15",
     "target_review_dates": [
       "2026-10-16",
       "2026-10-18",
       "2026-10-22"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-16",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
+    "review_dates_from_actual_first": [
+      "2026-10-17",
+      "2026-10-19",
+      "2026-10-23"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-07-02",
@@ -725,16 +865,23 @@
     "page_scope": "章节起始页",
     "forms": "をめぐって",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-15",
     "target_review_dates": [
       "2026-10-16",
       "2026-10-18",
       "2026-10-22"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-16",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
+    "review_dates_from_actual_first": [
+      "2026-10-17",
+      "2026-10-19",
+      "2026-10-23"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-07-03",
@@ -745,16 +892,23 @@
     "page_scope": "章节起始页",
     "forms": "にかけては",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-15",
     "target_review_dates": [
       "2026-10-16",
       "2026-10-18",
       "2026-10-22"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-16",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
+    "review_dates_from_actual_first": [
+      "2026-10-17",
+      "2026-10-19",
+      "2026-10-23"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-07-04",
@@ -765,16 +919,23 @@
     "page_scope": "章节起始页",
     "forms": "に対して",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-15",
     "target_review_dates": [
       "2026-10-16",
       "2026-10-18",
       "2026-10-22"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-16",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
+    "review_dates_from_actual_first": [
+      "2026-10-17",
+      "2026-10-19",
+      "2026-10-23"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-07-05",
@@ -785,16 +946,23 @@
     "page_scope": "章节起始页",
     "forms": "にこたえて",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-15",
     "target_review_dates": [
       "2026-10-16",
       "2026-10-18",
       "2026-10-22"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-16",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
+    "review_dates_from_actual_first": [
+      "2026-10-17",
+      "2026-10-19",
+      "2026-10-23"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-08-01",
@@ -805,16 +973,23 @@
     "page_scope": "章节起始页",
     "forms": "をもとに（して）",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-16",
     "target_review_dates": [
       "2026-10-17",
       "2026-10-19",
       "2026-10-23"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-16",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
+    "review_dates_from_actual_first": [
+      "2026-10-17",
+      "2026-10-19",
+      "2026-10-23"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-08-02",
@@ -825,16 +1000,23 @@
     "page_scope": "章节起始页",
     "forms": "に基づいて",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-16",
     "target_review_dates": [
       "2026-10-17",
       "2026-10-19",
       "2026-10-23"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-16",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
+    "review_dates_from_actual_first": [
+      "2026-10-17",
+      "2026-10-19",
+      "2026-10-23"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-08-03",
@@ -845,16 +1027,23 @@
     "page_scope": "章节起始页",
     "forms": "に沿って",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-16",
     "target_review_dates": [
       "2026-10-17",
       "2026-10-19",
       "2026-10-23"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-16",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
+    "review_dates_from_actual_first": [
+      "2026-10-17",
+      "2026-10-19",
+      "2026-10-23"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-08-04",
@@ -865,16 +1054,23 @@
     "page_scope": "章节起始页",
     "forms": "のもとで／のもとに",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-16",
     "target_review_dates": [
       "2026-10-17",
       "2026-10-19",
       "2026-10-23"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-16",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
+    "review_dates_from_actual_first": [
+      "2026-10-17",
+      "2026-10-19",
+      "2026-10-23"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-08-05",
@@ -885,16 +1081,23 @@
     "page_scope": "章节起始页",
     "forms": "向けだ",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已教学/首轮接触，仍需无提示间隔检测",
     "target_first_date": "2026-10-16",
     "target_review_dates": [
       "2026-10-17",
       "2026-10-19",
       "2026-10-23"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-16",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
+    "review_dates_from_actual_first": [
+      "2026-10-17",
+      "2026-10-19",
+      "2026-10-23"
+    ],
+    "evidence_note": "10/16晚补登记；讲解/词汇提示及即时练习不等于掌握，组内变体未必均已检测。实际复测见独立记录，不自动完成预约。"
   },
   {
     "id": "N2-09-01",

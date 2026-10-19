@@ -657,7 +657,13 @@
       "2026-10-20"
     ],
     "actual_first_date": "2026-10-16",
-    "actual_review_records": [],
+    "actual_review_records": [
+      {
+        "date": "2026-10-17",
+        "record": "练习记录/2026-10-17/210500-综合-lesson1017review.md",
+        "note": "Q1首答D错误，目标限りでは，仍混淆に限らず。"
+      }
+    ],
     "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
     "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
     "review_dates_from_actual_first": [
@@ -711,7 +717,13 @@
       "2026-10-21"
     ],
     "actual_first_date": "2026-10-16",
-    "actual_review_records": [],
+    "actual_review_records": [
+      {
+        "date": "2026-10-17",
+        "record": "练习记录/2026-10-17/210500-综合-lesson1017review.md",
+        "note": "Q6首答B正确，但Q1纠错已重讲；不计未曝光独立测试。"
+      }
+    ],
     "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
     "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
     "review_dates_from_actual_first": [
@@ -846,7 +858,13 @@
       "2026-10-22"
     ],
     "actual_first_date": "2026-10-16",
-    "actual_review_records": [],
+    "actual_review_records": [
+      {
+        "date": "2026-10-17",
+        "record": "练习记录/2026-10-17/210500-综合-lesson1017review.md",
+        "note": "Q2首答B関する正确，名词修饰单题成功，非掌握。"
+      }
+    ],
     "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
     "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
     "review_dates_from_actual_first": [
@@ -873,7 +891,13 @@
       "2026-10-22"
     ],
     "actual_first_date": "2026-10-16",
-    "actual_review_records": [],
+    "actual_review_records": [
+      {
+        "date": "2026-10-17",
+        "record": "练习记录/2026-10-17/210500-综合-lesson1017review.md",
+        "note": "Q3误选をめぐって；提示后公园建设译义正确，保留两类条件。"
+      }
+    ],
     "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
     "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
     "review_dates_from_actual_first": [
@@ -981,7 +1005,13 @@
       "2026-10-23"
     ],
     "actual_first_date": "2026-10-16",
-    "actual_review_records": [],
+    "actual_review_records": [
+      {
+        "date": "2026-10-17",
+        "record": "练习记录/2026-10-17/210500-综合-lesson1017review.md",
+        "note": "Q3首答A错误，目标をもとに；提示后依据辨义正确。"
+      }
+    ],
     "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
     "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
     "review_dates_from_actual_first": [
@@ -1035,7 +1065,13 @@
       "2026-10-23"
     ],
     "actual_first_date": "2026-10-16",
-    "actual_review_records": [],
+    "actual_review_records": [
+      {
+        "date": "2026-10-17",
+        "record": "练习记录/2026-10-17/210500-综合-lesson1017review.md",
+        "note": "Q4首答B错误，目标に沿って；题前只注词义。"
+      }
+    ],
     "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
     "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
     "review_dates_from_actual_first": [
@@ -1062,7 +1098,13 @@
       "2026-10-23"
     ],
     "actual_first_date": "2026-10-16",
-    "actual_review_records": [],
+    "actual_review_records": [
+      {
+        "date": "2026-10-17",
+        "record": "练习记录/2026-10-17/210500-综合-lesson1017review.md",
+        "note": "Q5首答D错误，目标のもとで，与面向对象混淆。"
+      }
+    ],
     "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
     "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
     "review_dates_from_actual_first": [
@@ -1089,7 +1131,13 @@
       "2026-10-23"
     ],
     "actual_first_date": "2026-10-16",
-    "actual_review_records": [],
+    "actual_review_records": [
+      {
+        "date": "2026-10-17",
+        "record": "练习记录/2026-10-17/210500-综合-lesson1017review.md",
+        "note": "Q5误选向けに，指导下与面向对象仍需区分。"
+      }
+    ],
     "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
     "actual_first_record": "练习记录/2026-10-16/233900-综合-lesson1016review.md",
     "review_dates_from_actual_first": [
@@ -1108,16 +1156,23 @@
     "page_scope": "章节起始页",
     "forms": "につれて／にしたがって",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已初教，有提示译句；仍需无提示间隔检测",
     "target_first_date": "2026-10-17",
     "target_review_dates": [
       "2026-10-18",
       "2026-10-20",
       "2026-10-24"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-17",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-17/210500-综合-lesson1017review.md",
+    "review_dates_from_actual_first": [
+      "2026-10-18",
+      "2026-10-20",
+      "2026-10-24"
+    ],
+    "evidence_note": "10/17实际教学，10/19补同步。前两组提示后译义；近义使用范围已补讲，非独立检测。第3组次第だ仅讲解、译句未答；后两组未教。"
   },
   {
     "id": "N2-09-02",
@@ -1128,16 +1183,23 @@
     "page_scope": "章节起始页",
     "forms": "に伴って／とともに",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已初教，有提示译句；仍需无提示间隔检测",
     "target_first_date": "2026-10-17",
     "target_review_dates": [
       "2026-10-18",
       "2026-10-20",
       "2026-10-24"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-17",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-17/210500-综合-lesson1017review.md",
+    "review_dates_from_actual_first": [
+      "2026-10-18",
+      "2026-10-20",
+      "2026-10-24"
+    ],
+    "evidence_note": "10/17实际教学，10/19补同步。前两组提示后译义；近义使用范围已补讲，非独立检测。第3组次第だ仅讲解、译句未答；后两组未教。"
   },
   {
     "id": "N2-09-03",
@@ -1148,16 +1210,23 @@
     "page_scope": "章节起始页",
     "forms": "次第だ",
     "source": "https://drive.google.com/file/d/1aRNnGRVSfNHclrce8QbmXHwmdNteC_0j/view?usp=drivesdk",
-    "status": "未完成课本对应检测",
+    "status": "已初教，译句待答；未检测掌握",
     "target_first_date": "2026-10-17",
     "target_review_dates": [
       "2026-10-18",
       "2026-10-20",
       "2026-10-24"
     ],
-    "actual_first_date": null,
+    "actual_first_date": "2026-10-17",
     "actual_review_records": [],
-    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算"
+    "schedule_revision": "2026-10-10用户要求不顺延，恢复原目标；实际复测按实际作答日计算",
+    "actual_first_record": "练习记录/2026-10-17/210500-综合-lesson1017review.md",
+    "review_dates_from_actual_first": [
+      "2026-10-18",
+      "2026-10-20",
+      "2026-10-24"
+    ],
+    "evidence_note": "10/17实际教学，10/19补同步。前两组提示后译义；近义使用范围已补讲，非独立检测。第3组次第だ仅讲解、译句未答；后两组未教。"
   },
   {
     "id": "N2-09-04",

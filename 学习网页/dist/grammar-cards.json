@@ -1,0 +1,3036 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-26",
+  "title": "N2重点语法与基础衔接",
+  "source_policy": "现行JLPT不公开逐项语法清单；本页为课程复习重点，不是官方考频排名。级别标签是复习分组，不声称结构只属于N2。云盘见题记录具体出处，但未逐题统计全库，observed_count全部未知。例句和中文整理原创，未转载教材例句。",
+  "sources": [
+    {
+      "id": "jlpt-faq",
+      "title": "JLPT官方FAQ：考试与学习资料政策",
+      "url": "https://www.jlpt.jp/e/faq/",
+      "scope": "官方说明2010改版后不再发布含词汇、汉字、语法清单的Test Content Specifications；不是官方逐项考频榜。"
+    },
+    {
+      "id": "3a-n2",
+      "title": "スリーエーネットワーク：新完全マスター文法N2课程目录",
+      "url": "https://www.3anet.co.jp/np/books/3602/",
+      "scope": "出版方课程结构与文法覆盖参考；不是命题频率或官方级别清单"
+    },
+    {
+      "id": "mlc-n2",
+      "title": "MLC日本语学校：N2文法教学目录",
+      "url": "https://www.mlcjapanese.co.jp/n2.html",
+      "scope": "学校自己发布的教学项目。所链接历年列表含1992–2003旧2级，不能作为现行N2考频"
+    },
+    {
+      "id": "jpf-contrast",
+      "title": "国際交流基金：逆接表达辨析",
+      "url": "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/grammar/201703.html",
+      "scope": "部分逆接语义与使用限制的直接教学参考"
+    },
+    {
+      "id": "jpf-mono",
+      "title": "国際交流基金：もの的多义用法",
+      "url": "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/grammar/201206.html",
+      "scope": "ものだ、ものではない等用法参考"
+    },
+    {
+      "id": "jpf-you",
+      "title": "国際交流基金：よう的目的与结果用法",
+      "url": "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/grammar/201310.html",
+      "scope": "ように与ために辨析参考"
+    },
+    {
+      "id": "exam-2024d",
+      "title": "2024.12 云盘保存题卷",
+      "url": "（个人云盘资料，未公开链接）",
+      "scope": "用户资料中实际看到的题干/选项；第三方重构资料，未独立认证为官方原卷"
+    },
+    {
+      "id": "exam-2023j",
+      "title": "2023.07 云盘保存题卷",
+      "url": "（个人云盘资料，未公开链接）",
+      "scope": "用户资料中实际看到的题干/选项；第三方重构资料，未独立认证为官方原卷"
+    },
+    {
+      "id": "exam-2019j",
+      "title": "2019.07 云盘保存题卷",
+      "url": "（个人云盘资料，未公开链接）",
+      "scope": "用户资料中实际看到的题干/选项；第三方重构资料，未独立认证为官方原卷"
+    },
+    {
+      "id": "exam-2010d",
+      "title": "2010.12 云盘保存题卷",
+      "url": "（个人云盘资料，未公开链接）",
+      "scope": "用户资料中实际看到的题干/选项；第三方重构资料，未独立认证为官方原卷"
+    },
+    {
+      "id": "exam-2025j",
+      "title": "2025.07 云盘保存题卷",
+      "url": "（个人云盘资料，未公开链接）",
+      "scope": "用户资料中实际看到的题干/选项；第三方重构资料，未独立认证为官方原卷"
+    }
+  ],
+  "cards": [
+    {
+      "id": "n2-ni-taishite",
+      "pattern": "に対して",
+      "category": "对象・对比",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "名词＋に対して；修饰名词时用「名词＋に対する＋名词」。对比两件事时也可用「普通形＋のに対して」（名词／な形容词现在肯定＋なのに対して）。",
+      "meaning_zh": "表示行为针对的对象；也可表示对比或比例。",
+      "example_ja": "市は住民に対して、新しい交通計画の説明会を開いた。",
+      "readings": [
+        {
+          "word": "住民",
+          "reading": "じゅうみん"
+        },
+        {
+          "word": "交通計画",
+          "reading": "こうつうけいかく"
+        },
+        {
+          "word": "説明会",
+          "reading": "せつめいかい"
+        }
+      ],
+      "translation_zh": "市政府面向居民举办了新交通规划的说明会。",
+      "contrast_trap": "「にとって」强调从谁的立场评价，不等于行为针对谁；「に関して」强调话题。",
+      "error_tags": [
+        "target_relation"
+      ],
+      "evidence_type": "exam_observed",
+      "exam_sources": [
+        {
+          "source_id": "exam-2024d",
+          "session": "2024.12",
+          "question": 33,
+          "pdf_page": 8,
+          "note": "此处观察到该形式；不代表全库频率统计。"
+        }
+      ],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "target_relation"
+      ]
+    },
+    {
+      "id": "n2-ni-kanshite",
+      "pattern": "に関して",
+      "category": "话题",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "名词＋に関して；修饰名词用「名词＋に関する＋名词」。",
+      "meaning_zh": "关于某一事项，多用于较正式的说明。",
+      "example_ja": "参加費に関して質問がある方は、受付にお尋ねください。",
+      "readings": [
+        {
+          "word": "参加費",
+          "reading": "さんかひ"
+        },
+        {
+          "word": "受付",
+          "reading": "うけつけ"
+        },
+        {
+          "word": "尋ねる",
+          "reading": "たずねる"
+        }
+      ],
+      "translation_zh": "对参加费用有疑问的人，请向接待处询问。",
+      "contrast_trap": "与「について」常能替换，但「に関して」较正式；不要仅凭中文“对”就换成「に対して」。",
+      "error_tags": [
+        "target_relation",
+        "particle"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "target_relation",
+        "particle"
+      ]
+    },
+    {
+      "id": "n2-ni-tsuite",
+      "pattern": "について",
+      "category": "话题",
+      "level_label": "N3/N4基础衔接",
+      "connection": "名词＋について；修饰名词用「名词＋についての＋名词」。",
+      "meaning_zh": "关于……；把某事作为讨论或调查的话题。",
+      "example_ja": "昼休みに、週末の過ごし方について同僚と話した。",
+      "readings": [
+        {
+          "word": "昼休み",
+          "reading": "ひるやすみ"
+        },
+        {
+          "word": "過ごし方",
+          "reading": "すごしかた"
+        },
+        {
+          "word": "同僚",
+          "reading": "どうりょう"
+        }
+      ],
+      "translation_zh": "午休时，我和同事聊了周末怎么过。",
+      "contrast_trap": "「について」标出话题；「にとって」标出评价立场。两者都可能译成“对……”，日语作用不同。",
+      "error_tags": [
+        "target_relation"
+      ],
+      "evidence_type": "foundation",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "target_relation"
+      ]
+    },
+    {
+      "id": "n2-ni-totte",
+      "pattern": "にとって",
+      "category": "立场",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "名词＋にとって；修饰名词用「名词＋にとっての＋名词」。",
+      "meaning_zh": "从某人的立场来看，对某人而言。",
+      "example_ja": "夜に働く人にとって、朝から開いている食堂はありがたい。",
+      "readings": [
+        {
+          "word": "働く",
+          "reading": "はたらく"
+        },
+        {
+          "word": "食堂",
+          "reading": "しょくどう"
+        }
+      ],
+      "translation_zh": "对夜间工作的人而言，一早就营业的食堂很方便。",
+      "contrast_trap": "后面常是重要、方便、困难等评价；向某人说明、道歉等行为对象通常用「に」「に対して」，不是「にとって」。",
+      "error_tags": [
+        "target_relation"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "target_relation"
+      ]
+    },
+    {
+      "id": "n2-ni-oujite",
+      "pattern": "に応じて",
+      "category": "对应调整",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "名词＋に応じて；修饰名词用「名词＋に応じた＋名词」。",
+      "meaning_zh": "根据需求、程度或情况作相应调整。",
+      "example_ja": "参加者の経験に応じて、練習の内容を変えます。",
+      "readings": [
+        {
+          "word": "参加者",
+          "reading": "さんかしゃ"
+        },
+        {
+          "word": "経験",
+          "reading": "けいけん"
+        },
+        {
+          "word": "内容",
+          "reading": "ないよう"
+        }
+      ],
+      "translation_zh": "我们会根据参加者的经验调整练习内容。",
+      "contrast_trap": "重点是相应调整；「に沿って」强调遵循既有方向或方针，不强调分情况调整。",
+      "error_tags": [
+        "particle",
+        "scope_overgeneralization"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "particle",
+        "scope_overgeneralization"
+      ]
+    },
+    {
+      "id": "n2-ni-sotte",
+      "pattern": "に沿って",
+      "category": "遵循",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "名词＋に沿って；修饰名词用「名词＋に沿った＋名词」。",
+      "meaning_zh": "沿着路线；依照方针、希望或计划进行。",
+      "example_ja": "事前に決めた方針に沿って、会議を進めよう。",
+      "readings": [
+        {
+          "word": "事前",
+          "reading": "じぜん"
+        },
+        {
+          "word": "方針",
+          "reading": "ほうしん"
+        },
+        {
+          "word": "会議",
+          "reading": "かいぎ"
+        }
+      ],
+      "translation_zh": "按事先确定的方针推进会议吧。",
+      "contrast_trap": "「に基づいて」强调依据或基础；「に沿って」强调不偏离路线、方针或意向，部分语境可重叠。",
+      "error_tags": [
+        "particle",
+        "judgment_semantics"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "particle",
+        "inference"
+      ]
+    },
+    {
+      "id": "n2-ni-motozuite",
+      "pattern": "に基づいて",
+      "category": "依据",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "名词＋に基づいて；修饰名词可用「名词＋に基づく／に基づいた＋名词」。",
+      "meaning_zh": "以事实、资料、规则等为依据。",
+      "example_ja": "調査結果に基づいて、駅前の歩道を広げることになった。",
+      "readings": [
+        {
+          "word": "調査結果",
+          "reading": "ちょうさけっか"
+        },
+        {
+          "word": "歩道",
+          "reading": "ほどう"
+        },
+        {
+          "word": "広げる",
+          "reading": "ひろげる"
+        }
+      ],
+      "translation_zh": "根据调查结果，决定拓宽车站前的人行道。",
+      "contrast_trap": "常强调判断或行动有根据；「をもとに」还常表示把素材加工成新作品，不能所有场合都机械互换。",
+      "error_tags": [
+        "judgment_semantics"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "inference"
+      ]
+    },
+    {
+      "id": "n2-wo-moto-ni",
+      "pattern": "をもとに",
+      "category": "素材・基础",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "名词＋をもとに／をもとにして；修饰名词用「名词＋をもとにした＋名词」。",
+      "meaning_zh": "以资料、经历等为基础或素材。",
+      "example_ja": "祖母から聞いた話をもとに、短い物語を書いた。",
+      "readings": [
+        {
+          "word": "祖母",
+          "reading": "そぼ"
+        },
+        {
+          "word": "物語",
+          "reading": "ものがたり"
+        }
+      ],
+      "translation_zh": "我以从祖母那里听来的故事为素材，写了一篇短篇故事。",
+      "contrast_trap": "不等于完全照搬原内容；可以加工创作。「に基づいて」更突出事实或规则依据，但存在重叠。",
+      "error_tags": [
+        "judgment_semantics"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "inference"
+      ]
+    },
+    {
+      "id": "n2-ni-kurabete",
+      "pattern": "に比べて",
+      "category": "比较",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "名词＋に比べて；动作等作比较时可用「普通形＋のに比べて」（名词／な形容词现在肯定＋なのに比べて）。",
+      "meaning_zh": "和……相比。",
+      "example_ja": "去年に比べて、今年は夕方の電車がすいている。",
+      "readings": [
+        {
+          "word": "去年",
+          "reading": "きょねん"
+        },
+        {
+          "word": "夕方",
+          "reading": "ゆうがた"
+        }
+      ],
+      "translation_zh": "和去年相比，今年傍晚的电车不那么拥挤。",
+      "contrast_trap": "要看清比较基准与被比较对象；「に対して」也可表对比，但不一定明确比较程度高低。",
+      "error_tags": [
+        "target_relation",
+        "concession"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "target_relation",
+        "concession"
+      ]
+    },
+    {
+      "id": "n2-ni-watatte",
+      "pattern": "にわたって",
+      "category": "范围・持续",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "表示时间、次数、空间等范围的名词＋にわたって；修饰名词用「にわたる／にわたった＋名词」。",
+      "meaning_zh": "在整个范围内；持续达某段时间。",
+      "example_ja": "三日間にわたって、各地の研究者が意見を交わした。",
+      "readings": [
+        {
+          "word": "各地",
+          "reading": "かくち"
+        },
+        {
+          "word": "研究者",
+          "reading": "けんきゅうしゃ"
+        },
+        {
+          "word": "交わす",
+          "reading": "かわす"
+        }
+      ],
+      "translation_zh": "各地研究者连续三天交换了意见。",
+      "contrast_trap": "突出时间或空间跨度；不表示“每次……就……”，也不是所有“经过”都用它。",
+      "error_tags": [
+        "duration",
+        "scope_overgeneralization"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "duration",
+        "scope_overgeneralization"
+      ]
+    },
+    {
+      "id": "n2-wo-tsujite",
+      "pattern": "を通じて／を通して",
+      "category": "途径・期间",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "名词＋を通じて／を通して；修饰名词可用「を通じた／を通した＋名词」。",
+      "meaning_zh": "通过某媒介或活动；也可表示整个期间。",
+      "example_ja": "地域の交流会を通して、近所に相談できる友人ができた。",
+      "readings": [
+        {
+          "word": "地域",
+          "reading": "ちいき"
+        },
+        {
+          "word": "交流会",
+          "reading": "こうりゅうかい"
+        },
+        {
+          "word": "近所",
+          "reading": "きんじょ"
+        },
+        {
+          "word": "相談",
+          "reading": "そうだん"
+        }
+      ],
+      "translation_zh": "通过地区交流会，我结识了住在附近、可以商量事情的朋友。",
+      "contrast_trap": "两种形式在许多语境中可替换；「を通して」常突出主动经历或过程，但不是绝对区别。",
+      "error_tags": [
+        "particle",
+        "duration"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "particle",
+        "duration"
+      ]
+    },
+    {
+      "id": "n2-wo-megutte",
+      "pattern": "をめぐって",
+      "category": "争议・中心话题",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "名词＋をめぐって；修饰名词用「名词＋をめぐる＋名词」。",
+      "meaning_zh": "围绕某个问题展开讨论、争议或活动。",
+      "example_ja": "公園の使い方をめぐって、住民と市の担当者が話し合った。",
+      "readings": [
+        {
+          "word": "公園",
+          "reading": "こうえん"
+        },
+        {
+          "word": "住民",
+          "reading": "じゅうみん"
+        },
+        {
+          "word": "担当者",
+          "reading": "たんとうしゃ"
+        }
+      ],
+      "translation_zh": "围绕公园的使用方式，居民与市政府负责人进行了讨论。",
+      "contrast_trap": "常把问题设为多方讨论的中心；一般性的“学习某知识”更自然用「について」，不必含有争执才可用。",
+      "error_tags": [
+        "target_relation"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "target_relation"
+      ]
+    },
+    {
+      "id": "n2-ni-tomonatte",
+      "pattern": "に伴って",
+      "category": "伴随变化",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "名词＋に伴って；动词辞书形＋に伴って。修饰名词可用「に伴う＋名词」。",
+      "meaning_zh": "随着某事发生，出现相关变化或后续影响。",
+      "example_ja": "利用者が増えるに伴って、窓口の待ち時間も長くなってきた。",
+      "readings": [
+        {
+          "word": "利用者",
+          "reading": "りようしゃ"
+        },
+        {
+          "word": "窓口",
+          "reading": "まどぐち"
+        }
+      ],
+      "translation_zh": "随着使用者增加，窗口的等候时间也逐渐变长了。",
+      "contrast_trap": "可用于事件带来的影响，不一定只限渐变；「につれて」更常表示前后同步逐渐变化。",
+      "error_tags": [
+        "cause_or_purpose_semantics"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "causal_connection"
+      ]
+    },
+    {
+      "id": "n2-ni-tsurete",
+      "pattern": "につれて",
+      "category": "同步渐变",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "动词辞书形＋につれて；表示变化的名词＋につれて。",
+      "meaning_zh": "随着前项逐渐变化，后项也逐渐变化。",
+      "example_ja": "この町で暮らすにつれて、地図を見ずに歩ける場所が増えた。",
+      "readings": [
+        {
+          "word": "暮らす",
+          "reading": "くらす"
+        },
+        {
+          "word": "地図",
+          "reading": "ちず"
+        }
+      ],
+      "translation_zh": "随着在这个小镇生活的时间增长，我不用看地图也能走到的地方越来越多了。",
+      "contrast_trap": "前后通常都体现变化，后项常为自然结果；不要只看到两个动作先后发生就选它。",
+      "error_tags": [
+        "aspect"
+      ],
+      "evidence_type": "exam_observed",
+      "exam_sources": [
+        {
+          "source_id": "exam-2023j",
+          "session": "2023.07",
+          "question": 31,
+          "pdf_page": 4,
+          "note": "此处观察到该形式；不代表全库频率统计。"
+        }
+      ],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "aspect"
+      ]
+    },
+    {
+      "id": "n2-ni-shitagatte",
+      "pattern": "にしたがって",
+      "category": "遵循・渐变",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "名词＋にしたがって；动词辞书形＋にしたがって。修饰名词可用「にしたがった＋名词」。",
+      "meaning_zh": "依照指示或规则；随着某变化而变化。",
+      "example_ja": "係員の指示にしたがって、出口に近い列から移動してください。",
+      "readings": [
+        {
+          "word": "係員",
+          "reading": "かかりいん"
+        },
+        {
+          "word": "指示",
+          "reading": "しじ"
+        },
+        {
+          "word": "出口",
+          "reading": "でぐち"
+        },
+        {
+          "word": "移動",
+          "reading": "いどう"
+        }
+      ],
+      "translation_zh": "请依照工作人员的指示，从靠近出口的队列开始移动。",
+      "contrast_trap": "本例是“遵循”，不能换成只表渐变的「につれて」；渐变用法中两者常有重叠。",
+      "error_tags": [
+        "particle",
+        "aspect"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "particle",
+        "aspect"
+      ]
+    },
+    {
+      "id": "n2-to-tomoni",
+      "pattern": "とともに",
+      "category": "共同・并行",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "名词＋とともに；动词辞书形＋とともに。表达“既……又……”也可用「い形容词普通形＋とともに」「な形容词语干／名词＋であるとともに」。",
+      "meaning_zh": "与……一起；同时具备；随着……而变化。",
+      "example_ja": "この施設は本を借りる場所であるとともに、地域の人が交流する場でもある。",
+      "readings": [
+        {
+          "word": "施設",
+          "reading": "しせつ"
+        },
+        {
+          "word": "借りる",
+          "reading": "かりる"
+        },
+        {
+          "word": "地域",
+          "reading": "ちいき"
+        },
+        {
+          "word": "交流",
+          "reading": "こうりゅう"
+        }
+      ],
+      "translation_zh": "这个设施既是借书的地方，也是当地居民交流的场所。",
+      "contrast_trap": "要区分“一起”“兼具”“同步变化”三类；本例不是先做借书、再做交流的顺序。",
+      "error_tags": [
+        "set_aside_vs_addition",
+        "aspect"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "set_aside_vs_addition",
+        "aspect"
+      ]
+    },
+    {
+      "id": "n2-ni-atatte",
+      "pattern": "にあたって",
+      "category": "重要时机",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "名词＋にあたって；动词辞书形＋にあたって。修饰名词用「にあたっての＋名词」。",
+      "meaning_zh": "在开始或进行某项重要事情之际。",
+      "example_ja": "新しい店を開くにあたって、近隣の住民にあいさつをした。",
+      "readings": [
+        {
+          "word": "近隣",
+          "reading": "きんりん"
+        },
+        {
+          "word": "住民",
+          "reading": "じゅうみん"
+        }
+      ],
+      "translation_zh": "在准备开新店之际，我向附近居民打了招呼。",
+      "contrast_trap": "常伴随准备、决心或注意事项；不是任何日常瞬间的“时候”都自然使用。「に際して」也可表重要时机。",
+      "error_tags": [
+        "aspect"
+      ],
+      "evidence_type": "exam_observed",
+      "exam_sources": [
+        {
+          "source_id": "exam-2019j",
+          "session": "2019.07",
+          "question": 33,
+          "pdf_page": 5,
+          "note": "此处观察到该形式；不代表全库频率统计。"
+        }
+      ],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "aspect"
+      ]
+    },
+    {
+      "id": "n2-ni-saishite",
+      "pattern": "に際して",
+      "category": "正式时机",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "名词＋に際して；动词辞书形＋に際して。修饰名词用「に際しての＋名词」。",
+      "meaning_zh": "在某事发生或进行之际，语气较正式。",
+      "example_ja": "資料を公開するに際して、個人が特定されないか確認した。",
+      "readings": [
+        {
+          "word": "資料",
+          "reading": "しりょう"
+        },
+        {
+          "word": "公開",
+          "reading": "こうかい"
+        },
+        {
+          "word": "個人",
+          "reading": "こじん"
+        },
+        {
+          "word": "特定",
+          "reading": "とくてい"
+        },
+        {
+          "word": "確認",
+          "reading": "かくにん"
+        }
+      ],
+      "translation_zh": "在公开资料之际，我确认了是否会让个人身份被识别出来。",
+      "contrast_trap": "与「にあたって」有重叠；不能简单规定一个只能用于好事、另一个只能用于坏事。注意正式语境与相关措施。",
+      "error_tags": [
+        "aspect",
+        "scope_overgeneralization"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "aspect",
+        "scope_overgeneralization"
+      ]
+    },
+    {
+      "id": "n2-ue-de",
+      "pattern": "うえで",
+      "category": "前提・方面",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "先后前提：动词た形＋うえで／动作名词＋のうえで。方面或过程中：动词辞书形＋うえで／名词＋のうえで。",
+      "meaning_zh": "做完并确认前项后再做后项；也可表示“在……方面／过程中”。",
+      "example_ja": "内容をよく確認したうえで、申込書に署名してください。",
+      "readings": [
+        {
+          "word": "内容",
+          "reading": "ないよう"
+        },
+        {
+          "word": "確認",
+          "reading": "かくにん"
+        },
+        {
+          "word": "申込書",
+          "reading": "もうしこみしょ"
+        },
+        {
+          "word": "署名",
+          "reading": "しょめい"
+        }
+      ],
+      "translation_zh": "请充分确认内容后，再在申请表上签名。",
+      "contrast_trap": "「確認したうえで」是完成确认后；「確認するうえで大切だ」是“在确认过程中很重要”。接续变化会改变关系。",
+      "error_tags": [
+        "deadline_precision",
+        "particle"
+      ],
+      "evidence_type": "exam_observed",
+      "exam_sources": [
+        {
+          "source_id": "exam-2010d",
+          "session": "2010.12",
+          "question": 33,
+          "pdf_page": 4,
+          "note": "此处观察到该形式；不代表全库频率统计。"
+        }
+      ],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "deadline_precision",
+        "particle"
+      ]
+    },
+    {
+      "id": "n2-ue-ni",
+      "pattern": "うえに",
+      "category": "追加",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "动词普通形／い形容词普通形＋うえに；な形容词＋なうえに；名词＋の／であるうえに（过去等用普通形，如「だったうえに」）。",
+      "meaning_zh": "不仅……而且……，追加同一评价方向的信息。",
+      "example_ja": "この机は軽いうえに、使わないときは小さく折りたためる。",
+      "readings": [
+        {
+          "word": "机",
+          "reading": "つくえ"
+        },
+        {
+          "word": "軽い",
+          "reading": "かるい"
+        },
+        {
+          "word": "折りたたむ",
+          "reading": "おりたたむ"
+        }
+      ],
+      "translation_zh": "这张桌子不仅轻，而且不用时还能折叠成很小的体积。",
+      "contrast_trap": "「うえに」是追加，不是先后；不要与“确认后再做”的「たうえで」混淆。前后常为好上加好或坏上加坏。",
+      "error_tags": [
+        "set_aside_vs_addition",
+        "deadline_precision"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "set_aside_vs_addition",
+        "deadline_precision"
+      ]
+    },
+    {
+      "id": "n2-wake-dewanai",
+      "pattern": "わけではない",
+      "category": "否定范围",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "動詞・い形容詞の普通形＋わけではない。な形容詞・名詞は「な／である＋わけではない」（過去はだった等）。",
+      "meaning_zh": "并不是……；否定某种解释或概括。",
+      "example_ja": "この説明を読んでも、すべての疑問が解決するわけではない。",
+      "readings": [
+        {
+          "word": "説明",
+          "reading": "せつめい"
+        },
+        {
+          "word": "疑問",
+          "reading": "ぎもん"
+        },
+        {
+          "word": "解決",
+          "reading": "かいけつ"
+        }
+      ],
+      "translation_zh": "即使读了这个说明，也不是所有疑问都能解决。",
+      "contrast_trap": "「すべて〜わけではない」是否定“全部”，不等于“一个也不能”；与表示不可能的「わけがない」不同。",
+      "error_tags": [
+        "negation_scope",
+        "scope_overgeneralization"
+      ],
+      "evidence_type": "exam_observed",
+      "exam_sources": [
+        {
+          "source_id": "exam-2024d",
+          "session": "2024.12",
+          "question": 38,
+          "pdf_page": 9,
+          "note": "此处观察到该形式；不代表全库频率统计。"
+        }
+      ],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "negation_scope",
+        "scope_overgeneralization"
+      ]
+    },
+    {
+      "id": "n2-wake-ganai",
+      "pattern": "わけがない",
+      "category": "否定推断",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "動詞・い形容詞の普通形＋わけがない。な形容詞・名詞は「な／である＋わけがない」。",
+      "meaning_zh": "按道理不可能……；说话者强烈否定。",
+      "example_ja": "鍵を持っていないのだから、彼が先に部屋へ入れるわけがない。",
+      "readings": [
+        {
+          "word": "鍵",
+          "reading": "かぎ"
+        },
+        {
+          "word": "彼",
+          "reading": "かれ"
+        },
+        {
+          "word": "部屋",
+          "reading": "へや"
+        }
+      ],
+      "translation_zh": "他没有钥匙，所以不可能先进入房间。",
+      "contrast_trap": "这里否定可能性；「入るわけにはいかない」侧重立场或情境上不能进去，不是没有开门能力。强断言仍是说话者判断。",
+      "error_tags": [
+        "potential_vs_simple_negative",
+        "judgment_semantics"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "inference",
+        "potential_vs_simple_negative"
+      ]
+    },
+    {
+      "id": "n2-wake-niwaikanai",
+      "pattern": "わけにはいかない",
+      "category": "情境义务",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "動詞辞書形＋わけにはいかない。動詞ない形＋わけにはいかない表示“不能不做”。",
+      "meaning_zh": "因为责任、道理或情境，不能随意做某事。",
+      "example_ja": "明日は私が受付を担当するので、今夜は遅くまで起きているわけにはいかない。",
+      "readings": [
+        {
+          "word": "受付",
+          "reading": "うけつけ"
+        },
+        {
+          "word": "担当",
+          "reading": "たんとう"
+        },
+        {
+          "word": "今夜",
+          "reading": "こんや"
+        }
+      ],
+      "translation_zh": "明天由我负责接待，所以今晚不能熬到很晚。",
+      "contrast_trap": "「起きていられない」可以是体力上撑不住；这里是职责导致不能熬夜。不是所有“不能”都用同一形式。",
+      "error_tags": [
+        "simple_negative_vs_obligation",
+        "causative_obligation"
+      ],
+      "evidence_type": "exam_observed",
+      "exam_sources": [
+        {
+          "source_id": "exam-2025j",
+          "session": "2025.07",
+          "question": 40,
+          "pdf_page": 4,
+          "note": "题干在PDF p4，剩余选项续p5；观察到该形式，不代表全库频率统计。"
+        }
+      ],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "simple_negative_vs_obligation",
+        "causative_obligation"
+      ]
+    },
+    {
+      "id": "n2-nai-kotowanai",
+      "pattern": "ないことはない",
+      "category": "有限肯定",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "動詞ない形＋ことはない；い形容詞〜くない＋ことはない；な形容詞・名詞〜ではない＋ことはない。",
+      "meaning_zh": "不是不……；有限度地承认可行或成立。",
+      "example_ja": "一人で運べないことはないが、階段では誰かに手伝ってもらいたい。",
+      "readings": [
+        {
+          "word": "運ぶ",
+          "reading": "はこぶ"
+        },
+        {
+          "word": "階段",
+          "reading": "かいだん"
+        },
+        {
+          "word": "手伝う",
+          "reading": "てつだう"
+        }
+      ],
+      "translation_zh": "不是不能独自搬，但在楼梯上还是想请人帮忙。",
+      "contrast_trap": "「運べないことはない」承认能搬，但保留困难；别误读为完全不能，也不要据此推出轻松做到。",
+      "error_tags": [
+        "negation_scope",
+        "potential_vs_simple_negative"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "negation_scope",
+        "potential_vs_simple_negative"
+      ]
+    },
+    {
+      "id": "n2-nai-wakedewanai",
+      "pattern": "ないわけではない",
+      "category": "有限肯定",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "動詞ない形＋わけではない；形容詞の否定形＋わけではない。",
+      "meaning_zh": "并非不……；否定一个否定判断。",
+      "example_ja": "その提案に興味がないわけではない。ただ、今は予算を確認したい。",
+      "readings": [
+        {
+          "word": "提案",
+          "reading": "ていあん"
+        },
+        {
+          "word": "興味",
+          "reading": "きょうみ"
+        },
+        {
+          "word": "予算",
+          "reading": "よさん"
+        },
+        {
+          "word": "確認",
+          "reading": "かくにん"
+        }
+      ],
+      "translation_zh": "并非对那个提议没有兴趣，只是现在想先确认预算。",
+      "contrast_trap": "两重否定只表示一定程度的兴趣，不保证赞成或立即实行；与直接说「興味がない」方向不同。",
+      "error_tags": [
+        "negation_scope",
+        "scope_overgeneralization"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "negation_scope",
+        "scope_overgeneralization"
+      ]
+    },
+    {
+      "id": "n2-ni-suginai",
+      "pattern": "にすぎない",
+      "category": "限定评价",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "動詞・い形容詞の普通形＋にすぎない；名詞＋にすぎない；な形容詞は「である＋にすぎない」。",
+      "meaning_zh": "只不过……；限制程度、数量或评价。",
+      "example_ja": "今回の結果は、十人に聞いた意見をまとめたものにすぎない。",
+      "readings": [
+        {
+          "word": "今回",
+          "reading": "こんかい"
+        },
+        {
+          "word": "結果",
+          "reading": "けっか"
+        },
+        {
+          "word": "意見",
+          "reading": "いけん"
+        }
+      ],
+      "translation_zh": "这次的结果只不过是对十个人的意见进行汇总而已。",
+      "contrast_trap": "「にすぎない」降低或限定评价，不表示原因；不能据此认定数据毫无价值，只能说不足以直接代表所有人。",
+      "error_tags": [
+        "scope_overgeneralization",
+        "insufficient_condition"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "scope_overgeneralization",
+        "insufficient_condition"
+      ]
+    },
+    {
+      "id": "n2-ni-hokanaranai",
+      "pattern": "にほかならない",
+      "category": "强调判断",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "名詞＋にほかならない。理由を強調するときは「普通形＋からにほかならない」。",
+      "meaning_zh": "正是……；不是别的，恰恰是……。",
+      "example_ja": "この改善が実現したのは、現場の声を丁寧に聞いたからにほかならない。",
+      "readings": [
+        {
+          "word": "改善",
+          "reading": "かいぜん"
+        },
+        {
+          "word": "実現",
+          "reading": "じつげん"
+        },
+        {
+          "word": "現場",
+          "reading": "げんば"
+        },
+        {
+          "word": "丁寧",
+          "reading": "ていねい"
+        }
+      ],
+      "translation_zh": "这次改善之所以实现，正是因为认真听取了现场的意见。",
+      "contrast_trap": "强调原因应保留「から」；「にすぎない」是限定“只不过”，不是同样的强烈肯定。",
+      "error_tags": [
+        "obligation_connection",
+        "judgment_semantics"
+      ],
+      "evidence_type": "exam_observed",
+      "exam_sources": [
+        {
+          "source_id": "exam-2023j",
+          "session": "2023.07",
+          "question": 39,
+          "pdf_page": 4,
+          "note": "此处观察到该形式；不代表全库频率统计。"
+        }
+      ],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "inference",
+        "obligation_connection"
+      ]
+    },
+    {
+      "id": "n2-towa-kagiranai",
+      "pattern": "とは限らない",
+      "category": "概括限制",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "動詞・い形容詞の普通形＋とは限らない；な形容詞・名詞＋だとは限らない（名詞では「名詞＋とは限らない」も可）。",
+      "meaning_zh": "不一定……；并非总是如此。",
+      "example_ja": "評判のよい店でも、どの料理も自分の好みに合うとは限らない。",
+      "readings": [
+        {
+          "word": "評判",
+          "reading": "ひょうばん"
+        },
+        {
+          "word": "料理",
+          "reading": "りょうり"
+        },
+        {
+          "word": "好み",
+          "reading": "このみ"
+        }
+      ],
+      "translation_zh": "即便是口碑好的店，也不一定每道菜都合自己的口味。",
+      "contrast_trap": "否定的是必然性，不是断言“肯定不合口味”；「わけがない」否定强得多。",
+      "error_tags": [
+        "scope_overgeneralization",
+        "negation_scope"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "scope_overgeneralization",
+        "negation_scope"
+      ]
+    },
+    {
+      "id": "n2-shikanai",
+      "pattern": "しかない",
+      "category": "选择受限",
+      "level_label": "基础衔接（N3/N4及跨级运用）",
+      "connection": "動詞辞書形＋しかない。“只有名词”等另用「名詞＋しか＋否定述語」。",
+      "meaning_zh": "没有其他办法，只能……。",
+      "example_ja": "終電がもう出てしまったので、今夜は近くの宿に泊まるしかない。",
+      "readings": [
+        {
+          "word": "終電",
+          "reading": "しゅうでん"
+        },
+        {
+          "word": "今夜",
+          "reading": "こんや"
+        },
+        {
+          "word": "宿",
+          "reading": "やど"
+        },
+        {
+          "word": "泊まる",
+          "reading": "とまる"
+        }
+      ],
+      "translation_zh": "末班车已经开走了，所以今晚只能住在附近的旅馆。",
+      "contrast_trap": "「泊まるしかない」是只能住；「泊まらない」是单纯不住。此结构也不等同于一般道德建议「泊まるべきだ」。",
+      "error_tags": [
+        "simple_negative_vs_obligation",
+        "obligation_connection"
+      ],
+      "evidence_type": "foundation",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "simple_negative_vs_obligation",
+        "obligation_connection"
+      ]
+    },
+    {
+      "id": "n2-zaruwoenai",
+      "pattern": "ざるを得ない",
+      "category": "被迫选择",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "動詞ない形の「ない」を除いて＋ざるを得ない。する→せざるを得ない；来る→来ざるを得ない（こざる）。",
+      "meaning_zh": "受情势所迫，不得不……。",
+      "example_ja": "会場が急に使えなくなったため、説明会を延期せざるを得ない。",
+      "readings": [
+        {
+          "word": "会場",
+          "reading": "かいじょう"
+        },
+        {
+          "word": "説明会",
+          "reading": "せつめいかい"
+        },
+        {
+          "word": "延期",
+          "reading": "えんき"
+        },
+        {
+          "word": "得ない",
+          "reading": "えない"
+        }
+      ],
+      "translation_zh": "会场突然不能使用了，因此不得不推迟说明会。",
+      "contrast_trap": "「延期する」不能直接接「ざる」成为するざる；必须是「延期せざる」。通常带不情愿或无奈，不只是普通的计划。",
+      "error_tags": [
+        "obligation_connection",
+        "simple_negative_vs_obligation"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "obligation_connection",
+        "simple_negative_vs_obligation"
+      ]
+    },
+    {
+      "id": "n2-zuniwairarenai",
+      "pattern": "ずにはいられない",
+      "category": "情感冲动",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "動詞ない形の「ない」を除いて＋ずにはいられない。する→せずにはいられない；来る→来ずにはいられない（こず）。",
+      "meaning_zh": "忍不住要……；无法抑制情感或行为。",
+      "example_ja": "昔の写真を見ると、そのころの友人に連絡せずにはいられない。",
+      "readings": [
+        {
+          "word": "昔",
+          "reading": "むかし"
+        },
+        {
+          "word": "写真",
+          "reading": "しゃしん"
+        },
+        {
+          "word": "友人",
+          "reading": "ゆうじん"
+        },
+        {
+          "word": "連絡",
+          "reading": "れんらく"
+        }
+      ],
+      "translation_zh": "一看到旧照片，就忍不住联系那时的朋友。",
+      "contrast_trap": "通常强调内在情感推动；「連絡せざるを得ない」更偏外在情况逼得必须联系。二者有时都表现无法不做，但理由不同。",
+      "error_tags": [
+        "causative_obligation",
+        "simple_negative_vs_obligation"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "causative_obligation",
+        "simple_negative_vs_obligation"
+      ]
+    },
+    {
+      "id": "n2-naidewairarenai",
+      "pattern": "ないではいられない",
+      "category": "情感冲动",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "動詞ない形＋ではいられない。する→しないではいられない。",
+      "meaning_zh": "不由得……；忍不住要做。",
+      "example_ja": "あの子のうれしそうな顔を見ると、こちらも笑わないではいられない。",
+      "readings": [
+        {
+          "word": "顔",
+          "reading": "かお"
+        },
+        {
+          "word": "笑う",
+          "reading": "わらう"
+        }
+      ],
+      "translation_zh": "看到那个孩子开心的表情，我也忍不住笑了。",
+      "contrast_trap": "与「ずにはいられない」意义接近，不能仅凭中文硬分两种情感；「笑わないわけにはいかない」则更容易表示情境上不得不笑。",
+      "error_tags": [
+        "negation_scope",
+        "simple_negative_vs_obligation"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "negation_scope",
+        "simple_negative_vs_obligation"
+      ]
+    },
+    {
+      "id": "n2-kaneru",
+      "pattern": "かねる",
+      "category": "能力或立场受限",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "動詞ます形の「ます」を除いて＋かねる。",
+      "meaning_zh": "难以……；不能……，常用于慎重或礼貌拒绝。",
+      "example_ja": "現時点では事情が分からないため、その判断には賛成しかねます。",
+      "readings": [
+        {
+          "word": "現時点",
+          "reading": "げんじてん"
+        },
+        {
+          "word": "事情",
+          "reading": "じじょう"
+        },
+        {
+          "word": "判断",
+          "reading": "はんだん"
+        },
+        {
+          "word": "賛成",
+          "reading": "さんせい"
+        }
+      ],
+      "translation_zh": "目前还不了解情况，因此难以赞成这个判断。",
+      "contrast_trap": "「しかねる」是する的ます形词干し＋かねる；不是“只能做”。「賛成しかねない」反而会表示可能赞成，意义方向改变。",
+      "error_tags": [
+        "potential_vs_simple_negative",
+        "negation_scope"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "potential_vs_simple_negative",
+        "negation_scope"
+      ]
+    },
+    {
+      "id": "n2-kanenai",
+      "pattern": "かねない",
+      "category": "不良可能性",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "動詞ます形の「ます」を除いて＋かねない。",
+      "meaning_zh": "有可能导致……；通常指令人担心的结果。",
+      "example_ja": "確認せずに古い住所へ送ると、重要な書類が届かなくなりかねない。",
+      "readings": [
+        {
+          "word": "確認",
+          "reading": "かくにん"
+        },
+        {
+          "word": "住所",
+          "reading": "じゅうしょ"
+        },
+        {
+          "word": "重要",
+          "reading": "じゅうよう"
+        },
+        {
+          "word": "書類",
+          "reading": "しょるい"
+        },
+        {
+          "word": "届く",
+          "reading": "とどく"
+        }
+      ],
+      "translation_zh": "如果不确认就寄往旧地址，重要文件可能会送不到。",
+      "contrast_trap": "形式带「ない」却不表示“不可能”；它表达令人担心的可能性。不能把「かねる」的否定形式按普通双重否定直接机械理解。",
+      "error_tags": [
+        "conjecture",
+        "potential_vs_simple_negative"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "conjecture",
+        "potential_vs_simple_negative"
+      ]
+    },
+    {
+      "id": "n2-youganai",
+      "pattern": "ようがない",
+      "category": "手段不存在",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "動詞ます形の「ます」を除いて＋ようがない。する→しようがない（名詞＋のしようがないも可）。",
+      "meaning_zh": "没有办法……；缺乏实现手段。",
+      "example_ja": "連絡先が一つも残っていないので、本人に確かめようがない。",
+      "readings": [
+        {
+          "word": "連絡先",
+          "reading": "れんらくさき"
+        },
+        {
+          "word": "残る",
+          "reading": "のこる"
+        },
+        {
+          "word": "本人",
+          "reading": "ほんにん"
+        },
+        {
+          "word": "確かめる",
+          "reading": "たしかめる"
+        }
+      ],
+      "translation_zh": "一个联系方式都没留下，所以没办法向本人确认。",
+      "contrast_trap": "这里是没有手段，不是“不应该确认”；「確かめるわけにはいかない」侧重立场或情境不允许。",
+      "error_tags": [
+        "potential_vs_simple_negative",
+        "simple_negative_vs_obligation"
+      ],
+      "evidence_type": "exam_observed",
+      "exam_sources": [
+        {
+          "source_id": "exam-2010d",
+          "session": "2010.12",
+          "question": 38,
+          "pdf_page": 4,
+          "note": "此处观察到该形式；不代表全库频率统计。"
+        }
+      ],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "potential_vs_simple_negative",
+        "simple_negative_vs_obligation"
+      ]
+    },
+    {
+      "id": "n2-bekida",
+      "pattern": "べきだ",
+      "category": "规范建议",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "動詞辞書形＋べきだ。する→するべきだ／すべきだ。",
+      "meaning_zh": "应该……；从原则、责任或合理性提出判断。",
+      "example_ja": "利用者に影響が出る変更は、実施する前に説明すべきだ。",
+      "readings": [
+        {
+          "word": "利用者",
+          "reading": "りようしゃ"
+        },
+        {
+          "word": "影響",
+          "reading": "えいきょう"
+        },
+        {
+          "word": "変更",
+          "reading": "へんこう"
+        },
+        {
+          "word": "実施",
+          "reading": "じっし"
+        },
+        {
+          "word": "説明",
+          "reading": "せつめい"
+        }
+      ],
+      "translation_zh": "会影响使用者的变更，应当在实施前说明。",
+      "contrast_trap": "「べきだ」是应然建议或责任判断，不等于推测“应该已经说明了”；预测事实应考虑「はずだ」等。",
+      "error_tags": [
+        "obligation_connection",
+        "judgment_semantics"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "obligation_connection",
+        "inference"
+      ]
+    },
+    {
+      "id": "n2-bekidewanai",
+      "pattern": "べきではない",
+      "category": "规范禁止",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "動詞辞書形＋べきではない。する→するべきではない／すべきではない。",
+      "meaning_zh": "不应该……；认为某行为不合适。",
+      "example_ja": "一度失敗しただけで、その人の能力を決めつけるべきではない。",
+      "readings": [
+        {
+          "word": "失敗",
+          "reading": "しっぱい"
+        },
+        {
+          "word": "能力",
+          "reading": "のうりょく"
+        },
+        {
+          "word": "決めつける",
+          "reading": "きめつける"
+        }
+      ],
+      "translation_zh": "不应该仅因一次失败就断定一个人的能力。",
+      "contrast_trap": "「決めつけるべきではない」是否定该行为的合理性，不是“没有能力断定”；不要和「決めつけられない」完全等同。",
+      "error_tags": [
+        "negation_scope",
+        "simple_negative_vs_obligation"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "negation_scope",
+        "simple_negative_vs_obligation"
+      ]
+    },
+    {
+      "id": "n2-monoda",
+      "pattern": "ものだ",
+      "category": "一般性质与回忆",
+      "level_label": "N2复习重点（跨级多义）",
+      "connection": "一般的性質：動詞・い形容詞の普通形／な形容詞＋な＋ものだ。回想：動詞た形＋ものだ。",
+      "meaning_zh": "本来就是……；也可回忆过去经常做的事。",
+      "example_ja": "新しい仕事に慣れるまでには、少し時間がかかるものだ。",
+      "readings": [
+        {
+          "word": "仕事",
+          "reading": "しごと"
+        },
+        {
+          "word": "慣れる",
+          "reading": "なれる"
+        },
+        {
+          "word": "時間",
+          "reading": "じかん"
+        }
+      ],
+      "translation_zh": "适应新工作，本来就需要一些时间。",
+      "contrast_trap": "本例表示一般性质，不是自己的单次计划；「学生のころ、よく歩いたものだ」则是回忆惯常行为。不能把所有ものだ都译成“应该”。",
+      "error_tags": [
+        "scope_overgeneralization",
+        "judgment_semantics"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [
+        "jpf-mono"
+      ],
+      "original_content": true,
+      "related_error_tags": [
+        "scope_overgeneralization",
+        "inference"
+      ]
+    },
+    {
+      "id": "n2-kotoda",
+      "pattern": "ことだ",
+      "category": "劝告",
+      "level_label": "N2复习重点（跨级多义）",
+      "connection": "劝告用法：動詞辞書形／ない形＋ことだ。",
+      "meaning_zh": "要……；最好不要……，针对目标给建议。",
+      "example_ja": "聞き取る力を伸ばしたいなら、分からない音をそのままにしないことだ。",
+      "readings": [
+        {
+          "word": "聞き取る",
+          "reading": "ききとる"
+        },
+        {
+          "word": "力",
+          "reading": "ちから"
+        },
+        {
+          "word": "伸ばす",
+          "reading": "のばす"
+        },
+        {
+          "word": "音",
+          "reading": "おと"
+        }
+      ],
+      "translation_zh": "想提高听辨能力，就不要把听不清的音放着不管。",
+      "contrast_trap": "本例是建议，不是「ことがある」的偶发经历，也不是「ことにする」的自我决定。「ことだ」还有感叹等用法，须结合句式判断。",
+      "error_tags": [
+        "obligation_connection",
+        "simple_negative_vs_obligation"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "obligation_connection",
+        "simple_negative_vs_obligation"
+      ]
+    },
+    {
+      "id": "n2-monodewanai",
+      "pattern": "ものではない",
+      "category": "一般性劝戒",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "劝戒用法：動詞辞書形＋ものではない。另有「普通形＋ものではない」的性质否定等用法，需看语境。",
+      "meaning_zh": "不应……；不宜……，常按常识或道理劝戒。",
+      "example_ja": "人が大切にしている物を、値段だけで評価するものではない。",
+      "readings": [
+        {
+          "word": "大切",
+          "reading": "たいせつ"
+        },
+        {
+          "word": "値段",
+          "reading": "ねだん"
+        },
+        {
+          "word": "評価",
+          "reading": "ひょうか"
+        }
+      ],
+      "translation_zh": "不应只按价格评价别人珍惜的东西。",
+      "contrast_trap": "本例是一般性劝戒；不等于「評価できない」的能力否定，也不同于「評価するわけではない」的解释否定。",
+      "error_tags": [
+        "simple_negative_vs_obligation",
+        "scope_overgeneralization"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [
+        "jpf-mono"
+      ],
+      "original_content": true,
+      "related_error_tags": [
+        "simple_negative_vs_obligation",
+        "scope_overgeneralization"
+      ]
+    },
+    {
+      "id": "n2-monono",
+      "pattern": "〜ものの",
+      "category": "转折与让步",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "动词/い形容词普通形＋ものの；な形容词＋な/であるものの；名词＋であるものの。",
+      "meaning_zh": "承认前项事实，但结果或现状不如预期。",
+      "example_ja": "新しい机を買ったものの、部屋が狭くて置けない。",
+      "readings": [
+        {
+          "word": "狭い",
+          "reading": "せまい"
+        }
+      ],
+      "translation_zh": "虽然买了新桌子，房间太小却放不下。",
+      "contrast_trap": "不是所有「が」都能替换；重点是承认事实后的保留或落差，不是单纯并列。",
+      "error_tags": [
+        "concession"
+      ],
+      "evidence_type": "exam_observed",
+      "exam_sources": [
+        {
+          "source_id": "exam-2023j",
+          "session": "2023.07",
+          "question": 33,
+          "pdf_page": 4,
+          "note": "此处观察到该形式；不代表全库频率统计。"
+        }
+      ],
+      "observed_count": null,
+      "reference_source_ids": [
+        "jpf-contrast"
+      ],
+      "original_content": true,
+      "related_error_tags": [
+        "concession"
+      ]
+    },
+    {
+      "id": "n2-nagaramo",
+      "pattern": "〜ながら（も）",
+      "category": "转折与让步",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "动词ます形去ます＋ながら（も）（ている→ていながら）；い形容词原形＋ながら（も）；な形容词词干/名词＋ながら（も）。逆接多接状态性表达。",
+      "meaning_zh": "虽然处于某状态，却出现相反表现。",
+      "example_ja": "この部屋は狭いながらも、収納がよく工夫されている。",
+      "readings": [
+        {
+          "word": "収納",
+          "reading": "しゅうのう"
+        },
+        {
+          "word": "工夫",
+          "reading": "くふう"
+        }
+      ],
+      "translation_zh": "这房间虽小，收纳设计却很用心。",
+      "contrast_trap": "与同时进行动作的「音楽を聞きながら」区分。逆接常接状态或认知；不要把任何动态动词都机械套入。",
+      "error_tags": [
+        "concession"
+      ],
+      "evidence_type": "exam_observed",
+      "exam_sources": [
+        {
+          "source_id": "exam-2025j",
+          "session": "2025.07",
+          "question": 32,
+          "pdf_page": 4,
+          "note": "此处观察到该形式；不代表全库频率统计。"
+        }
+      ],
+      "observed_count": null,
+      "reference_source_ids": [
+        "jpf-contrast"
+      ],
+      "original_content": true,
+      "related_error_tags": [
+        "concession"
+      ]
+    },
+    {
+      "id": "n2-nimokakawarazu",
+      "pattern": "〜にもかかわらず",
+      "category": "转折与让步",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "动词/い形容词普通形＋にもかかわらず；な形容词词干/名词（＋である）＋にもかかわらず。",
+      "meaning_zh": "尽管有前项情况，事实结果仍与预期相反。",
+      "example_ja": "十分に確認したにもかかわらず、申込書に誤りが残っていた。",
+      "readings": [
+        {
+          "word": "申込書",
+          "reading": "もうしこみしょ"
+        },
+        {
+          "word": "誤り",
+          "reading": "あやまり"
+        }
+      ],
+      "translation_zh": "尽管充分检查过，申请表里仍有错误。",
+      "contrast_trap": "「にかかわらず」表示不论条件，与「にもかかわらず」的事实逆接不同；此句式不宜机械接邀请或命令。",
+      "error_tags": [
+        "concession"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [
+        "jpf-contrast"
+      ],
+      "original_content": true,
+      "related_error_tags": [
+        "concession"
+      ]
+    },
+    {
+      "id": "n2-tohaie",
+      "pattern": "〜とはいえ",
+      "category": "转折与让步",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "普通形＋とはいえ；名词/な形容词可直接接とはいえ，也可用だ/である；亦可单独作连接语。",
+      "meaning_zh": "虽说如此，但不能完全按前项想当然。",
+      "example_ja": "春になったとはいえ、朝はまだ暖房が必要だ。",
+      "readings": [
+        {
+          "word": "暖房",
+          "reading": "だんぼう"
+        }
+      ],
+      "translation_zh": "虽说已入春，早晨仍需要暖气。",
+      "contrast_trap": "先承认一个判断再加限制；不等同于无条件否定前项。",
+      "error_tags": [
+        "concession"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [
+        "jpf-contrast"
+      ],
+      "original_content": true,
+      "related_error_tags": [
+        "concession"
+      ]
+    },
+    {
+      "id": "n2-karatoitte",
+      "pattern": "〜からといって",
+      "category": "转折与让步",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "普通形＋からといって；名词/な形容词现在肯定用だ＋からといって。",
+      "meaning_zh": "不能仅凭前项理由就推出后项结论。",
+      "example_ja": "料金が高いからといって、必ずしも自分に合う講座とは限らない。",
+      "readings": [
+        {
+          "word": "料金",
+          "reading": "りょうきん"
+        },
+        {
+          "word": "講座",
+          "reading": "こうざ"
+        }
+      ],
+      "translation_zh": "不能因为费用高，就认定课程一定适合自己。",
+      "contrast_trap": "常与否定判断搭配；不是简单「因为」。读完整个后句确认被否定的是哪种推论。",
+      "error_tags": [
+        "insufficient_condition",
+        "scope_overgeneralization"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [
+        "jpf-contrast"
+      ],
+      "original_content": true,
+      "related_error_tags": [
+        "insufficient_condition",
+        "scope_overgeneralization"
+      ]
+    },
+    {
+      "id": "n2-nishiteha",
+      "pattern": "〜にしては",
+      "category": "比较与评价",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "动词普通形/名词＋にしては；重点先练「名词＋にしては」。",
+      "meaning_zh": "以某身份、条件或程度作标准，结果出乎预期。",
+      "example_ja": "初めて作ったにしては、この棚は丈夫だ。",
+      "readings": [
+        {
+          "word": "棚",
+          "reading": "たな"
+        },
+        {
+          "word": "丈夫",
+          "reading": "じょうぶ"
+        }
+      ],
+      "translation_zh": "以第一次制作为标准，这个架子相当结实。",
+      "contrast_trap": "「わりに」也可表落差；にしては更突出明确前提或身份标准。不是单纯比较两个对象。",
+      "error_tags": [
+        "concession"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "concession"
+      ]
+    },
+    {
+      "id": "n2-warini",
+      "pattern": "〜わりに",
+      "category": "比较与评价",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "动词/い形容词普通形＋わりに；な形容词＋なわりに；名词＋のわりに。",
+      "meaning_zh": "与前项程度相比，后项不太相称。",
+      "example_ja": "この鞄は大きいわりに、あまり物が入らない。",
+      "readings": [
+        {
+          "word": "鞄",
+          "reading": "かばん"
+        }
+      ],
+      "translation_zh": "这个包看着大，却不太能装东西。",
+      "contrast_trap": "名词要「の」；不是「大きいのわりに」。可表好坏两种落差，不固定为贬义。",
+      "error_tags": [
+        "concession"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "concession"
+      ]
+    },
+    {
+      "id": "n2-dakeatte",
+      "pattern": "〜だけあって",
+      "category": "评价与根据",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "动词/い形容词普通形＋だけあって；な形容词＋なだけあって；名词＋だけあって。",
+      "meaning_zh": "正因为具备某条件，表现果然不一般。",
+      "example_ja": "長年この町を案内しているだけあって、細い路地までよく知っている。",
+      "readings": [
+        {
+          "word": "長年",
+          "reading": "ながねん"
+        },
+        {
+          "word": "路地",
+          "reading": "ろじ"
+        }
+      ],
+      "translation_zh": "不愧是多年在这里带路的人，连小巷都很熟。",
+      "contrast_trap": "通常赞许或认可相称的表现；「だけに」更强调因条件而产生的强烈结果，不限赞许。",
+      "error_tags": [
+        "cause_or_purpose_semantics",
+        "judgment_semantics"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "inference",
+        "causal_connection"
+      ]
+    },
+    {
+      "id": "n2-dakeni",
+      "pattern": "〜だけに",
+      "category": "评价与根据",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "动词/い形容词普通形＋だけに；な形容词＋なだけに；名词＋だけに。",
+      "meaning_zh": "正因为前项，后项感受或影响格外明显。",
+      "example_ja": "期待が大きかっただけに、中止の知らせは残念だった。",
+      "readings": [
+        {
+          "word": "中止",
+          "reading": "ちゅうし"
+        },
+        {
+          "word": "残念",
+          "reading": "ざんねん"
+        }
+      ],
+      "translation_zh": "正因为期待很高，得知取消时格外遗憾。",
+      "contrast_trap": "可接令人高兴或失望的结果，不要只背成褒义「不愧」。",
+      "error_tags": [
+        "cause_or_purpose_semantics"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "causal_connection"
+      ]
+    },
+    {
+      "id": "n2-bakarika",
+      "pattern": "〜ばかりか",
+      "category": "递进与反转",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "动词/い形容词普通形＋ばかりか；な形容词＋な/であるばかりか；名词＋ばかりか。",
+      "meaning_zh": "不仅前项，甚至还有后项。",
+      "example_ja": "彼女は資料を直したばかりか、説明用の図まで作ってくれた。",
+      "readings": [
+        {
+          "word": "資料",
+          "reading": "しりょう"
+        }
+      ],
+      "translation_zh": "她不仅修改了资料，还帮忙做了说明图。",
+      "contrast_trap": "后项常用も/まで补充；不是「〜たばかり」的刚刚完成。",
+      "error_tags": [
+        "scope_overgeneralization"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "scope_overgeneralization"
+      ]
+    },
+    {
+      "id": "n2-dokoroka",
+      "pattern": "〜どころか",
+      "category": "递进与反转",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "动词/い形容词普通形＋どころか；な形容词词干/名词＋どころか。",
+      "meaning_zh": "哪里是前项，实际远超前项或恰好相反。",
+      "example_ja": "静かになるどころか、工事が始まって前より騒がしくなった。",
+      "readings": [
+        {
+          "word": "工事",
+          "reading": "こうじ"
+        },
+        {
+          "word": "騒がしい",
+          "reading": "さわがしい"
+        }
+      ],
+      "translation_zh": "哪里安静下来了，施工一开始反而比以前更吵。",
+      "contrast_trap": "既有反向也有程度递进；「どころではない」则是没有余裕做某事。",
+      "error_tags": [
+        "concession"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "concession"
+      ]
+    },
+    {
+      "id": "n2-bakarini",
+      "pattern": "〜ばかりに",
+      "category": "原因与结果",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "动词/い形容词普通形＋ばかりに；な形容词＋な/であるばかりに；名词＋であるばかりに。",
+      "meaning_zh": "就因为一个原因，招致不如意结果。",
+      "example_ja": "住所を一字間違えたばかりに、荷物が届くのが遅れた。",
+      "readings": [
+        {
+          "word": "住所",
+          "reading": "じゅうしょ"
+        },
+        {
+          "word": "荷物",
+          "reading": "にもつ"
+        },
+        {
+          "word": "届く",
+          "reading": "とどく"
+        }
+      ],
+      "translation_zh": "就因为地址写错一个字，包裹延迟送达了。",
+      "contrast_trap": "强调遗憾的因果，不等同于中性原因から；与递进「ばかりか」分开。",
+      "error_tags": [
+        "cause_or_purpose_semantics"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "causal_connection"
+      ]
+    },
+    {
+      "id": "bridge-okagede",
+      "pattern": "〜おかげで",
+      "category": "原因与结果",
+      "level_label": "基础衔接（常见于N3学习；N2继续运用）",
+      "connection": "动词/い形容词普通形＋おかげで；な形容词＋なおかげで；名词＋のおかげで。",
+      "meaning_zh": "多亏某原因，得到有利结果。",
+      "example_ja": "地図を送ってくれたおかげで、入口を迷わずに見つけられた。",
+      "readings": [
+        {
+          "word": "入口",
+          "reading": "いりぐち"
+        }
+      ],
+      "translation_zh": "多亏你发来地图，我没有迷路就找到了入口。",
+      "contrast_trap": "通常带感谢或正面评价；也有讽刺用法，但先掌握基本义。不是所有原因都用おかげで。",
+      "error_tags": [
+        "cause_or_purpose_semantics"
+      ],
+      "evidence_type": "foundation",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "causal_connection"
+      ]
+    },
+    {
+      "id": "bridge-seide",
+      "pattern": "〜せいで",
+      "category": "原因与结果",
+      "level_label": "基础衔接（常见于N3学习；N2继续运用）",
+      "connection": "动词/い形容词普通形＋せいで；な形容词＋なせいで；名词＋のせいで。",
+      "meaning_zh": "因为某原因，出现不好的结果。",
+      "example_ja": "昨夜遅くまで起きていたせいで、今日は集中できない。",
+      "readings": [
+        {
+          "word": "昨夜",
+          "reading": "さくや"
+        },
+        {
+          "word": "集中",
+          "reading": "しゅうちゅう"
+        }
+      ],
+      "translation_zh": "因为昨晚熬夜，今天无法集中精神。",
+      "contrast_trap": "「せいか」带原因不确定；「せいで」把原因作为归因来说明，不一定是在责怪别人。",
+      "error_tags": [
+        "cause_or_purpose_semantics"
+      ],
+      "evidence_type": "foundation",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "causal_connection"
+      ]
+    },
+    {
+      "id": "n2-ageku",
+      "pattern": "〜あげく",
+      "category": "过程与结果",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "动词た形＋あげく（に）；名词＋のあげく（に）。",
+      "meaning_zh": "经历反复或费力过程后，最终落到某结果，常不理想。",
+      "example_ja": "何度も修理したあげく、結局新しい機械を買うことになった。",
+      "readings": [
+        {
+          "word": "修理",
+          "reading": "しゅうり"
+        },
+        {
+          "word": "機械",
+          "reading": "きかい"
+        }
+      ],
+      "translation_zh": "反复维修之后，最终还是决定买新机器。",
+      "contrast_trap": "不能只见先后就用；通常含折腾、犹豫等过程。末に较中性，也常用于努力后实现目标。",
+      "error_tags": [
+        "aspect",
+        "cause_or_purpose_semantics"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "aspect",
+        "causal_connection"
+      ]
+    },
+    {
+      "id": "n2-sueni",
+      "pattern": "〜末に",
+      "category": "过程与结果",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "动词た形＋末（に）；名词＋の末（に）。",
+      "meaning_zh": "经过一段努力、讨论或考虑之后终于得到结果。",
+      "example_ja": "家族で相談した末に、駅に近い家を選んだ。",
+      "readings": [
+        {
+          "word": "相談",
+          "reading": "そうだん"
+        },
+        {
+          "word": "選ぶ",
+          "reading": "えらぶ"
+        }
+      ],
+      "translation_zh": "全家商量之后，最终选了靠近车站的房子。",
+      "contrast_trap": "强调之前的过程，不是单纯「あとで」。结果可好可坏；不要把它限定成成功。",
+      "error_tags": [
+        "aspect"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "aspect"
+      ]
+    },
+    {
+      "id": "n2-katoomouto",
+      "pattern": "〜かと思うと",
+      "category": "时间与变化",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "动词た形＋かと思うと／かと思ったら。",
+      "meaning_zh": "刚看到某变化，就紧接着出现另一变化。",
+      "example_ja": "雨がやんだかと思うと、今度は強い風が吹き始めた。",
+      "readings": [
+        {
+          "word": "吹く",
+          "reading": "ふく"
+        }
+      ],
+      "translation_zh": "雨刚停，紧接着又刮起了强风。",
+      "contrast_trap": "常写观察到的迅速变化，不宜套在自己预先安排的一连串意志动作上。",
+      "error_tags": [
+        "aspect"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "aspect"
+      ]
+    },
+    {
+      "id": "n2-tatotan",
+      "pattern": "〜たとたん（に）",
+      "category": "时间与变化",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "动词た形＋とたん（に）。",
+      "meaning_zh": "某动作刚发生，另一件事随即发生，常有意外性。",
+      "example_ja": "窓を開けたとたん、机の上の紙が飛んでいった。",
+      "readings": [
+        {
+          "word": "窓",
+          "reading": "まど"
+        }
+      ],
+      "translation_zh": "刚打开窗，桌上的纸就飞走了。",
+      "contrast_trap": "后项多为突发事实；与表达计划“一…就去做”的次第区分。",
+      "error_tags": [
+        "aspect",
+        "habit_accidental"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "aspect",
+        "habit_accidental"
+      ]
+    },
+    {
+      "id": "n2-shidai-immediate",
+      "pattern": "〜次第",
+      "category": "时间与变化",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "动词ます形去ます＋次第。",
+      "meaning_zh": "前项完成后立即做后项，常用于通知或计划。",
+      "example_ja": "会場が決まり次第、参加者にメールします。",
+      "readings": [
+        {
+          "word": "会場",
+          "reading": "かいじょう"
+        },
+        {
+          "word": "参加者",
+          "reading": "さんかしゃ"
+        }
+      ],
+      "translation_zh": "会场一确定，就给参加者发邮件。",
+      "contrast_trap": "不要接た形；「名词＋次第で」表示取决于，和此卡不是同一接续。",
+      "error_tags": [
+        "deadline_precision",
+        "aspect"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "deadline_precision",
+        "aspect"
+      ]
+    },
+    {
+      "id": "n2-shidaida-reason",
+      "pattern": "〜次第だ",
+      "category": "说明与推论",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "动词普通形＋次第だ／次第です；常用「〜た次第です」说明既往经过。",
+      "meaning_zh": "正式说明事情为何发展到现在或采取该行动的缘由。",
+      "example_ja": "必要な資料がそろいましたので、改めてご連絡した次第です。",
+      "readings": [
+        {
+          "word": "改めて",
+          "reading": "あらためて"
+        }
+      ],
+      "translation_zh": "所需资料已齐备，因此再次联系您，特此说明。",
+      "contrast_trap": "区别「分かり次第連絡する」的一…就…和「結果は努力次第だ」的取决于。",
+      "error_tags": [
+        "cause_or_purpose_semantics",
+        "judgment_semantics"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "inference",
+        "causal_connection"
+      ]
+    },
+    {
+      "id": "n2-gachi",
+      "pattern": "〜がち",
+      "category": "倾向与状态",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "动词ます形去ます＋がち；名词＋がち；修饰名词常用がちな/がちの。",
+      "meaning_zh": "容易反复出现某种倾向，常带不理想评价。",
+      "example_ja": "予定を詰め込みすぎると、確認を忘れがちになる。",
+      "readings": [
+        {
+          "word": "予定",
+          "reading": "よてい"
+        },
+        {
+          "word": "詰め込む",
+          "reading": "つめこむ"
+        },
+        {
+          "word": "確認",
+          "reading": "かくにん"
+        }
+      ],
+      "translation_zh": "安排太满，就容易忘记确认。",
+      "contrast_trap": "指反复倾向，不是眼前轻微状态；「気味」侧重稍微出现某状态。",
+      "error_tags": [
+        "habit_accidental"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "habit_accidental"
+      ]
+    },
+    {
+      "id": "n2-gimi",
+      "pattern": "〜気味",
+      "category": "倾向与状态",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "动词ます形去ます＋気味；名词＋気味。",
+      "meaning_zh": "略微呈现某状态，常是不太好的状态。",
+      "example_ja": "今週は会議が多くて、少し疲れ気味だ。",
+      "readings": [
+        {
+          "word": "会議",
+          "reading": "かいぎ"
+        },
+        {
+          "word": "疲れ",
+          "reading": "つかれ"
+        }
+      ],
+      "translation_zh": "这周会议多，有点疲劳。",
+      "contrast_trap": "「疲れがち」偏容易经常累；「疲れ気味」描述目前略累。不是所有形容词都能直接加気味。",
+      "error_tags": [
+        "aspect"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "aspect"
+      ]
+    },
+    {
+      "id": "n2-tsutsuaru",
+      "pattern": "〜つつある",
+      "category": "倾向与状态",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "动词ます形去ます＋つつある。",
+      "meaning_zh": "某种变化正在逐步发展。",
+      "example_ja": "この地域では、空き家を店として使う動きが広がりつつある。",
+      "readings": [
+        {
+          "word": "地域",
+          "reading": "ちいき"
+        },
+        {
+          "word": "空き家",
+          "reading": "あきや"
+        },
+        {
+          "word": "広がる",
+          "reading": "ひろがる"
+        }
+      ],
+      "translation_zh": "这一地区，把空房改作店铺的做法正逐渐推广。",
+      "contrast_trap": "主要用于发展变化；不能把所有「ている」都换成つつある。",
+      "error_tags": [
+        "aspect"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "aspect"
+      ]
+    },
+    {
+      "id": "n2-osoregaaru",
+      "pattern": "〜おそれがある",
+      "category": "推测与风险",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "动词辞书形/ない形＋おそれがある；名词＋のおそれがある。",
+      "meaning_zh": "有发生不利情况的可能或风险。",
+      "example_ja": "このまま雨が続くと、川の水があふれるおそれがある。",
+      "readings": [
+        {
+          "word": "続く",
+          "reading": "つづく"
+        }
+      ],
+      "translation_zh": "照这样继续下雨，河水有漫出的危险。",
+      "contrast_trap": "不用于普通愿望或好消息；「かねない」也表负面可能，但接续是ます词干。",
+      "error_tags": [
+        "conjecture"
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "conjecture"
+      ]
+    },
+    {
+      "id": "bridge-kotonishiteiru",
+      "pattern": "〜ことにしている",
+      "category": "基础·习惯与意志",
+      "level_label": "基础衔接（N3/N4常见结构）",
+      "connection": "动词辞书形/ない形＋ことにしている。",
+      "meaning_zh": "自己作出决定，并持续按此执行。",
+      "example_ja": "夜は仕事の通知を見ないことにしている。",
+      "readings": [
+        {
+          "word": "通知",
+          "reading": "つうち"
+        }
+      ],
+      "translation_zh": "我规定自己晚上不看工作通知。",
+      "contrast_trap": "不是单纯偶尔发生，也不同于组织规定「ことになっている」。",
+      "error_tags": [
+        "habit_intention"
+      ],
+      "evidence_type": "foundation",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "habit_intention"
+      ]
+    },
+    {
+      "id": "bridge-kotomoaru",
+      "pattern": "〜こともある",
+      "category": "基础·习惯与意志",
+      "level_label": "基础衔接（N3/N4常见结构）",
+      "connection": "动词辞书形/ない形＋こともある。",
+      "meaning_zh": "也会偶尔出现这种情况。",
+      "example_ja": "忙しい日は、昼食が三時になることもある。",
+      "readings": [
+        {
+          "word": "昼食",
+          "reading": "ちゅうしょく"
+        }
+      ],
+      "translation_zh": "忙的时候，午饭有时会拖到三点。",
+      "contrast_trap": "不是“有意努力做到”；「たことがある」通常表示过去经验。",
+      "error_tags": [
+        "habit_accidental"
+      ],
+      "evidence_type": "foundation",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "habit_accidental"
+      ]
+    },
+    {
+      "id": "bridge-youni-purpose",
+      "pattern": "〜ように（目的）",
+      "category": "基础·目的与结果",
+      "level_label": "基础衔接（N3/N4常见结构）",
+      "connection": "动词辞书形（尤其可能/非意志动词）或ない形＋ように。",
+      "meaning_zh": "为了让某状态、能力或结果实现。",
+      "example_ja": "後ろの席にも声が届くように、マイクを使った。",
+      "readings": [
+        {
+          "word": "届く",
+          "reading": "とどく"
+        },
+        {
+          "word": "席",
+          "reading": "せき"
+        }
+      ],
+      "translation_zh": "为了让后排也听到，我用了麦克风。",
+      "contrast_trap": "非“所有意志动词都不能接ように”。先看目标是状态实现，还是主体主动去完成的目的。",
+      "error_tags": [
+        "cause_or_purpose_semantics"
+      ],
+      "evidence_type": "foundation",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [
+        "jpf-you"
+      ],
+      "original_content": true,
+      "related_error_tags": [
+        "causal_connection"
+      ]
+    },
+    {
+      "id": "bridge-tameni-purpose",
+      "pattern": "〜ために（目的）",
+      "category": "基础·目的与结果",
+      "level_label": "基础衔接（N3/N4常见结构）",
+      "connection": "意志动词辞书形＋ために；名词＋のために。",
+      "meaning_zh": "以实现某目的为目标采取行动。",
+      "example_ja": "資料を印刷するために、早めに会社へ行った。",
+      "readings": [
+        {
+          "word": "印刷",
+          "reading": "いんさつ"
+        }
+      ],
+      "translation_zh": "为了打印资料，我提早去了公司。",
+      "contrast_trap": "此卡是目的义；「雨のために遅れた」是原因义。与ように比较时注意意志性、主语和目标焦点。",
+      "error_tags": [
+        "cause_or_purpose_semantics"
+      ],
+      "evidence_type": "foundation",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [
+        "jpf-you"
+      ],
+      "original_content": true,
+      "related_error_tags": [
+        "causal_connection"
+      ]
+    },
+    {
+      "id": "bridge-causative",
+      "pattern": "〜（さ）せる",
+      "category": "基础·人物与动作",
+      "level_label": "基础衔接（N3/N4常见结构）",
+      "connection": "五段动词词尾变あ段＋せる（う→わ：買う→買わせる）；一段去る＋させる；する→させる；来る→来させる（こさせる）。",
+      "meaning_zh": "使役：让、使某人做某事；语境可为允许或要求。",
+      "example_ja": "先生は学生に自分の意見を発表させた。",
+      "readings": [
+        {
+          "word": "意見",
+          "reading": "いけん"
+        },
+        {
+          "word": "発表",
+          "reading": "はっぴょう"
+        }
+      ],
+      "translation_zh": "老师让学生发表自己的意见。",
+      "contrast_trap": "先找谁安排、谁实际行动。自他动词和原句是否已有を，会影响被使役者用に还是を。",
+      "error_tags": [
+        "causative_obligation"
+      ],
+      "evidence_type": "foundation",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "causative_obligation"
+      ]
+    },
+    {
+      "id": "bridge-tehoshii",
+      "pattern": "〜てほしい",
+      "category": "基础·人物与动作",
+      "level_label": "基础衔接（N3/N4常见结构）",
+      "connection": "希望对方做：相手に＋动词て形＋ほしい；否定希望常用ないでほしい。",
+      "meaning_zh": "希望别人做或不要做某事。",
+      "example_ja": "説明が速すぎるので、もう少しゆっくり話してほしい。",
+      "readings": [
+        {
+          "word": "説明",
+          "reading": "せつめい"
+        }
+      ],
+      "translation_zh": "说明太快，我希望对方讲慢一点。",
+      "contrast_trap": "「たい」通常表达自己想做；「てほしい」要求判断希望对象与动作执行者。",
+      "error_tags": [
+        "desired_actor"
+      ],
+      "evidence_type": "foundation",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "desired_actor"
+      ]
+    },
+    {
+      "id": "bridge-toiunoha",
+      "pattern": "〜というのは",
+      "category": "基础·定义与说明",
+      "level_label": "基础衔接（N3及跨级运用）",
+      "connection": "引用的词语/普通形句子＋というのは；定义常以〜という意味だ/ことだ收尾。",
+      "meaning_zh": "把一个词或事实提出，随后解释或评价。",
+      "example_ja": "「事前予約」というのは、利用する前に申し込むことです。",
+      "readings": [
+        {
+          "word": "事前予約",
+          "reading": "じぜんよやく"
+        },
+        {
+          "word": "申し込む",
+          "reading": "もうしこむ"
+        }
+      ],
+      "translation_zh": "所谓“提前预约”，就是在使用前提出申请。",
+      "contrast_trap": "本卡是定义用法；「ということは」常从已知信息推出结论，不能只凭中文“就是说”互换。",
+      "error_tags": [
+        "definition"
+      ],
+      "evidence_type": "foundation",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "bridge-dakedeha",
+      "pattern": "〜だけでは〜ない",
+      "category": "基础·限定与否定",
+      "level_label": "基础衔接（跨级逻辑结构）",
+      "connection": "名词/动词普通形＋だけでは＋否定结果；常见可能否定できない。",
+      "meaning_zh": "仅凭某条件，还不足以达到结果。",
+      "example_ja": "説明を読んだだけでは、細かい使い方までは分からない。",
+      "readings": [
+        {
+          "word": "細かい",
+          "reading": "こまかい"
+        }
+      ],
+      "translation_zh": "光看说明，还不能掌握细节用法。",
+      "contrast_trap": "被否定的是“只靠这一点足够”，不是完全否定前项价值。",
+      "error_tags": [
+        "insufficient_condition"
+      ],
+      "evidence_type": "foundation",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "insufficient_condition"
+      ]
+    },
+    {
+      "id": "n2-nikakawarazu",
+      "pattern": "〜にかかわらず",
+      "category": "限定与条件",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "名词＋にかかわらず；动词辞书形＋か＋ない形＋かにかかわらず等对立形式。",
+      "meaning_zh": "不论前项条件如何，后项都成立。",
+      "example_ja": "経験の有無にかかわらず、この講習には参加できます。",
+      "translation_zh": "无论有无经验，都可以参加这次培训。",
+      "contrast_trap": "「にもかかわらず」是“尽管如此却…”；此卡不要求出现与预期相反的结果。",
+      "error_tags": [
+        "scope_overgeneralization",
+        "concession"
+      ],
+      "readings": [
+        {
+          "word": "有無",
+          "reading": "うむ"
+        },
+        {
+          "word": "講習",
+          "reading": "こうしゅう"
+        }
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [
+        "jpf-contrast"
+      ],
+      "original_content": true,
+      "related_error_tags": [
+        "scope_overgeneralization",
+        "concession"
+      ]
+    },
+    {
+      "id": "n2-naikagiri",
+      "pattern": "〜ない限り",
+      "category": "限定与条件",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "动词ない形＋限り。",
+      "meaning_zh": "只要不满足前项，后项就不会改变；除非……。",
+      "example_ja": "本人が同意しない限り、この写真は公開しません。",
+      "translation_zh": "除非本人同意，否则不会公开这张照片。",
+      "contrast_trap": "这是必要条件；即使本人同意，也不能单凭此句推出“一定公开”。别把必要条件误当充分条件。",
+      "error_tags": [
+        "insufficient_condition",
+        "negation_scope"
+      ],
+      "readings": [
+        {
+          "word": "同意",
+          "reading": "どうい"
+        },
+        {
+          "word": "公開",
+          "reading": "こうかい"
+        }
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true,
+      "related_error_tags": [
+        "insufficient_condition",
+        "negation_scope"
+      ]
+    },
+    {
+      "id": "bridge-tai-form",
+      "pattern": "〜たい（愿望与变形）",
+      "category": "基础·动词变形",
+      "level_label": "基础衔接（N5–N3；N2必需）",
+      "connection": "动词ます形去ます＋たい；否定たい→たくない；过去たかった。する→したい；来る→来たい（きたい）。",
+      "meaning_zh": "表达自己想做某动作；たい后按い形容词变化。",
+      "example_ja": "今日は外で食べずに、家で料理したい。",
+      "translation_zh": "今天不想在外面吃，想在家做饭。",
+      "contrast_trap": "不是辞书形＋たい：×料理するたい。第三人的愿望通常需借助引用、推测或たがる，不能忽略视角。",
+      "error_tags": [
+        "desire_form",
+        "suru_conjugation"
+      ],
+      "readings": [
+        {
+          "word": "料理",
+          "reading": "りょうり"
+        }
+      ],
+      "evidence_type": "foundation",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true
+    },
+    {
+      "id": "bridge-nai-form",
+      "pattern": "〜ない（动词否定形）",
+      "category": "基础·动词变形",
+      "level_label": "基础衔接（N5–N3；N2必需）",
+      "connection": "五段词尾变あ段＋ない（う→わ：買う→買わない）；一段去る＋ない；する→しない；来る→来ない（こない）；ある→ない。",
+      "meaning_zh": "动词的普通否定形式，也是许多复合语法的基础。",
+      "example_ja": "明日は予定がないので、外には出ない。",
+      "translation_zh": "明天没有安排，所以不出门。",
+      "contrast_trap": "「出る→出ない」是一段变化；别把ない形和可能否定混为一谈：読まない是不读，読めない是读不了。",
+      "error_tags": [
+        "negative_stem",
+        "potential_vs_simple_negative"
+      ],
+      "readings": [
+        {
+          "word": "予定",
+          "reading": "よてい"
+        }
+      ],
+      "evidence_type": "foundation",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true
+    },
+    {
+      "id": "bridge-nakerebanaranai",
+      "pattern": "〜なければならない",
+      "category": "基础·义务与否定",
+      "level_label": "基础衔接（N5–N3；N2必需）",
+      "connection": "动词ない形去ない＋なければならない；する→しなければならない；来る→来なければならない（こなければ）。",
+      "meaning_zh": "必须做某事；双重否定表达义务。",
+      "example_ja": "明日の朝までに、この資料を確認しなければならない。",
+      "translation_zh": "明早之前，必须确认这份资料。",
+      "contrast_trap": "「確認しない」是不确认；「確認しなければならない」是必须确认。不可接辞书形写成×するなければならない。",
+      "error_tags": [
+        "obligation_connection",
+        "simple_negative_vs_obligation"
+      ],
+      "readings": [
+        {
+          "word": "資料",
+          "reading": "しりょう"
+        },
+        {
+          "word": "確認",
+          "reading": "かくにん"
+        }
+      ],
+      "evidence_type": "foundation",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true
+    },
+    {
+      "id": "n2-wakeda",
+      "pattern": "〜わけだ",
+      "category": "说明与推论",
+      "level_label": "N2复习重点（跨级解释结构）",
+      "connection": "动词/い形容词普通形＋わけだ；な形容词＋な/であるわけだ；名词＋な/であるわけだ。",
+      "meaning_zh": "依据已知情况说明合乎逻辑的结果：原来如此、也就是说。",
+      "example_ja": "この店は朝六時から開いているのか。通勤前に寄れるわけだ。",
+      "translation_zh": "原来这家店早六点就开门啊。那上班前就能顺路去了。",
+      "contrast_trap": "先有依据，再解释结果；「はずだ」常表示有根据的预期。「わけではない」则是否定某种解释或概括。",
+      "error_tags": [
+        "inference"
+      ],
+      "readings": [
+        {
+          "word": "通勤",
+          "reading": "つうきん"
+        },
+        {
+          "word": "寄れる",
+          "reading": "よれる"
+        }
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true
+    },
+    {
+      "id": "n2-hatomokaku",
+      "pattern": "〜はともかく（として）",
+      "category": "搁置·追加·无关条件",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "名词＋はともかく（として）；动词等用普通形＋かどうかはともかく等形式提出待搁置事项。",
+      "meaning_zh": "暂且不讨论前项，先说后项。",
+      "example_ja": "値段はともかく、毎日使いやすいかどうかを確かめたい。",
+      "translation_zh": "价格先不谈，我想先确认它是否适合每天使用。",
+      "contrast_trap": "不是“除了价格，还有…”的追加。前项被暂时搁置，并不等于说它不重要。",
+      "error_tags": [
+        "set_aside_vs_addition"
+      ],
+      "readings": [
+        {
+          "word": "値段",
+          "reading": "ねだん"
+        },
+        {
+          "word": "確かめたい",
+          "reading": "たしかめたい"
+        }
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true
+    },
+    {
+      "id": "n2-hasateoki",
+      "pattern": "〜はさておき",
+      "category": "搁置·追加·无关条件",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "名词＋はさておき；普通形＋かどうかはさておき等形式也可用来搁置判断。",
+      "meaning_zh": "把前项暂放一边，转向更应先谈或处理的事项。",
+      "example_ja": "細かい日程はさておき、まず参加できる人数を確認しよう。",
+      "translation_zh": "具体日期先放一边，先确认能参加的人数吧。",
+      "contrast_trap": "常用于转换话题或安排优先次序；「に加えて」是添加，不是搁置。与はともかく有重叠，别硬分成完全不能替换。",
+      "error_tags": [
+        "set_aside_vs_addition"
+      ],
+      "readings": [
+        {
+          "word": "日程",
+          "reading": "にってい"
+        },
+        {
+          "word": "人数",
+          "reading": "にんずう"
+        }
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true
+    },
+    {
+      "id": "n2-mokamawazu",
+      "pattern": "〜もかまわず",
+      "category": "搁置·追加·无关条件",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "名词＋もかまわず；普通形＋のもかまわず（名词/な形容词现在肯定＋なのもかまわず）。",
+      "meaning_zh": "不顾通常应顾虑的情况、目光或影响，仍然行动。",
+      "example_ja": "靴がぬれるのもかまわず、彼は水たまりに落ちた鍵を拾った。",
+      "translation_zh": "他不顾鞋子会湿，捡起了落进水坑的钥匙。",
+      "contrast_trap": "重点是“不顾”，不是“某时趁机做”。不同于「てもかまわない」的许可；不必一律解释成道德批评。",
+      "error_tags": [
+        "disregard_vs_time"
+      ],
+      "readings": [
+        {
+          "word": "水たまり",
+          "reading": "みずたまり"
+        },
+        {
+          "word": "鍵",
+          "reading": "かぎ"
+        },
+        {
+          "word": "拾った",
+          "reading": "ひろった"
+        }
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true
+    },
+    {
+      "id": "n2-wotowazu",
+      "pattern": "〜を問わず",
+      "category": "搁置·追加·无关条件",
+      "level_label": "N2复习重点（非独占级别）",
+      "connection": "名词＋を問わず；常接表示类别、条件或对立范围的名词，如年齢、経験、昼夜。",
+      "meaning_zh": "不以某项条件作为限制，不论……。",
+      "example_ja": "経験を問わず、新しい企画に挑戦したい人を募集します。",
+      "translation_zh": "不论有无经验，招募愿意挑战新企划的人。",
+      "contrast_trap": "不是“不去提问”。「を問わず」取消条件限制；「もかまわず」突出不顾顾虑，不能只凭中文“不管”互换。",
+      "error_tags": [
+        "scope_overgeneralization"
+      ],
+      "readings": [
+        {
+          "word": "企画",
+          "reading": "きかく"
+        },
+        {
+          "word": "挑戦",
+          "reading": "ちょうせん"
+        },
+        {
+          "word": "募集",
+          "reading": "ぼしゅう"
+        }
+      ],
+      "evidence_type": "curriculum_core",
+      "exam_sources": [],
+      "observed_count": null,
+      "reference_source_ids": [],
+      "original_content": true
+    }
+  ],
+  "counts": {
+    "total": 82,
+    "core": 67,
+    "foundation": 15,
+    "exam_observed": 10
+  },
+  "daily_guidance": {
+    "new_cards": 6,
+    "review_cards": 6,
+    "note": "先回忆接续与语义，再翻看例句；背诵勾选不计考试题量、不自动增加错误次数。新旧数量为建议，可按实际情况调整。"
+  },
+  "quality_checks": [
+    "82 unique IDs and required fields validated",
+    "82 original Japanese examples",
+    "Irregular negative/causative forms and する exceptions checked",
+    "Independent morphology review corrected ている+ながら to ていながら",
+    "General teaching references separated from exact exam observations",
+    "No invented frequency counts; observed_count null on all cards"
+  ]
+}

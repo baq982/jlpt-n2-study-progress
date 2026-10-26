@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "N2 私人复盘记录 v1.0",
+  "description": "按唯一 id 合并；同 id 内容不同拒绝整批导入。使用稳定 canonical_key（如 vocabulary:貴重）及稳定 error_tags。首次、复测、提示条件必须如实填写。",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "attempts"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "attempts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "date",
+          "module",
+          "result",
+          "support",
+          "attempt_kind",
+          "accuracy_eligible",
+          "canonical_key",
+          "prompt",
+          "error_tags",
+          "source_ids"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "module": {
+            "enum": [
+              "grammar",
+              "reading",
+              "vocabulary",
+              "listening"
+            ]
+          },
+          "result": {
+            "enum": [
+              "correct",
+              "incorrect",
+              "partial"
+            ]
+          },
+          "support": {
+            "enum": [
+              "independent",
+              "hinted",
+              "immediate",
+              "unknown_external"
+            ]
+          },
+          "attempt_kind": {
+            "enum": [
+              "first",
+              "first_recorded_external",
+              "retest"
+            ]
+          },
+          "accuracy_eligible": {
+            "type": "boolean"
+          },
+          "canonical_key": {
+            "type": "string",
+            "minLength": 1
+          },
+          "prompt": {
+            "type": "string",
+            "minLength": 1
+          },
+          "error_tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "source_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "user_answer": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "expected_answer": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "error_reason": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,599 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-30",
+  "timezone": "Asia/Tokyo",
+  "scope": "仅当日已核两批练习，不包含其他日期的待同步批次。",
+  "grading_basis": "截图核对原选答案；参考答案由助手核对题目及阅读原文，未取得官方答案键。",
+  "question_text_status": "此结构化汇总未转录完整题干／选项或整篇文章，不补造缺失文字。",
+  "reading_support_correction": "更正为独立阅读（用户自述），不因译文曾发送就推断已看；用时、猜题情况未知。",
+  "sources": [
+    {
+      "id": "2026-10-30-monoxer-answer-screenshots",
+      "description": "用户提供的 Monoxer 14题作答截图；不公开私人附件标识"
+    },
+    {
+      "id": "2026-10-30-hana-no-namae-answer-screenshots",
+      "description": "用户提供的《花の名前》15题作答截图"
+    },
+    {
+      "id": "2026-10-30-hana-no-namae-article-review",
+      "description": "助手对照用户提供的阅读文章核对参考答案；非官方答案键"
+    },
+    {
+      "id": "2026-10-30-independence-clarification",
+      "description": "用户澄清：我没看你翻译，我直接做的"
+    }
+  ],
+  "summary": {
+    "vocabulary_grammar": {
+      "correct": 6,
+      "total": 14,
+      "earned": 11,
+      "possible": 25
+    },
+    "reading": {
+      "correct": 14,
+      "total": 15,
+      "earned": 45,
+      "possible": 50,
+      "incorrect_item": 11,
+      "lost_points": 5,
+      "other_item_point_distribution": "未逐项保存，不推算分配"
+    },
+    "overall": {
+      "correct": 20,
+      "total": 29,
+      "accuracy": 0.6896551724137931,
+      "earned": 56,
+      "possible": 75,
+      "not_jlpt_scaled_score": true
+    }
+  },
+  "attempts": [
+    {
+      "id": "2026-10-30-monoxer-Q01",
+      "item_number": 1,
+      "module": "vocabulary_grammar",
+      "selected_answer": 2,
+      "reference_answer": 3,
+      "result": "incorrect",
+      "points_possible": 1,
+      "points_earned": 0,
+      "support": "unknown_external",
+      "error_category": "ほど＋否定的比较关系",
+      "cause_status": "inferred_from_item_not_confirmed_mental_cause",
+      "source_ids": [
+        "2026-10-30-monoxer-answer-screenshots"
+      ]
+    },
+    {
+      "id": "2026-10-30-monoxer-Q02",
+      "item_number": 2,
+      "module": "vocabulary_grammar",
+      "selected_answer": 1,
+      "reference_answer": 1,
+      "result": "correct",
+      "points_possible": 1,
+      "points_earned": 1,
+      "support": "unknown_external",
+      "error_category": null,
+      "cause_status": null,
+      "source_ids": [
+        "2026-10-30-monoxer-answer-screenshots"
+      ]
+    },
+    {
+      "id": "2026-10-30-monoxer-Q03",
+      "item_number": 3,
+      "module": "vocabulary_grammar",
+      "selected_answer": 1,
+      "reference_answer": 2,
+      "result": "incorrect",
+      "points_possible": 1,
+      "points_earned": 0,
+      "support": "unknown_external",
+      "error_category": "どちらの方向か：间接疑问",
+      "cause_status": "inferred_from_item_not_confirmed_mental_cause",
+      "source_ids": [
+        "2026-10-30-monoxer-answer-screenshots"
+      ]
+    },
+    {
+      "id": "2026-10-30-monoxer-Q04",
+      "item_number": 4,
+      "module": "vocabulary_grammar",
+      "selected_answer": 2,
+      "reference_answer": 4,
+      "result": "incorrect",
+      "points_possible": 2,
+      "points_earned": 0,
+      "support": "unknown_external",
+      "error_category": "通う（かよう）与通る（とおる）的语义区别",
+      "cause_status": "inferred_from_item_not_confirmed_mental_cause",
+      "source_ids": [
+        "2026-10-30-monoxer-answer-screenshots"
+      ]
+    },
+    {
+      "id": "2026-10-30-monoxer-Q05",
+      "item_number": 5,
+      "module": "vocabulary_grammar",
+      "selected_answer": 4,
+      "reference_answer": 4,
+      "result": "correct",
+      "points_possible": 2,
+      "points_earned": 2,
+      "support": "unknown_external",
+      "error_category": null,
+      "cause_status": null,
+      "source_ids": [
+        "2026-10-30-monoxer-answer-screenshots"
+      ]
+    },
+    {
+      "id": "2026-10-30-monoxer-Q06",
+      "item_number": 6,
+      "module": "vocabulary_grammar",
+      "selected_answer": 3,
+      "reference_answer": 1,
+      "result": "incorrect",
+      "points_possible": 2,
+      "points_earned": 0,
+      "support": "unknown_external",
+      "error_category": "見つける（みつける）与見える（みえる），以及を／が",
+      "cause_status": "inferred_from_item_not_confirmed_mental_cause",
+      "source_ids": [
+        "2026-10-30-monoxer-answer-screenshots"
+      ]
+    },
+    {
+      "id": "2026-10-30-monoxer-Q07",
+      "item_number": 7,
+      "module": "vocabulary_grammar",
+      "selected_answer": 2,
+      "reference_answer": 4,
+      "result": "incorrect",
+      "points_possible": 2,
+      "points_earned": 0,
+      "support": "unknown_external",
+      "error_category": "三つ先（みっつさき）与前（まえ）的方向关系",
+      "cause_status": "inferred_from_item_not_confirmed_mental_cause",
+      "source_ids": [
+        "2026-10-30-monoxer-answer-screenshots"
+      ]
+    },
+    {
+      "id": "2026-10-30-monoxer-Q08",
+      "item_number": 8,
+      "module": "vocabulary_grammar",
+      "selected_answer": 1,
+      "reference_answer": 3,
+      "result": "incorrect",
+      "points_possible": 2,
+      "points_earned": 0,
+      "support": "unknown_external",
+      "error_category": "報道機関（ほうどうきかん）的機関与景色（けしき）",
+      "cause_status": "inferred_from_item_not_confirmed_mental_cause",
+      "source_ids": [
+        "2026-10-30-monoxer-answer-screenshots"
+      ]
+    },
+    {
+      "id": "2026-10-30-monoxer-Q09",
+      "item_number": 9,
+      "module": "vocabulary_grammar",
+      "selected_answer": 3,
+      "reference_answer": 2,
+      "result": "incorrect",
+      "points_possible": 2,
+      "points_earned": 0,
+      "support": "unknown_external",
+      "error_category": "耳に入る（みみにはいる）的固定搭配，不是口",
+      "cause_status": "inferred_from_item_not_confirmed_mental_cause",
+      "source_ids": [
+        "2026-10-30-monoxer-answer-screenshots"
+      ]
+    },
+    {
+      "id": "2026-10-30-monoxer-Q10",
+      "item_number": 10,
+      "module": "vocabulary_grammar",
+      "selected_answer": 1,
+      "reference_answer": 1,
+      "result": "correct",
+      "points_possible": 2,
+      "points_earned": 2,
+      "support": "unknown_external",
+      "error_category": null,
+      "cause_status": null,
+      "source_ids": [
+        "2026-10-30-monoxer-answer-screenshots"
+      ]
+    },
+    {
+      "id": "2026-10-30-monoxer-Q11",
+      "item_number": 11,
+      "module": "vocabulary_grammar",
+      "selected_answer": 3,
+      "reference_answer": 3,
+      "result": "correct",
+      "points_possible": 2,
+      "points_earned": 2,
+      "support": "unknown_external",
+      "error_category": null,
+      "cause_status": null,
+      "source_ids": [
+        "2026-10-30-monoxer-answer-screenshots"
+      ]
+    },
+    {
+      "id": "2026-10-30-monoxer-Q12",
+      "item_number": 12,
+      "module": "vocabulary_grammar",
+      "selected_answer": 4,
+      "reference_answer": 4,
+      "result": "correct",
+      "points_possible": 2,
+      "points_earned": 2,
+      "support": "unknown_external",
+      "error_category": null,
+      "cause_status": null,
+      "source_ids": [
+        "2026-10-30-monoxer-answer-screenshots"
+      ]
+    },
+    {
+      "id": "2026-10-30-monoxer-Q13",
+      "item_number": 13,
+      "module": "vocabulary_grammar",
+      "selected_answer": 4,
+      "reference_answer": 2,
+      "result": "incorrect",
+      "points_possible": 2,
+      "points_earned": 0,
+      "support": "unknown_external",
+      "error_category": "にっこり微笑（ほほえ）む与不高兴语境不符",
+      "cause_status": "inferred_from_item_not_confirmed_mental_cause",
+      "source_ids": [
+        "2026-10-30-monoxer-answer-screenshots"
+      ]
+    },
+    {
+      "id": "2026-10-30-monoxer-Q14",
+      "item_number": 14,
+      "module": "vocabulary_grammar",
+      "selected_answer": 2,
+      "reference_answer": 2,
+      "result": "correct",
+      "points_possible": 2,
+      "points_earned": 2,
+      "support": "unknown_external",
+      "error_category": null,
+      "cause_status": null,
+      "source_ids": [
+        "2026-10-30-monoxer-answer-screenshots"
+      ]
+    },
+    {
+      "id": "2026-10-30-hana-no-namae-Q01",
+      "item_number": 1,
+      "module": "reading",
+      "selected_answer": "○",
+      "reference_answer": "○",
+      "result": "correct",
+      "points_possible": null,
+      "points_earned": null,
+      "support": "independent_user_report",
+      "translation_sent": true,
+      "translation_read": false,
+      "independence_basis": "用户明确澄清未看译文，直接独立作答；不是译后辅助练习。",
+      "error_category": null,
+      "cause_status": null,
+      "source_ids": [
+        "2026-10-30-hana-no-namae-answer-screenshots",
+        "2026-10-30-hana-no-namae-article-review",
+        "2026-10-30-independence-clarification"
+      ]
+    },
+    {
+      "id": "2026-10-30-hana-no-namae-Q02",
+      "item_number": 2,
+      "module": "reading",
+      "selected_answer": "×",
+      "reference_answer": "×",
+      "result": "correct",
+      "points_possible": null,
+      "points_earned": null,
+      "support": "independent_user_report",
+      "translation_sent": true,
+      "translation_read": false,
+      "independence_basis": "用户明确澄清未看译文，直接独立作答；不是译后辅助练习。",
+      "error_category": null,
+      "cause_status": null,
+      "source_ids": [
+        "2026-10-30-hana-no-namae-answer-screenshots",
+        "2026-10-30-hana-no-namae-article-review",
+        "2026-10-30-independence-clarification"
+      ]
+    },
+    {
+      "id": "2026-10-30-hana-no-namae-Q03",
+      "item_number": 3,
+      "module": "reading",
+      "selected_answer": "×",
+      "reference_answer": "×",
+      "result": "correct",
+      "points_possible": null,
+      "points_earned": null,
+      "support": "independent_user_report",
+      "translation_sent": true,
+      "translation_read": false,
+      "independence_basis": "用户明确澄清未看译文，直接独立作答；不是译后辅助练习。",
+      "error_category": null,
+      "cause_status": null,
+      "source_ids": [
+        "2026-10-30-hana-no-namae-answer-screenshots",
+        "2026-10-30-hana-no-namae-article-review",
+        "2026-10-30-independence-clarification"
+      ]
+    },
+    {
+      "id": "2026-10-30-hana-no-namae-Q04",
+      "item_number": 4,
+      "module": "reading",
+      "selected_answer": "×",
+      "reference_answer": "×",
+      "result": "correct",
+      "points_possible": null,
+      "points_earned": null,
+      "support": "independent_user_report",
+      "translation_sent": true,
+      "translation_read": false,
+      "independence_basis": "用户明确澄清未看译文，直接独立作答；不是译后辅助练习。",
+      "error_category": null,
+      "cause_status": null,
+      "source_ids": [
+        "2026-10-30-hana-no-namae-answer-screenshots",
+        "2026-10-30-hana-no-namae-article-review",
+        "2026-10-30-independence-clarification"
+      ]
+    },
+    {
+      "id": "2026-10-30-hana-no-namae-Q05",
+      "item_number": 5,
+      "module": "reading",
+      "selected_answer": "○",
+      "reference_answer": "○",
+      "result": "correct",
+      "points_possible": null,
+      "points_earned": null,
+      "support": "independent_user_report",
+      "translation_sent": true,
+      "translation_read": false,
+      "independence_basis": "用户明确澄清未看译文，直接独立作答；不是译后辅助练习。",
+      "error_category": null,
+      "cause_status": null,
+      "source_ids": [
+        "2026-10-30-hana-no-namae-answer-screenshots",
+        "2026-10-30-hana-no-namae-article-review",
+        "2026-10-30-independence-clarification"
+      ]
+    },
+    {
+      "id": "2026-10-30-hana-no-namae-Q06",
+      "item_number": 6,
+      "module": "reading",
+      "selected_answer": "×",
+      "reference_answer": "×",
+      "result": "correct",
+      "points_possible": null,
+      "points_earned": null,
+      "support": "independent_user_report",
+      "translation_sent": true,
+      "translation_read": false,
+      "independence_basis": "用户明确澄清未看译文，直接独立作答；不是译后辅助练习。",
+      "error_category": null,
+      "cause_status": null,
+      "source_ids": [
+        "2026-10-30-hana-no-namae-answer-screenshots",
+        "2026-10-30-hana-no-namae-article-review",
+        "2026-10-30-independence-clarification"
+      ]
+    },
+    {
+      "id": "2026-10-30-hana-no-namae-Q07",
+      "item_number": 7,
+      "module": "reading",
+      "selected_answer": 3,
+      "reference_answer": 3,
+      "result": "correct",
+      "points_possible": null,
+      "points_earned": null,
+      "support": "independent_user_report",
+      "translation_sent": true,
+      "translation_read": false,
+      "independence_basis": "用户明确澄清未看译文，直接独立作答；不是译后辅助练习。",
+      "error_category": null,
+      "cause_status": null,
+      "source_ids": [
+        "2026-10-30-hana-no-namae-answer-screenshots",
+        "2026-10-30-hana-no-namae-article-review",
+        "2026-10-30-independence-clarification"
+      ]
+    },
+    {
+      "id": "2026-10-30-hana-no-namae-Q08",
+      "item_number": 8,
+      "module": "reading",
+      "selected_answer": 4,
+      "reference_answer": 4,
+      "result": "correct",
+      "points_possible": null,
+      "points_earned": null,
+      "support": "independent_user_report",
+      "translation_sent": true,
+      "translation_read": false,
+      "independence_basis": "用户明确澄清未看译文，直接独立作答；不是译后辅助练习。",
+      "error_category": null,
+      "cause_status": null,
+      "source_ids": [
+        "2026-10-30-hana-no-namae-answer-screenshots",
+        "2026-10-30-hana-no-namae-article-review",
+        "2026-10-30-independence-clarification"
+      ]
+    },
+    {
+      "id": "2026-10-30-hana-no-namae-Q09",
+      "item_number": 9,
+      "module": "reading",
+      "selected_answer": 1,
+      "reference_answer": 1,
+      "result": "correct",
+      "points_possible": null,
+      "points_earned": null,
+      "support": "independent_user_report",
+      "translation_sent": true,
+      "translation_read": false,
+      "independence_basis": "用户明确澄清未看译文，直接独立作答；不是译后辅助练习。",
+      "error_category": null,
+      "cause_status": null,
+      "source_ids": [
+        "2026-10-30-hana-no-namae-answer-screenshots",
+        "2026-10-30-hana-no-namae-article-review",
+        "2026-10-30-independence-clarification"
+      ]
+    },
+    {
+      "id": "2026-10-30-hana-no-namae-Q10",
+      "item_number": 10,
+      "module": "reading",
+      "selected_answer": 3,
+      "reference_answer": 3,
+      "result": "correct",
+      "points_possible": null,
+      "points_earned": null,
+      "support": "independent_user_report",
+      "translation_sent": true,
+      "translation_read": false,
+      "independence_basis": "用户明确澄清未看译文，直接独立作答；不是译后辅助练习。",
+      "error_category": null,
+      "cause_status": null,
+      "source_ids": [
+        "2026-10-30-hana-no-namae-answer-screenshots",
+        "2026-10-30-hana-no-namae-article-review",
+        "2026-10-30-independence-clarification"
+      ]
+    },
+    {
+      "id": "2026-10-30-hana-no-namae-Q11",
+      "item_number": 11,
+      "module": "reading",
+      "selected_answer": 2,
+      "reference_answer": 4,
+      "result": "incorrect",
+      "points_possible": 5,
+      "points_earned": 0,
+      "support": "independent_user_report",
+      "translation_sent": true,
+      "translation_read": false,
+      "independence_basis": "用户明确澄清未看译文，直接独立作答；不是译后辅助练习。",
+      "error_category": "指示表达これがそうか：看到的实际花朵与已学花名对应，不是园丁姓名",
+      "cause_status": "item_reference_analysis_not_confirmed_mental_cause",
+      "source_ids": [
+        "2026-10-30-hana-no-namae-answer-screenshots",
+        "2026-10-30-hana-no-namae-article-review",
+        "2026-10-30-independence-clarification"
+      ]
+    },
+    {
+      "id": "2026-10-30-hana-no-namae-Q12",
+      "item_number": 12,
+      "module": "reading",
+      "selected_answer": 2,
+      "reference_answer": 2,
+      "result": "correct",
+      "points_possible": null,
+      "points_earned": null,
+      "support": "independent_user_report",
+      "translation_sent": true,
+      "translation_read": false,
+      "independence_basis": "用户明确澄清未看译文，直接独立作答；不是译后辅助练习。",
+      "error_category": null,
+      "cause_status": null,
+      "source_ids": [
+        "2026-10-30-hana-no-namae-answer-screenshots",
+        "2026-10-30-hana-no-namae-article-review",
+        "2026-10-30-independence-clarification"
+      ]
+    },
+    {
+      "id": "2026-10-30-hana-no-namae-Q13",
+      "item_number": 13,
+      "module": "reading",
+      "selected_answer": 3,
+      "reference_answer": 3,
+      "result": "correct",
+      "points_possible": null,
+      "points_earned": null,
+      "support": "independent_user_report",
+      "translation_sent": true,
+      "translation_read": false,
+      "independence_basis": "用户明确澄清未看译文，直接独立作答；不是译后辅助练习。",
+      "error_category": null,
+      "cause_status": null,
+      "source_ids": [
+        "2026-10-30-hana-no-namae-answer-screenshots",
+        "2026-10-30-hana-no-namae-article-review",
+        "2026-10-30-independence-clarification"
+      ]
+    },
+    {
+      "id": "2026-10-30-hana-no-namae-Q14",
+      "item_number": 14,
+      "module": "reading",
+      "selected_answer": 1,
+      "reference_answer": 1,
+      "result": "correct",
+      "points_possible": null,
+      "points_earned": null,
+      "support": "independent_user_report",
+      "translation_sent": true,
+      "translation_read": false,
+      "independence_basis": "用户明确澄清未看译文，直接独立作答；不是译后辅助练习。",
+      "error_category": null,
+      "cause_status": null,
+      "source_ids": [
+        "2026-10-30-hana-no-namae-answer-screenshots",
+        "2026-10-30-hana-no-namae-article-review",
+        "2026-10-30-independence-clarification"
+      ]
+    },
+    {
+      "id": "2026-10-30-hana-no-namae-Q15",
+      "item_number": 15,
+      "module": "reading",
+      "selected_answer": 3,
+      "reference_answer": 3,
+      "result": "correct",
+      "points_possible": null,
+      "points_earned": null,
+      "support": "independent_user_report",
+      "translation_sent": true,
+      "translation_read": false,
+      "independence_basis": "用户明确澄清未看译文，直接独立作答；不是译后辅助练习。",
+      "error_category": null,
+      "cause_status": null,
+      "source_ids": [
+        "2026-10-30-hana-no-namae-answer-screenshots",
+        "2026-10-30-hana-no-namae-article-review",
+        "2026-10-30-independence-clarification"
+      ]
+    }
+  ],
+  "error_counts_this_batch": {
+    "vocabulary_grammar_wrong": 8,
+    "reading_wrong": 1,
+    "total_wrong": 9,
+    "scope": "只计本批不同题一次，不宣称跨历史累计次数或已掌握。"
+  }
+}

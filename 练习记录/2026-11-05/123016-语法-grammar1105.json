@@ -1,0 +1,594 @@
+{
+  "schema_version": "1.0",
+  "session_id": "n2-grammar-20261105",
+  "date": "2026-11-05",
+  "timezone": "Asia/Tokyo",
+  "source": "本轮聊天中的 N2 形式原创语法练习；题目、选项、用户答案和批改已对照聊天记录核对。不是官方真题。",
+  "session_status": "paused_by_user",
+  "summary": {
+    "presented_item_ids": 19,
+    "answered_item_ids": 18,
+    "valid_first_attempts": 15,
+    "correct": 5,
+    "incorrect": 10,
+    "accuracy_percent_rounded": 33.3,
+    "invalid_answered": 3,
+    "withdrawn_before_answer": 1
+  },
+  "scoring_policy": "只统计有效题首次作答；改答不新增题数、不覆盖首答。作废与作答前撤回均排除。只评选项，未对翻译、理由或自由产出评分。含同会话讲解后练习，不是完整独立盲测，不代表 JLPT 官方分数、通过率或长期掌握率。",
+  "unknown_fields": [
+    "净作答用时",
+    "猜题情况",
+    "信心",
+    "用户实际误选原因"
+  ],
+  "context_note": "所有题目中的工作、购物、会员、健康、旅行及家庭情境均为虚构语言练习，不代表学习者的个人经历或医疗信息。",
+  "attempts": [
+    {
+      "item_id": "G01",
+      "status": "graded",
+      "attempt_kind": "first",
+      "asked_at": "2026-11-05T11:54:24+09:00",
+      "answered_at": "2026-11-05T11:54:42+09:00",
+      "prompt": "この仕事は、一人では時間内に終わりそうにないので、同僚に手伝って（　）。",
+      "options": {
+        "1": "もらうことにした",
+        "2": "あげることにした",
+        "3": "くれることにした",
+        "4": "いただくことになっている"
+      },
+      "first_answer": 1,
+      "correct_option": 1,
+      "result": "correct",
+      "scoring_eligible": true,
+      "grammar": "てもらう／ことにする",
+      "explanation_zh": "接受同事帮助用「手伝ってもらう」；「ことにした」表示自己作出决定。",
+      "conditions": [
+        "无本题答前提示；保留此前授受表达学习曝光，不标全新语法或长期掌握。"
+      ],
+      "feedback_given": true
+    },
+    {
+      "item_id": "G02",
+      "status": "graded",
+      "attempt_kind": "first",
+      "asked_at": "2026-11-05T11:54:49+09:00",
+      "answered_at": "2026-11-05T11:55:50+09:00",
+      "prompt": "新しいソフトを導入した（　）、作業が必ず速くなるわけではない。使い方に慣れるまでは、かえって時間がかかることもある。",
+      "options": {
+        "1": "からには",
+        "2": "からといって",
+        "3": "だけあって",
+        "4": "ものだから"
+      },
+      "first_answer": 4,
+      "correct_option": 2,
+      "result": "incorrect",
+      "scoring_eligible": true,
+      "grammar": "からといって",
+      "explanation_zh": "不能仅凭引入新软件就断定工作一定变快。「からといって」常与「わけではない」搭配，否定由前项直接作出的推断；「だけあって」是符合预期的评价，「ものだから」是原因说明。",
+      "conditions": [
+        "无本题答前直接答案提示；既往学习曝光不等于全新语法。"
+      ],
+      "error_cause": {
+        "status": "unknown",
+        "note": "解析说明句意和选项差别，不等于已经确认的用户误选原因。"
+      },
+      "feedback_given": true,
+      "answer_history": [
+        {
+          "event": "first_answer",
+          "answer": 4,
+          "result": "incorrect"
+        },
+        {
+          "event": "revision_before_feedback",
+          "answer": 3,
+          "result": "incorrect"
+        },
+        {
+          "event": "confirmation_after_feedback_sent",
+          "answer": 3,
+          "result": "incorrect",
+          "note": "只知道反馈已发送，不推断用户当时已经看过；不计新尝试。"
+        }
+      ],
+      "final_answer": 3
+    },
+    {
+      "item_id": "G03",
+      "status": "graded",
+      "attempt_kind": "first",
+      "asked_at": "2026-11-05T11:56:22+09:00",
+      "answered_at": "2026-11-05T11:57:08+09:00",
+      "prompt": "このイベントは、年齢や国籍（　）、どなたでも参加できます。",
+      "options": {
+        "1": "に応じて",
+        "2": "にかかわらず",
+        "3": "に対して",
+        "4": "に限って"
+      },
+      "first_answer": 2,
+      "correct_option": 2,
+      "result": "correct",
+      "scoring_eligible": true,
+      "grammar": "にかかわらず",
+      "explanation_zh": "「年齢や国籍にかかわらず」表示不论年龄和国籍。",
+      "conditions": [
+        "无本题答前提示；保留既有语法曝光。"
+      ],
+      "feedback_given": true
+    },
+    {
+      "item_id": "G04",
+      "status": "invalid_question",
+      "attempt_kind": "first",
+      "prompt": "大雨の影響で、電車の運転再開は、明日の朝まで待た（　）。",
+      "options": {
+        "1": "ないわけにはいかない",
+        "2": "なくてもかまわない",
+        "3": "ないことはない",
+        "4": "なくてすむ"
+      },
+      "first_answer": 3,
+      "correct_option": null,
+      "result": "excluded",
+      "scoring_eligible": false,
+      "exclusion_reason": "话题与谓语搭配不自然，题面作废；用户选 3 不计错。",
+      "conditions": [
+        "只增加作废后的讲解曝光，未进行复测。"
+      ],
+      "teaching_after_invalidation": "大雨の影響で電車が止まっているので、運転再開まで待たないわけにはいかない。表示不得不等到恢复运行。"
+    },
+    {
+      "item_id": "G05",
+      "status": "graded",
+      "attempt_kind": "first",
+      "asked_at": "2026-11-05T11:58:19+09:00",
+      "answered_at": "2026-11-05T12:01:21+09:00",
+      "prompt": "この店は、味がいい（　）、値段も手ごろなので、いつも混んでいる。",
+      "options": {
+        "1": "だけでなく",
+        "2": "にかかわらず",
+        "3": "わけではなく",
+        "4": "どころか"
+      },
+      "first_answer": 3,
+      "correct_option": 1,
+      "result": "incorrect",
+      "scoring_eligible": true,
+      "grammar": "だけでなく",
+      "explanation_zh": "「だけでなく」表示不仅……而且……，连接味道好和价格实惠两个优点。「わけではなく」会否定味道好，不符合这里的追加关系。",
+      "conditions": [
+        "无本题答前直接答案提示；既往学习曝光不等于全新语法。"
+      ],
+      "error_cause": {
+        "status": "unknown",
+        "note": "解析说明句意和选项差别，不等于已经确认的用户误选原因。"
+      },
+      "feedback_given": true
+    },
+    {
+      "item_id": "G06",
+      "status": "graded",
+      "attempt_kind": "first",
+      "asked_at": "2026-11-05T12:01:31+09:00",
+      "answered_at": "2026-11-05T12:02:08+09:00",
+      "prompt": "ご注文の商品は、準備ができ（　）、発送いたします。",
+      "options": {
+        "1": "次第（しだい）",
+        "2": "以来（いらい）",
+        "3": "ところ",
+        "4": "うえで"
+      },
+      "first_answer": 4,
+      "correct_option": 1,
+      "result": "incorrect",
+      "scoring_eligible": true,
+      "grammar": "次第",
+      "explanation_zh": "「ます形去ます＋次第」表示一完成前项就做后项：できます→でき次第。「うえで」表示先后顺序时接た形，不能直接接题干的でき。",
+      "conditions": [
+        "无本题答前直接答案提示；既往学习曝光不等于全新语法。",
+        "选项附部分词语读音，不是无假名读音测试。"
+      ],
+      "error_cause": {
+        "status": "unknown",
+        "note": "解析说明句意和选项差别，不等于已经确认的用户误选原因。"
+      },
+      "feedback_given": true
+    },
+    {
+      "item_id": "G07",
+      "status": "ambiguous_options",
+      "attempt_kind": "first",
+      "prompt": "田中さんは、忙しい（　）、毎週末ボランティア活動を続けている。",
+      "options": {
+        "1": "ものの",
+        "2": "うえに",
+        "3": "ために",
+        "4": "ので"
+      },
+      "first_answer": 2,
+      "correct_option": null,
+      "result": "excluded",
+      "scoring_eligible": false,
+      "exclusion_reason": "「ものの」可表让步，「うえに」也可表追加；用户选 2 可以成立，单选题作废，不计用户错误。",
+      "conditions": []
+    },
+    {
+      "item_id": "G08",
+      "status": "ambiguous_options_after_revision",
+      "attempt_kind": "first",
+      "prompt": "会議の日程は、参加者全員の都合を確認した（　）で、決めることにします。",
+      "options": {
+        "1": "うえ",
+        "2": "とおり",
+        "3": "かぎり",
+        "4": "ばかり"
+      },
+      "first_answer": 2,
+      "correct_option": null,
+      "result": "excluded",
+      "scoring_eligible": false,
+      "exclusion_reason": "初版选项 3「ところ」在作答前改为「かぎり」，但修订后的「確認したかぎりで」仍可能成立；题目作废，选 2 不计有效错题。",
+      "conditions": [
+        "revised_before_answer",
+        "G06 刚讲过「た形＋うえで」，即便题目合格也不能视为独立延后复测。"
+      ],
+      "initial_options": {
+        "1": "うえ",
+        "2": "とおり",
+        "3": "ところ",
+        "4": "ばかり"
+      }
+    },
+    {
+      "item_id": "G09",
+      "status": "graded",
+      "attempt_kind": "first",
+      "asked_at": "2026-11-05T12:08:50+09:00",
+      "answered_at": "2026-11-05T12:09:24+09:00",
+      "prompt": "申し訳ございませんが、その情報は非公開のため、こちらではお答えし（　）。",
+      "options": {
+        "1": "かねません",
+        "2": "かねます",
+        "3": "つつあります",
+        "4": "きれます"
+      },
+      "first_answer": 2,
+      "correct_option": 2,
+      "result": "correct",
+      "scoring_eligible": true,
+      "grammar": "かねる",
+      "explanation_zh": "「お答えしかねます」表示难以／无法回答，是礼貌的拒绝。",
+      "conditions": [
+        "无本题答前提示。"
+      ],
+      "feedback_given": true
+    },
+    {
+      "item_id": "G10",
+      "status": "graded",
+      "attempt_kind": "first",
+      "asked_at": "2026-11-05T12:09:33+09:00",
+      "answered_at": "2026-11-05T12:11:20+09:00",
+      "prompt": "このサービスでは、会員であるかどうか（　）、すべての利用者に同じ料金が適用されます。",
+      "options": {
+        "1": "に応じて",
+        "2": "に限って",
+        "3": "を通じて",
+        "4": "にかかわらず"
+      },
+      "first_answer": 4,
+      "correct_option": 4,
+      "result": "correct",
+      "scoring_eligible": true,
+      "grammar": "にかかわらず",
+      "explanation_zh": "「会員であるかどうかにかかわらず」表示不论是不是会员。",
+      "conditions": [
+        "G03 已讲过「にかかわらず」；本题属同会话近期讲解后的新语境即时练习，不是独立延后保持测试。"
+      ],
+      "feedback_given": true
+    },
+    {
+      "item_id": "G11",
+      "status": "graded",
+      "attempt_kind": "first",
+      "asked_at": "2026-11-05T12:11:28+09:00",
+      "answered_at": "2026-11-05T12:14:23+09:00",
+      "prompt": "中に本がぎっしり詰まった重い箱を、彼はまるで空箱（　）、片手で軽々と持ち上げた。",
+      "options": {
+        "1": "であるかのように",
+        "2": "であるものだから",
+        "3": "にすぎないので",
+        "4": "である以上"
+      },
+      "first_answer": 2,
+      "correct_option": 1,
+      "result": "incorrect",
+      "scoring_eligible": true,
+      "grammar": "かのように",
+      "explanation_zh": "装满书的重箱并非空箱；「まるで～かのように」表示仿佛……一样。「ものだから」会把是空箱作为真实原因，与题面矛盾。",
+      "conditions": [
+        "无本题答前直接答案提示；既往学习曝光不等于全新语法。"
+      ],
+      "error_cause": {
+        "status": "unknown",
+        "note": "解析说明句意和选项差别，不等于已经确认的用户误选原因。"
+      },
+      "feedback_given": true
+    },
+    {
+      "item_id": "G12",
+      "status": "graded",
+      "attempt_kind": "first",
+      "asked_at": "2026-11-05T12:14:41+09:00",
+      "answered_at": "2026-11-05T12:16:38+09:00",
+      "prompt": "担当者が戻り（　）、こちらから折り返しお電話いたします。",
+      "options": {
+        "1": "うえで",
+        "2": "ものなら",
+        "3": "次第（しだい）",
+        "4": "ところで"
+      },
+      "first_answer": 4,
+      "correct_option": 3,
+      "result": "incorrect",
+      "scoring_eligible": true,
+      "grammar": "次第",
+      "explanation_zh": "「戻ります→戻り次第」表示负责人一回来就回电。「ところで」不能直接接ます词干「戻り」。这是G06讲解「ます形去ます＋次第」后的同会话换情境练习，首答仍错。",
+      "conditions": [
+        "无本题答前直接答案提示；既往学习曝光不等于全新语法。",
+        "选项附部分词语读音，不是无假名读音测试。",
+        "G06 已讲解「ます形去ます＋次第」，本题为同会话换语境练习，首答仍错；不是独立延后复测。"
+      ],
+      "error_cause": {
+        "status": "unknown",
+        "note": "解析说明句意和选项差别，不等于已经确认的用户误选原因。"
+      },
+      "feedback_given": true
+    },
+    {
+      "item_id": "G13",
+      "status": "graded",
+      "attempt_kind": "first",
+      "asked_at": "2026-11-05T12:17:07+09:00",
+      "answered_at": "2026-11-05T12:17:37+09:00",
+      "prompt": "台風で交通機関がすべて止まり、帰る手段がなくなったので、現地でもう一泊せ（　）。",
+      "options": {
+        "1": "かねない",
+        "2": "ざるを得（え）ない",
+        "3": "なくてはならない",
+        "4": "ずにすむ"
+      },
+      "first_answer": 3,
+      "correct_option": 2,
+      "result": "incorrect",
+      "scoring_eligible": true,
+      "grammar": "ざるを得ない",
+      "explanation_zh": "「ざるを得ない」表示不得不；する特殊变化为「せざるを得ない」。「なくてはならない」也能表示必须，但应为「一泊しなくてはならない」，不能接题干的せ。",
+      "conditions": [
+        "无本题答前直接答案提示；既往学习曝光不等于全新语法。",
+        "选项附部分词语读音，不是无假名读音测试。"
+      ],
+      "error_cause": {
+        "status": "unknown",
+        "note": "解析说明句意和选项差别，不等于已经确认的用户误选原因。"
+      },
+      "feedback_given": true
+    },
+    {
+      "item_id": "G14",
+      "status": "graded",
+      "attempt_kind": "first",
+      "asked_at": "2026-11-05T12:19:14+09:00",
+      "answered_at": "2026-11-05T12:20:11+09:00",
+      "prompt": "この薬は、症状が軽くなった（　）、医師の指示があるまで飲み続けてください。",
+      "options": {
+        "1": "からには",
+        "2": "としても",
+        "3": "ばかりに",
+        "4": "にしたがって"
+      },
+      "first_answer": 3,
+      "correct_option": 2,
+      "result": "incorrect",
+      "scoring_eligible": true,
+      "grammar": "としても",
+      "explanation_zh": "「としても」表示即使……也……，此处即使症状减轻，仍要求继续服用。「ばかりに」用于因某原因招致不良结果，不符合本题的让步要求。此为虚构语法题，不是用户用药记录。",
+      "conditions": [
+        "无本题答前直接答案提示；既往学习曝光不等于全新语法。"
+      ],
+      "error_cause": {
+        "status": "unknown",
+        "note": "解析说明句意和选项差别，不等于已经确认的用户误选原因。"
+      },
+      "feedback_given": true
+    },
+    {
+      "item_id": "G15",
+      "status": "withdrawn_before_answer",
+      "attempt_kind": "not_answered",
+      "prompt": "資料の内容をよく確認した（　）、間違いに気づかず、そのまま送ってしまった。",
+      "options": {
+        "1": "うえで",
+        "2": "つもりだったが",
+        "3": "おかげで",
+        "4": "とおりに"
+      },
+      "first_answer": null,
+      "correct_option": null,
+      "result": "excluded",
+      "scoring_eligible": false,
+      "exclusion_reason": "选项 1、2 均可成立，作答前撤回；没有用户答案，不计错答或改答。",
+      "conditions": []
+    },
+    {
+      "item_id": "G16",
+      "status": "graded",
+      "attempt_kind": "first",
+      "asked_at": "2026-11-05T12:22:00+09:00",
+      "answered_at": "2026-11-05T12:22:26+09:00",
+      "prompt": "このイベントには、国籍や年齢を（　）、誰でも参加できます。",
+      "options": {
+        "1": "問わず（とわず）",
+        "2": "通じて（つうじて）",
+        "3": "めぐって",
+        "4": "はじめ"
+      },
+      "first_answer": 3,
+      "correct_option": 1,
+      "result": "incorrect",
+      "scoring_eligible": true,
+      "grammar": "を問わず",
+      "explanation_zh": "「国籍や年齢を問わず」表示不论国籍和年龄。「をめぐって」表示围绕某主题，常用于讨论或争论，不能表达这里不受条件限制的意思。",
+      "conditions": [
+        "无本题答前直接答案提示；既往学习曝光不等于全新语法。",
+        "选项附部分词语读音，不是无假名读音测试。",
+        "G03、G10 已练过「にかかわらず」；本题为同会话近义表达迁移，场景也与 G03 接近；不是同一词形复测或独立延后保持测试。"
+      ],
+      "error_cause": {
+        "status": "unknown",
+        "note": "解析说明句意和选项差别，不等于已经确认的用户误选原因。"
+      },
+      "feedback_given": true
+    },
+    {
+      "item_id": "G17",
+      "status": "graded",
+      "attempt_kind": "first",
+      "asked_at": "2026-11-05T12:24:46+09:00",
+      "answered_at": "2026-11-05T12:25:10+09:00",
+      "prompt": "入社したばかりの新人（　）、この会社で十年も働いている彼が、基本的な手順を知らないとは驚いた。",
+      "options": {
+        "1": "ならともかく",
+        "2": "だけあって",
+        "3": "にしては",
+        "4": "である以上"
+      },
+      "first_answer": 2,
+      "correct_option": 1,
+      "result": "incorrect",
+      "scoring_eligible": true,
+      "grammar": "ならともかく",
+      "explanation_zh": "「新人ならともかく」表示若是新人还可理解，但十年员工却不知道令人惊讶。「だけあって」表达身份或特点与表现相称，不能表达这里新人和老员工的对比。",
+      "conditions": [
+        "无本题答前直接答案提示；既往学习曝光不等于全新语法。",
+        "干扰项「だけあって」已在 G02 反馈中讲解；不由再次误选直接推断根因。"
+      ],
+      "error_cause": {
+        "status": "unknown",
+        "note": "解析说明句意和选项差别，不等于已经确认的用户误选原因。"
+      },
+      "feedback_given": true
+    },
+    {
+      "item_id": "G18",
+      "status": "graded",
+      "attempt_kind": "first",
+      "asked_at": "2026-11-05T12:26:52+09:00",
+      "answered_at": "2026-11-05T12:27:27+09:00",
+      "prompt": "朝、目覚まし時計が鳴るか（　）、弟は飛び起きて部屋を出ていった。",
+      "options": {
+        "1": "鳴らないかのうちに",
+        "2": "鳴らないことには",
+        "3": "鳴らないものの",
+        "4": "鳴らないばかりに"
+      },
+      "first_answer": 4,
+      "correct_option": 1,
+      "result": "incorrect",
+      "scoring_eligible": true,
+      "grammar": "か～ないかのうちに",
+      "explanation_zh": "「辞书形＋か＋同一动词ない形＋かのうちに」表示前后动作几乎紧接着发生。「鳴らないばかりに」不能与题干「鳴るか」组成所需句型。",
+      "conditions": [
+        "无本题答前直接答案提示；既往学习曝光不等于全新语法。",
+        "干扰项「ばかりに」已在 G14 反馈中讲解；不由再次误选直接推断根因。"
+      ],
+      "error_cause": {
+        "status": "unknown",
+        "note": "解析说明句意和选项差别，不等于已经确认的用户误选原因。"
+      },
+      "feedback_given": true
+    },
+    {
+      "item_id": "G19",
+      "status": "graded",
+      "attempt_kind": "first",
+      "asked_at": "2026-11-05T12:29:44+09:00",
+      "answered_at": "2026-11-05T12:30:05+09:00",
+      "prompt": "このスマートフォンは、周囲の明るさ（　）、画面の明るさが自動で変わる。明るい場所では画面も明るくなり、暗い場所では暗くなる。",
+      "options": {
+        "1": "に反して",
+        "2": "に先立って",
+        "3": "に応じて",
+        "4": "をめぐって"
+      },
+      "first_answer": 3,
+      "correct_option": 3,
+      "result": "correct",
+      "scoring_eligible": true,
+      "grammar": "に応じて",
+      "explanation_zh": "「に応じて」表示根据条件或程度作出相应变化、调整；周囲读作しゅうい。",
+      "conditions": [
+        "无本题答前答案提示；单次选择正确不等于全面或长期掌握。"
+      ],
+      "feedback_given": true
+    }
+  ],
+  "instruction_exposure": [
+    {
+      "topic": "ところ",
+      "after_item": "G13",
+      "delivered_at": "2026-11-05T12:18:04+09:00",
+      "assessment_status": "teaching_only_not_tested",
+      "note": "应用户追问讲解；不新增作答题数、不标掌握，后续相关题须保留近期讲解条件。",
+      "forms": [
+        {
+          "form": "辞书形＋ところ",
+          "meaning": "正要做",
+          "example": "今からご飯を食べるところです。"
+        },
+        {
+          "form": "ている＋ところ",
+          "meaning": "正在做",
+          "example": "今、ご飯を食べているところです。"
+        },
+        {
+          "form": "た形＋ところ",
+          "meaning": "刚做完",
+          "example": "たった今、ご飯を食べたところです。"
+        },
+        {
+          "form": "た形＋ところ",
+          "meaning": "做后发现结果",
+          "example": "先生に聞いたところ、試験は来週だと分かりました。"
+        },
+        {
+          "form": "たところで",
+          "meaning": "即使……也……；常接消极结果",
+          "example": "今から急いだところで、間に合わない。"
+        },
+        {
+          "form": "たところで",
+          "meaning": "在完成的时点，须结合语境区分",
+          "example": "全員がそろったところで、会議を始めましょう。"
+        },
+        {
+          "form": "辞书形＋ところだった",
+          "meaning": "配合语境表示差点发生",
+          "example": "もう少しで電車に乗り遅れるところだった。"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "not_yet_retested",
+    "suggested_new_context_dates": [
+      "2026-11-06",
+      "2026-11-08",
+      "2026-11-12"
+    ],
+    "note": "新语境间隔复测建议，尚未执行；本记录未创建提醒。原题复刷须另记，不覆盖首次错误。"
+  }
+}

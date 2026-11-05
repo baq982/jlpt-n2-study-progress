@@ -1,0 +1,874 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-02",
+  "scope": "聊天中的已核实语法、词汇、阅读和非计分诊断；截图作答独立统计",
+  "source": "当天课堂题面、学习者作答与后续纠错的已核实整理；不是考试系统导出，也不是对原始消息的本次独立复核。",
+  "limitations": [
+    "保留首答、修订、近期讲解曝光、支架与延后迁移条件，不作为严格独立测验、JLPT 分数或整体掌握结论。",
+    "选项编号从 1 开始；未知信息用 null 或“未知”。未答题答案不公开。",
+    "题面只是学习材料，不代表学习者现实经历。",
+    "截图练习不并入本文件主问题分母；其首次可见作答不等于真实首次独立作答。"
+  ],
+  "summary": {
+    "语法": {
+      "answered": 14,
+      "correct": 9,
+      "incorrect": 5
+    },
+    "词汇": {
+      "answered": 1,
+      "correct": 1,
+      "incorrect": 0
+    },
+    "阅读": {
+      "answered": 2,
+      "correct": 1,
+      "incorrect": 1
+    }
+  },
+  "total": {
+    "answered": 17,
+    "correct": 11,
+    "incorrect": 6
+  },
+  "passages": {
+    "P01": "ある会社では、会議の時間を短くするため、資料を前日までに配り、参加者に目を通しておくよう求めた。しかし、会議の時間はほとんど変わらなかった。担当者が調べると、会議では依然として資料を最初から読み上げていた。そこで、資料の説明は質問があった部分だけにし、残りの時間を意見交換に使うことにした。すると、会議は短くなっただけでなく、以前より多くの提案が出るようになった。担当者は、資料を早く配ることよりも、それを前提に会議の進め方を変えることが重要だったと振り返っている。",
+    "P02": "新しいことを始めるとき、必要な知識をすべて身につけてから行動しようとする人がいる。しかし、実際にやってみなければ、自分に何が足りないのか分からないことも多い。もちろん、準備が不要だというわけではない。大切なのは、準備を完璧にしようとするあまり、最初の一歩をいつまでも踏み出せなくならないことだ。"
+  },
+  "records": [
+    {
+      "id": "Q01",
+      "category": "语法",
+      "prompt": "この店の料理は、値段が高いからといって、必ずしもおいしい（　）。",
+      "options": [
+        "に違いない",
+        "とは限らない",
+        "わけにはいかない",
+        "にほかならない"
+      ],
+      "learner_answer": 2,
+      "correct_answer": 2,
+      "status": "正确",
+      "counted": true,
+      "conditions": [
+        "答前无提示",
+        "已学内容的延后新语境复测"
+      ],
+      "notes": "不计新初教或整体掌握。"
+    },
+    {
+      "id": "Q02",
+      "category": "语法",
+      "prompt": "新しいアパートも駅から遠いが、前に住んでいたところ（　）遠くないので、通勤は少し楽になった。",
+      "options": [
+        "ばかり",
+        "ほど",
+        "だけ",
+        "こそ"
+      ],
+      "learner_answer": 2,
+      "correct_answer": 2,
+      "status": "正确",
+      "counted": true,
+      "conditions": [
+        "答前修订",
+        "排除严格盲测诊断"
+      ],
+      "notes": "原选项 1 为 より，亦可能成立；教师在作答前改为 ばかり。用户在最终版本选 2。原版不可据单一答案严格判错。"
+    },
+    {
+      "id": "Q03",
+      "category": "语法",
+      "prompt": "会議が何時に（　）、まだ連絡が来ていないので、担当者に確認してみます。",
+      "options": [
+        "始まるのを",
+        "始まるとは",
+        "始まるか",
+        "始まるように"
+      ],
+      "learner_answer": 4,
+      "correct_answer": 3,
+      "status": "错误",
+      "counted": true,
+      "conditions": [
+        "首答",
+        "答前无提示"
+      ],
+      "notes": "初答错误；已讲解“疑问词＋普通形＋か”。ように 不表示此处未知的开会时间；确切错误根因未知。"
+    },
+    {
+      "id": "D01",
+      "category": "支架诊断",
+      "prompt": "荷物が【いつ届くか】、配送会社に聞いてみます。仅翻译【いつ届くか】。",
+      "options": [],
+      "learner_answer": "快递什么时候能到，问一下快递公司吧",
+      "correct_answer": null,
+      "status": "目标正确，不计分",
+      "counted": false,
+      "conditions": [
+        "Q03 讲解后即时支架",
+        "已提示 届く（とどく）＝送到／到达"
+      ],
+      "notes": "先暂挂后恢复作答。所要求括号目标理解正确；主动多译整句时把第一人称 聞いてみます 译成“吧”，已纠正。不能因此把括号目标判错。"
+    },
+    {
+      "id": "Q04",
+      "category": "语法",
+      "prompt": "出張中、私は同僚に仕事を代わって（　）。帰ってから、お礼を伝えた。",
+      "options": [
+        "あげた",
+        "くれた",
+        "もらった",
+        "やった"
+      ],
+      "learner_answer": 2,
+      "correct_answer": 3,
+      "status": "错误",
+      "counted": true,
+      "conditions": [
+        "首答",
+        "答前无提示"
+      ],
+      "notes": "已讲解 私は同僚に〜もらった 与 同僚が〜くれた 的授受视角。另讲解 聞く→聞いて＋てみる→みます，不另计题目。"
+    },
+    {
+      "id": "Q05",
+      "category": "语法",
+      "prompt": "この資料は専門家（　）に作られているため、予備知識のない人には理解しにくい。",
+      "options": [
+        "がち",
+        "向け",
+        "っぽく",
+        "がる"
+      ],
+      "learner_answer": 2,
+      "correct_answer": 2,
+      "status": "正确",
+      "counted": true,
+      "conditions": [
+        "近期截图讲解后近迁移",
+        "不纳入严格独立基线"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "Q06",
+      "category": "语法",
+      "prompt": "この説明書は、＿＿ ＿＿ ★ ＿＿、初めて使う人でも理解しやすい。",
+      "options": [
+        "ように",
+        "書かれているので",
+        "専門知識がない人にも",
+        "わかる"
+      ],
+      "learner_answer": "3412",
+      "correct_answer": "3412",
+      "status": "正确",
+      "counted": true,
+      "conditions": [
+        "完整顺序作答",
+        "无答前语法提示",
+        "Q03 讲解近期已涉及 ように"
+      ],
+      "notes": "完整顺序正确，★＝1；只计一道，不宣称完全未曝光。"
+    },
+    {
+      "id": "R01",
+      "category": "阅读",
+      "prompt": "本文の「それ」が指すのは何か。",
+      "options": [
+        "会議で多くの提案が出たこと",
+        "資料を事前に配り、参加者が読んでおくこと",
+        "資料を会議で最初から読み上げること",
+        "資料の中から難しい部分を取り除くこと"
+      ],
+      "learner_answer": 1,
+      "correct_answer": 2,
+      "status": "错误",
+      "counted": true,
+      "conditions": [
+        "首答",
+        "答前无文章翻译",
+        "两题一起回答后解析"
+      ],
+      "notes": "“それ”指事前发资料并让参加者读过这一前提；更多提案是结果。未测试独立论证理由。",
+      "passage_id": "P01"
+    },
+    {
+      "id": "R02",
+      "category": "阅读",
+      "prompt": "この文章で最も言いたいことは何か。",
+      "options": [
+        "資料を早く配れば、会議の時間は必ず短くなる。",
+        "会議を短くするには、参加者の質問を減らすべきだ。",
+        "事前の準備を生かすには、会議の進め方も変える必要がある。",
+        "会議の時間よりも、資料を詳しく作ることが大切だ。"
+      ],
+      "learner_answer": 3,
+      "correct_answer": 3,
+      "status": "正确",
+      "counted": true,
+      "conditions": [
+        "首答",
+        "答前无文章翻译",
+        "两题一起回答后解析"
+      ],
+      "notes": "两题答后已逐句翻译，不改变首答条件；未测试独立论证理由。",
+      "passage_id": "P01"
+    },
+    {
+      "id": "Q07",
+      "category": "语法",
+      "prompt": "この機械はまだ修理すれば使えるのだから、新しいものを買う（　）。",
+      "options": [
+        "に決まっている",
+        "おそれがある",
+        "ことはない",
+        "一方だ"
+      ],
+      "learner_answer": 3,
+      "correct_answer": 3,
+      "status": "正确",
+      "counted": true,
+      "conditions": [
+        "近期讲解后即时新语境迁移"
+      ],
+      "notes": "不计陌生题独立掌握。"
+    },
+    {
+      "id": "Q08",
+      "category": "语法",
+      "prompt": "駅のホームに着いた（　）、電車のドアが閉まってしまった。",
+      "options": [
+        "とたん",
+        "反面",
+        "一方で",
+        "かのように"
+      ],
+      "learner_answer": 1,
+      "correct_answer": 1,
+      "status": "正确",
+      "counted": true,
+      "conditions": [
+        "近期讲解后新语境迁移"
+      ],
+      "notes": "不计陌生题独立掌握。"
+    },
+    {
+      "id": "Q09",
+      "category": "语法",
+      "prompt": "新しいシステムは作業時間を短縮できる（　）、操作を覚えるまでに時間がかかるという欠点もある。",
+      "options": [
+        "おかげで",
+        "反面",
+        "とたんに",
+        "ばかりに"
+      ],
+      "learner_answer": 4,
+      "correct_answer": 2,
+      "status": "错误",
+      "counted": true,
+      "conditions": [
+        "首答",
+        "同类内容此前已见于截图分析",
+        "是否另有紧接题目的答前提示：未知"
+      ],
+      "notes": "已讲两个方面的对比与负面原因导致结果的区别；不据所选项确定心理根因。"
+    },
+    {
+      "id": "D02",
+      "category": "支架诊断",
+      "prompt": "忘记带身份证，结果没能办理手续。判断是“两个方面对比”还是“原因导致结果”。",
+      "options": [],
+      "learner_answer": null,
+      "correct_answer": null,
+      "status": "未答，已换题",
+      "counted": false,
+      "conditions": [
+        "刚讲解后的有支架非计分诊断"
+      ],
+      "notes": "未答，后续已换题；不记错。"
+    },
+    {
+      "id": "Q10",
+      "category": "语法",
+      "prompt": "十分に確認したつもりだったが、宛先を一文字間違えた（　）、大切なメールが相手に届かなかった。",
+      "options": [
+        "反面",
+        "ばかりに",
+        "おかげで",
+        "にしたがって"
+      ],
+      "learner_answer": 2,
+      "correct_answer": 2,
+      "status": "正确",
+      "counted": true,
+      "conditions": [
+        "Q09 讲解后的同会话延后新语境迁移"
+      ],
+      "notes": "约 10:46 出题、11:12 作答（Asia/Tokyo）；不宣称独立掌握。"
+    },
+    {
+      "id": "Q11",
+      "category": "语法",
+      "prompt": "このイベントには、年齢や国籍（　）、誰でも参加できます。",
+      "options": [
+        "に応じて",
+        "を問わず",
+        "に限って",
+        "をきっかけに"
+      ],
+      "learner_answer": 4,
+      "correct_answer": 2,
+      "status": "错误",
+      "counted": true,
+      "conditions": [
+        "首答",
+        "答前提示情况：未知"
+      ],
+      "notes": "已讲“不限条件”与“契机／诱因”；具体错误根因未知。"
+    },
+    {
+      "id": "Q12",
+      "category": "词汇",
+      "prompt": "会議で新しい企画について意見を求められたので、自分の考えを（　）述べた。",
+      "options": [
+        "率直に",
+        "盛んに",
+        "厳重に",
+        "急激に"
+      ],
+      "learner_answer": 1,
+      "correct_answer": 1,
+      "status": "正确",
+      "counted": true,
+      "conditions": [
+        "首答",
+        "答前提示情况：未知"
+      ],
+      "notes": "答后已讲全部选项的假名／搭配及 求められた 被动形；讲解不另计题目。"
+    },
+    {
+      "id": "Q13",
+      "category": "语法",
+      "prompt": "明日は大事な試験があるので、友達に誘われても、遊びに行く（　）。",
+      "options": [
+        "に違いない",
+        "ことになっている",
+        "わけにはいかない",
+        "ようになった"
+      ],
+      "learner_answer": 3,
+      "correct_answer": 3,
+      "status": "正确",
+      "counted": true,
+      "conditions": [
+        "首答",
+        "答前提示情况：未知"
+      ],
+      "notes": "答后已讲全部选项与 誘われても。"
+    },
+    {
+      "id": "Q14-invalid",
+      "category": "语法",
+      "prompt": "この薬は、____ ____ ★ ____ください。",
+      "options": [
+        "必ず",
+        "医師か薬剤師に",
+        "相談して",
+        "飲む前に"
+      ],
+      "learner_answer": "4213",
+      "correct_answer": null,
+      "status": "作废；作答成立，不计分",
+      "counted": false,
+      "conditions": [
+        "完整排序",
+        "答前已宣布因歧义作废"
+      ],
+      "notes": "4213 成立：この薬は、飲む前に医師か薬剤師に必ず相談してください。4123 也成立，答案不唯一。曾将 4213 错配到书本替换题而判错，之后已纠正并撤销该错判及由此得到的 10/16 统计。本题正确但作废，不计分，不记录为用户弱点。"
+    },
+    {
+      "id": "Q14-replacement",
+      "category": "语法",
+      "prompt": "この本は、____ ____ ★ ____ので、初心者にもおすすめです。",
+      "options": [
+        "ように",
+        "書かれている",
+        "専門知識がない人にも",
+        "理解できる"
+      ],
+      "learner_answer": null,
+      "correct_answer": null,
+      "status": "未答，已换题",
+      "counted": false,
+      "conditions": [
+        "与 Q06 重复结构",
+        "本拟作为延后结构迁移"
+      ],
+      "notes": "未答，已被 Q15 接替；4213 不属于此题。不记完整排序错、★ 答对或迁移失败；未作答答案不公开。"
+    },
+    {
+      "id": "Q15",
+      "category": "语法",
+      "prompt": "最近、忙しくて運動する時間がなく、体重が増える（　）。",
+      "options": [
+        "最中だ",
+        "一方だ",
+        "ところだ",
+        "次第だ"
+      ],
+      "learner_answer": 4,
+      "correct_answer": 2,
+      "status": "错误",
+      "counted": true,
+      "conditions": [
+        "明确题号作答：“15选4”",
+        "截图 一方だ 已有讲解曝光"
+      ],
+      "notes": "初答错误，已讲 一方だ 的趋势与 次第 的不同用法；新语境再次失误，确切根因未知。该题实际作答使有效累计变为 10/16，与已撤销的 Q14 错判无关。"
+    },
+    {
+      "id": "Q16",
+      "category": "语法",
+      "prompt": "この仕事は、一人では今日中に終えられそうにないので、同僚に手伝って（　）ことにした。",
+      "options": [
+        "くれる",
+        "あげる",
+        "もらう",
+        "やる"
+      ],
+      "learner_answer": 3,
+      "correct_answer": 3,
+      "status": "正确",
+      "counted": true,
+      "conditions": [
+        "Q04 授受视角／助词的延后迁移"
+      ],
+      "notes": "已讲 同僚に手伝ってもらう 与 同僚が手伝ってくれる；不计独立掌握。"
+    },
+    {
+      "id": "Q17",
+      "category": "阅读",
+      "prompt": "筆者が最も言いたいことは何か。",
+      "options": [
+        "十分な知識が身につくまで、行動を控えるべきだ。",
+        "準備にこだわりすぎず、実際に行動することも大切だ。",
+        "実際にやってみれば、準備をしなくても必ず成功する。",
+        "新しいことを始める前に、自分の不足をすべて把握すべきだ。"
+      ],
+      "learner_answer": null,
+      "correct_answer": null,
+      "status": "未答",
+      "counted": false,
+      "conditions": [
+        "尚未作答"
+      ],
+      "notes": "换话题不记错、不视为取消；未作答答案不公开。",
+      "passage_id": "P02"
+    }
+  ],
+  "screenshots": {
+    "source": "学习者提供的 15 张截图的已核实转录。蓝色勾为平台正确选项，红叉为学习者错误选项；折叠的仅蓝勾行按复核记录视为答对。本次未重新查看原图。",
+    "source_files": "IMG_0683.png–IMG_0697.png",
+    "counts": {
+      "unique_questions": 10,
+      "numbered_attempt_rows": 20,
+      "incorrect_attempt_rows": 11,
+      "correct_attempt_rows": 9,
+      "unique_questions_first_observed_incorrect": 9,
+      "unique_questions_first_observed_correct": 1
+    },
+    "caveats": [
+      "首次可见是这些截图中最早编号记录，不是真实首次独立作答；此前曝光、提示及尝试次数未知。",
+      "同题不同编号保留为复做；截图重叠同编号去重。",
+      "复做正确不能证明掌握，不与聊天主问题合并计分。",
+      "截图题号以 S 前缀区分聊天 Q 题号。"
+    ],
+    "items": [
+      {
+        "id": "father",
+        "prompt": "大学を辞めて外国へ行くと言ったら、父に【　】に決まっている。",
+        "options": [
+          "反対する",
+          "反対される",
+          "反対",
+          "反対しない"
+        ],
+        "correct": 2,
+        "grammar": [
+          "受身",
+          "普通形＋に決まっている"
+        ],
+        "first_observed_row": 1,
+        "first_observed_grade": "incorrect",
+        "attempts": [
+          {
+            "row": "S01",
+            "learner_answer": 3,
+            "result": "incorrect",
+            "source_files": [
+              "IMG_0683.png"
+            ]
+          },
+          {
+            "row": "S12",
+            "learner_answer": 2,
+            "result": "correct",
+            "source_files": [
+              "IMG_0693.png"
+            ]
+          }
+        ],
+        "correction_note": "父に 是反对行为的施事，隐含说话者承受反对，需用被动 反対される。"
+      },
+      {
+        "id": "model",
+        "prompt": "有名なモデルが車を降り【　】、ファンが車のほうへ走って行った。",
+        "options": [
+          "たかのように",
+          "たとたん",
+          "たて",
+          "た反面"
+        ],
+        "correct": 2,
+        "grammar": [
+          "Vたとたん"
+        ],
+        "first_observed_row": 2,
+        "first_observed_grade": "incorrect",
+        "attempts": [
+          {
+            "row": "S02",
+            "learner_answer": 1,
+            "result": "incorrect",
+            "source_files": [
+              "IMG_0684.png"
+            ]
+          },
+          {
+            "row": "S08",
+            "learner_answer": 2,
+            "result": "correct",
+            "source_files": [
+              "IMG_0689.png"
+            ]
+          }
+        ],
+        "correction_note": "动作之后立即发生：降りたとたん；たかのように 表“仿佛”。"
+      },
+      {
+        "id": "scissors",
+        "prompt": "はさみを【　】、きちんと元の場所にしまってください。",
+        "options": [
+          "使ってみれば",
+          "使い終わったら",
+          "使うはずなら",
+          "使い始めたら"
+        ],
+        "correct": 2,
+        "grammar": [
+          "Vます語幹＋終わる",
+          "Vたら（後続指示）"
+        ],
+        "first_observed_row": 3,
+        "first_observed_grade": "incorrect",
+        "attempts": [
+          {
+            "row": "S03",
+            "learner_answer": 4,
+            "result": "incorrect",
+            "source_files": [
+              "IMG_0685.png"
+            ]
+          },
+          {
+            "row": "S20",
+            "learner_answer": 2,
+            "result": "correct",
+            "source_files": [
+              "IMG_0696.png",
+              "IMG_0697.png"
+            ]
+          }
+        ],
+        "correction_note": "用完才归位，故 使い終わったら。S03 题干被裁；完整题干由相同选项、解析的 S20（IMG_0697.png）恢复，不是补造。"
+      },
+      {
+        "id": "cloudy",
+        "prompt": "最近、曇り【　】だ。",
+        "options": [
+          "がる",
+          "がち",
+          "向け",
+          "っぽい"
+        ],
+        "correct": 2,
+        "completed": "最近、曇りがちだ。",
+        "grammar": [
+          "N／Vます語幹＋がち",
+          "がるとの区別"
+        ],
+        "first_observed_row": 4,
+        "first_observed_grade": "incorrect",
+        "attempts": [
+          {
+            "row": "S04",
+            "learner_answer": 3,
+            "result": "incorrect",
+            "source_files": [
+              "IMG_0685.png",
+              "IMG_0686.png"
+            ]
+          },
+          {
+            "row": "S15",
+            "learner_answer": 1,
+            "result": "incorrect",
+            "source_files": [
+              "IMG_0694.png"
+            ]
+          }
+        ],
+        "correction_note": "曇りがち 表多云倾向；向け 表面向对象，がる 表外显感受／愿望。保留 S04 选 向け、S15 选 がる 两次不同错误。"
+      },
+      {
+        "id": "bag",
+        "prompt": "このかばんはちょっと古いけれど、まだ使えるから捨てる【　】よ。",
+        "options": [
+          "ことにする",
+          "ことはない",
+          "恐れがある",
+          "わけだ"
+        ],
+        "correct": 2,
+        "grammar": [
+          "Vることはない（不要）"
+        ],
+        "first_observed_row": 5,
+        "first_observed_grade": "incorrect",
+        "attempts": [
+          {
+            "row": "S05",
+            "learner_answer": 3,
+            "result": "incorrect",
+            "source_files": [
+              "IMG_0687.png"
+            ]
+          },
+          {
+            "row": "S18",
+            "learner_answer": 2,
+            "result": "correct",
+            "source_files": [
+              "IMG_0696.png",
+              "IMG_0697.png"
+            ]
+          }
+        ],
+        "correction_note": "まだ使えるから 对应“不必扔”的 ことはない；恐れがある 表风险。"
+      },
+      {
+        "id": "child",
+        "prompt": "子どもが【　】ものですから、きょうは会社を休みます。",
+        "options": [
+          "病気な",
+          "病気",
+          "病気だ",
+          "病気で"
+        ],
+        "correct": 1,
+        "grammar": [
+          "名詞＋な＋ものですから"
+        ],
+        "first_observed_row": 6,
+        "first_observed_grade": "incorrect",
+        "attempts": [
+          {
+            "row": "S06",
+            "learner_answer": 3,
+            "result": "incorrect",
+            "source_files": [
+              "IMG_0688.png"
+            ]
+          },
+          {
+            "row": "S13",
+            "learner_answer": 1,
+            "result": "correct",
+            "source_files": [
+              "IMG_0693.png"
+            ]
+          }
+        ],
+        "correction_note": "名词接 ものですから 用 な：病気なものですから。"
+      },
+      {
+        "id": "aoki",
+        "prompt": "青木先生の授業は【　】はもちろん、おもしろいのも人気の理由だ。",
+        "options": [
+          "わかりやすい",
+          "わかりやすいの",
+          "わかりやすかった",
+          "わかりやすくて"
+        ],
+        "correct": 2,
+        "grammar": [
+          "普通形＋の（名詞化）＋はもちろん"
+        ],
+        "first_observed_row": 7,
+        "first_observed_grade": "correct",
+        "attempts": [
+          {
+            "row": "S07",
+            "learner_answer": 2,
+            "result": "correct",
+            "source_files": [
+              "IMG_0689.png"
+            ]
+          },
+          {
+            "row": "S14",
+            "learner_answer": 2,
+            "result": "correct",
+            "source_files": [
+              "IMG_0693.png",
+              "IMG_0694.png"
+            ]
+          }
+        ],
+        "correction_note": "わかりやすいの 中 の 为名词化；两次正确不证明长期掌握。"
+      },
+      {
+        "id": "noodles",
+        "prompt": "カップラーメンは【　】【　】【★】【　】よくない。",
+        "options": [
+          "食べすぎると",
+          "体に",
+          "便利な",
+          "反面"
+        ],
+        "correct": 1,
+        "correct_order": [
+          3,
+          4,
+          1,
+          2
+        ],
+        "completed": "カップラーメンは便利な反面、食べすぎると体によくない。",
+        "grammar": [
+          "な形容詞＋反面",
+          "条件のと",
+          "体によくない",
+          "文の組み立て／★位置"
+        ],
+        "first_observed_row": 9,
+        "first_observed_grade": "incorrect",
+        "attempts": [
+          {
+            "row": "S09",
+            "learner_answer": 2,
+            "result": "incorrect",
+            "source_files": [
+              "IMG_0689.png",
+              "IMG_0690.png"
+            ]
+          },
+          {
+            "row": "S11",
+            "learner_answer": 2,
+            "result": "incorrect",
+            "source_files": [
+              "IMG_0692.png"
+            ]
+          }
+        ],
+        "correction_note": "S09、S11 均把 ★ 选为 ②体に，正确为 ①食べすぎると；完整顺序 3412。仅见 ★ 选项，不能推断学习者是否会完整排序。"
+      },
+      {
+        "id": "doctor",
+        "prompt": "医者は薬を飲めば元気になると【　】【　】【★】【　】一方だ。",
+        "options": [
+          "悪くなる",
+          "言っていた",
+          "体調は",
+          "のに"
+        ],
+        "correct": 3,
+        "correct_order": [
+          2,
+          4,
+          3,
+          1
+        ],
+        "completed": "医者は薬を飲めば元気になると言っていたのに、体調は悪くなる一方だ。",
+        "grammar": [
+          "引用のと",
+          "のに（逆接）",
+          "Vる一方だ",
+          "文の組み立て／★位置"
+        ],
+        "first_observed_row": 10,
+        "first_observed_grade": "incorrect",
+        "attempts": [
+          {
+            "row": "S10",
+            "learner_answer": 4,
+            "result": "incorrect",
+            "source_files": [
+              "IMG_0691.png"
+            ]
+          },
+          {
+            "row": "S16",
+            "learner_answer": 3,
+            "result": "correct",
+            "source_files": [
+              "IMG_0695.png"
+            ]
+          }
+        ],
+        "correction_note": "S10 把 ★ 选为 ④のに，正确为 ③体調は；完整顺序 2431，S16 后来 ★ 答对，不能据此推断独立完整排序或长期掌握。"
+      },
+      {
+        "id": "weight",
+        "prompt": "毎日1時間運動しているのに、体重は【　】一方だ。",
+        "options": [
+          "増えた",
+          "増えない",
+          "増える",
+          "増えて"
+        ],
+        "correct": 3,
+        "completed": "毎日1時間運動しているのに、体重は増える一方だ。",
+        "grammar": [
+          "Vる一方だ",
+          "のに（逆接）"
+        ],
+        "first_observed_row": 17,
+        "first_observed_grade": "incorrect",
+        "attempts": [
+          {
+            "row": "S17",
+            "learner_answer": 2,
+            "result": "incorrect",
+            "source_files": [
+              "IMG_0695.png"
+            ]
+          },
+          {
+            "row": "S19",
+            "learner_answer": 3,
+            "result": "correct",
+            "source_files": [
+              "IMG_0696.png",
+              "IMG_0697.png"
+            ]
+          }
+        ],
+        "correction_note": "増える一方だ 需要动词辞书形，并结合 のに 的预期与结果；首选 増えない，后选 増える。需进一步区分接续和语义关系，确切根因未知。"
+      }
+    ]
+  },
+  "timezone": "Asia/Tokyo"
+}

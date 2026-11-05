@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "vocabulary-photo-20261105",
+  "date": "2026-11-05",
+  "timezone": "Asia/Tokyo",
+  "source": "用户上传三张图片后的已核实批改结果；本归档不公开原图。",
+  "source_type": "external_worksheet_photo",
+  "summary": {
+    "graded": 20,
+    "correct": 16,
+    "incorrect": 4,
+    "accuracy_percent": 80
+  },
+  "attempt_kind": "unknown",
+  "support": "unknown",
+  "timing": "unknown",
+  "score_limitations": "单批图片练习表现，不是正式 JLPT 成绩；不能认定全部词汇已掌握。当前归档保存汇总、错题与已确认更正，不补造其余题文或原答。",
+  "incorrect_items": [
+    {
+      "item_number": 1,
+      "target": "引火",
+      "user_answer": "てんか",
+      "correct_answer": "いんか",
+      "explanation": "引火（いんか）表示着火、引燃。"
+    },
+    {
+      "item_number": 4,
+      "target": "実力",
+      "user_answer": "ちりょく",
+      "correct_answer": "じつりょく",
+      "explanation": "実力读じつりょく，含普通大小的つ，没有促音っ；早先讲解中的促音说法已更正。"
+    },
+    {
+      "item_number": 6,
+      "target": "取る",
+      "user_answer": "きる",
+      "correct_answer": "とる",
+      "explanation": "取る（とる）为取、拿；切る（きる）为切、割。"
+    },
+    {
+      "item_number": 13,
+      "target": "うえる",
+      "user_answer": "増える",
+      "correct_answer": "植える",
+      "explanation": "植える（うえる）为种植；増える（ふえる）为增加。"
+    }
+  ],
+  "correct_item_numbers": [
+    2,
+    3,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "review_status": "feedback_given_no_delayed_retest"
+}

@@ -1,0 +1,475 @@
+{
+  "schema_version": "1.0",
+  "session_id": "chat-n2-20261109-r2",
+  "date": "2026-11-09",
+  "timezone": "Asia/Tokyo",
+  "source": "2026-11-09 当前聊天中 N2 风格原创语法四选一第二轮。原题、选项、用户每题提交的答案、正确答案和讲解来自本次可见对话；非扫描教材摘录、非历年 JLPT 真题。",
+  "session_status": "round2_completed",
+  "summary": {
+    "graded": 10,
+    "correct": 4,
+    "incorrect": 6,
+    "accuracy_percent": 40,
+    "incorrect_items": [
+      "Q02",
+      "Q05",
+      "Q06",
+      "Q07",
+      "Q08",
+      "Q09"
+    ],
+    "round1_score": "6/10",
+    "two_round_score": "10/20",
+    "two_round_accuracy_percent": 50
+  },
+  "scoring_policy": "逐题一讲，只统计每题首次提交。用户可能受前一题讲解影响，support=immediate，不能作为独立整卷模考成绩。用户就Q07选项判定提出疑问，但未更改选择；保留首次答案B。",
+  "unknown_fields": [
+    "是否猜题",
+    "主观答题信心",
+    "净学习用时",
+    "心理层面的实际误选原因",
+    "是否查阅外部资料"
+  ],
+  "cumulative_wrong_by_grammar_from_two_rounds": {
+    "ものの": 2,
+    "わけではない": 2,
+    "ばかりに": 2,
+    "にわたって": 1,
+    "限りでは": 1,
+    "ないことには": 1,
+    "をめぐって": 1
+  },
+  "retest_plan": {
+    "dates": [
+      "2026-11-10",
+      "2026-11-12",
+      "2026-11-16"
+    ],
+    "method": "全新情境中的相同语法点混排；按无提示变式首答评分，讲后重复与原题重复分层统计",
+    "priority": [
+      {
+        "grammar": "ものの",
+        "errors": 2,
+        "contrast": [
+          "ことから",
+          "からには"
+        ]
+      },
+      {
+        "grammar": "わけではない",
+        "errors": 2,
+        "contrast": [
+          "わけにはいかない",
+          "はずがない"
+        ]
+      },
+      {
+        "grammar": "ばかりに",
+        "errors": 2,
+        "contrast": [
+          "につれて",
+          "にわたって"
+        ]
+      },
+      {
+        "grammar": "にわたって",
+        "errors": 1,
+        "contrast": [
+          "において"
+        ],
+        "note": "第二轮Q03变式正确一次，仍保留延迟复测"
+      },
+      {
+        "grammar": "限りでは",
+        "errors": 1,
+        "contrast": [
+          "にかかわらず"
+        ]
+      },
+      {
+        "grammar": "ないことには",
+        "errors": 1,
+        "contrast": [
+          "ないうちに"
+        ]
+      },
+      {
+        "grammar": "をめぐって",
+        "errors": 1,
+        "contrast": [
+          "に応じて"
+        ]
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "id": "2026-11-09-chat-n2-r2-q01",
+      "date": "2026-11-09",
+      "module": "grammar",
+      "result": "correct",
+      "support": "immediate",
+      "attempt_kind": "first",
+      "accuracy_eligible": true,
+      "canonical_key": "grammar:に先立って",
+      "prompt": "来月の新サービス公開（　　　）、今週、社員向けの説明会が開かれる。",
+      "options": [
+        "に先立って",
+        "に反して",
+        "を問わず",
+        "に限らず"
+      ],
+      "selected_option": "A",
+      "correct_option": "A",
+      "user_answer": "A · に先立って",
+      "expected_answer": "A · に先立って",
+      "error_tags": [],
+      "error_reason": null,
+      "error_cause_confirmed_by_user": false,
+      "notes": "每题提交后即时解析；既往语法曝光存在，非整卷独立盲测；答题用时/信心/是否猜题未知。",
+      "source_ids": [
+        "chat-n2-20261109-r2"
+      ],
+      "source_label": "2026-11-09 聊天原创 N2 语法第二轮 Q01",
+      "batch_id": "chat-n2-20261109-r2",
+      "answered_at_utc": "2026-11-09T01:42:58Z",
+      "translation_zh": "在下个月的新服务上线之前，本周将举行面向员工的说明会。",
+      "grammar_connection": "名词＋に先立って／に先立ち；名词＋に先立つ＋名词",
+      "grammar_meaning": "在重大事件之前预先开展某项活动",
+      "option_analysis": "に先立って强调预先安排；に反して表示相反；を問わず与に限らず均不表示时间先后。"
+    },
+    {
+      "id": "2026-11-09-chat-n2-r2-q02",
+      "date": "2026-11-09",
+      "module": "grammar",
+      "result": "incorrect",
+      "support": "immediate",
+      "attempt_kind": "first",
+      "accuracy_eligible": true,
+      "canonical_key": "grammar:ものの",
+      "prompt": "念入りに準備をした（　　　）、当日は予想外のトラブルが続いた。",
+      "options": [
+        "ことから",
+        "ものの",
+        "につれて",
+        "からには"
+      ],
+      "selected_option": "D",
+      "correct_option": "B",
+      "user_answer": "D · からには",
+      "expected_answer": "B · ものの",
+      "error_tags": [
+        "concession"
+      ],
+      "error_reason": "未获用户自述；从选项差别看，需要辨析：ものの是让步转折；からには是既然如此就应该、决心或义务；ことから表示推断依据；につれて表示两个变化过程相互关联。",
+      "error_cause_confirmed_by_user": false,
+      "notes": "每题提交后即时解析；既往语法曝光存在，非整卷独立盲测；答题用时/信心/是否猜题未知。",
+      "source_ids": [
+        "chat-n2-20261109-r2"
+      ],
+      "source_label": "2026-11-09 聊天原创 N2 语法第二轮 Q02",
+      "batch_id": "chat-n2-20261109-r2",
+      "answered_at_utc": "2026-11-09T01:44:37Z",
+      "translation_zh": "虽然做了周密准备，但当天仍接连发生意外问题。",
+      "grammar_connection": "动词／い形容词普通形＋ものの；な形容词＋な／であるものの；名词＋であるものの",
+      "grammar_meaning": "虽然前项事实成立，后项与预期不同",
+      "option_analysis": "ものの是让步转折；からには是既然如此就应该、决心或义务；ことから表示推断依据；につれて表示两个变化过程相互关联。",
+      "retest_example_ja": "十分に練習したものの、本番では緊張してしまった。"
+    },
+    {
+      "id": "2026-11-09-chat-n2-r2-q03",
+      "date": "2026-11-09",
+      "module": "grammar",
+      "result": "correct",
+      "support": "immediate",
+      "attempt_kind": "first",
+      "accuracy_eligible": true,
+      "canonical_key": "grammar:にわたって",
+      "prompt": "その研究者は、十年以上（　　　）、地震の発生メカニズムを調べ続けている。",
+      "options": [
+        "において",
+        "に先立って",
+        "にわたって",
+        "をめぐって"
+      ],
+      "selected_option": "C",
+      "correct_option": "C",
+      "user_answer": "C · にわたって",
+      "expected_answer": "C · にわたって",
+      "error_tags": [],
+      "error_reason": null,
+      "error_cause_confirmed_by_user": false,
+      "notes": "对应前轮复测：2026-11-09-chat-n2-r1-Q05；每题提交后即时解析；既往语法曝光存在，非整卷独立盲测；答题用时/信心/是否猜题未知。",
+      "source_ids": [
+        "chat-n2-20261109-r2"
+      ],
+      "source_label": "2026-11-09 聊天原创 N2 语法第二轮 Q03",
+      "batch_id": "chat-n2-20261109-r2",
+      "answered_at_utc": "2026-11-09T01:50:01Z",
+      "translation_zh": "那位研究人员持续十余年研究地震的发生机制。",
+      "grammar_connection": "表示时间／空间范围的名词＋にわたって；名词＋にわたる＋名词",
+      "grammar_meaning": "在整个时间／空间范围内持续",
+      "option_analysis": "にわたって强调研究持续的整个期间；において说明发生的场所、时代或领域。"
+    },
+    {
+      "id": "2026-11-09-chat-n2-r2-q04",
+      "date": "2026-11-09",
+      "module": "grammar",
+      "result": "correct",
+      "support": "immediate",
+      "attempt_kind": "first",
+      "accuracy_eligible": true,
+      "canonical_key": "grammar:次第",
+      "prompt": "必要な書類がすべてそろい（　　　）、申請内容の審査を始めます。",
+      "options": [
+        "かねる",
+        "次第",
+        "つつ",
+        "以来"
+      ],
+      "selected_option": "B",
+      "correct_option": "B",
+      "user_answer": "B · 次第",
+      "expected_answer": "B · 次第",
+      "error_tags": [],
+      "error_reason": null,
+      "error_cause_confirmed_by_user": false,
+      "notes": "每题提交后即时解析；既往语法曝光存在，非整卷独立盲测；答题用时/信心/是否猜题未知。",
+      "source_ids": [
+        "chat-n2-20261109-r2"
+      ],
+      "source_label": "2026-11-09 聊天原创 N2 语法第二轮 Q04",
+      "batch_id": "chat-n2-20261109-r2",
+      "answered_at_utc": "2026-11-09T01:53:27Z",
+      "translation_zh": "所需文件一齐全，就立即开始审核申请内容。",
+      "grammar_connection": "动词ます形去ます＋次第（そろいます→そろい次第）",
+      "grammar_meaning": "前项完成后立即开展后项",
+      "option_analysis": "次第表示前项完成后立刻行动；つつ可表示同时进行；かねる表示难以做；以来表示自从……以来。"
+    },
+    {
+      "id": "2026-11-09-chat-n2-r2-q05",
+      "date": "2026-11-09",
+      "module": "grammar",
+      "result": "incorrect",
+      "support": "immediate",
+      "attempt_kind": "first",
+      "accuracy_eligible": true,
+      "canonical_key": "grammar:限りでは",
+      "prompt": "私が確認した（　　　）、この資料に数字の誤りは見つからなかった。",
+      "options": [
+        "にかかわらず",
+        "限りでは",
+        "に際して",
+        "ばかりか"
+      ],
+      "selected_option": "A",
+      "correct_option": "B",
+      "user_answer": "A · にかかわらず",
+      "expected_answer": "B · 限りでは",
+      "error_tags": [
+        "information_scope"
+      ],
+      "error_reason": "未获用户自述；从选项差别看，需要辨析：限りでは限定可知信息的范围；にかかわらず表示不受某些条件影响；に際して表示重要事件之际；ばかりか表示递进。",
+      "error_cause_confirmed_by_user": false,
+      "notes": "每题提交后即时解析；既往语法曝光存在，非整卷独立盲测；答题用时/信心/是否猜题未知。",
+      "source_ids": [
+        "chat-n2-20261109-r2"
+      ],
+      "source_label": "2026-11-09 聊天原创 N2 语法第二轮 Q05",
+      "batch_id": "chat-n2-20261109-r2",
+      "answered_at_utc": "2026-11-09T01:55:48Z",
+      "translation_zh": "就我所检查的范围来看，这份资料没有发现数字错误。",
+      "grammar_connection": "动词普通形＋限りでは（如確認した限りでは、知っている限りでは）",
+      "grammar_meaning": "仅就自己掌握的信息或查证的范围判断",
+      "option_analysis": "限りでは限定可知信息的范围；にかかわらず表示不受某些条件影响；に際して表示重要事件之际；ばかりか表示递进。",
+      "retest_example_ja": "聞いた限りでは、会議の予定はまだ決まっていない。"
+    },
+    {
+      "id": "2026-11-09-chat-n2-r2-q06",
+      "date": "2026-11-09",
+      "module": "grammar",
+      "result": "incorrect",
+      "support": "immediate",
+      "attempt_kind": "first",
+      "accuracy_eligible": true,
+      "canonical_key": "grammar:ないことには",
+      "prompt": "実際に現場を見てみない（　　　）、どれほどの被害が出ているのか判断できない。",
+      "options": [
+        "ばかりに",
+        "うちに",
+        "ことには",
+        "につれて"
+      ],
+      "selected_option": "B",
+      "correct_option": "C",
+      "user_answer": "B · うちに",
+      "expected_answer": "C · ことには",
+      "error_tags": [
+        "necessary_condition"
+      ],
+      "error_reason": "未获用户自述；从选项差别看，需要辨析：ないことには强调必要条件；ないうちに强调在尚未发生某事的时间阶段；ばかりに侧重不利结果的原因；につれて表示渐进变化。",
+      "error_cause_confirmed_by_user": false,
+      "notes": "每题提交后即时解析；既往语法曝光存在，非整卷独立盲测；答题用时/信心/是否猜题未知。",
+      "source_ids": [
+        "chat-n2-20261109-r2"
+      ],
+      "source_label": "2026-11-09 聊天原创 N2 语法第二轮 Q06",
+      "batch_id": "chat-n2-20261109-r2",
+      "answered_at_utc": "2026-11-09T01:58:57Z",
+      "translation_zh": "不实际到现场看一下，就无法判断损害程度。",
+      "grammar_connection": "动词ない形＋ことには＋否定结果（見てみないことには判断できない）",
+      "grammar_meaning": "没有满足前项这个必要条件就不能实现后项",
+      "option_analysis": "ないことには强调必要条件；ないうちに强调在尚未发生某事的时间阶段；ばかりに侧重不利结果的原因；につれて表示渐进变化。",
+      "retest_example_ja": "自分で操作してみないことには、使いやすいか判断できない。"
+    },
+    {
+      "id": "2026-11-09-chat-n2-r2-q07",
+      "date": "2026-11-09",
+      "module": "grammar",
+      "result": "incorrect",
+      "support": "immediate",
+      "attempt_kind": "first",
+      "accuracy_eligible": true,
+      "canonical_key": "grammar:わけではない",
+      "prompt": "研修を受けたとはいえ、必ずしも新しいシステムを使いこなせる（　　　）。",
+      "options": [
+        "わけにはいかない",
+        "はずがない",
+        "わけではない",
+        "に違いない"
+      ],
+      "selected_option": "B",
+      "correct_option": "C",
+      "user_answer": "B · はずがない",
+      "expected_answer": "C · わけではない",
+      "error_tags": [
+        "negation_scope"
+      ],
+      "error_reason": "未获用户自述；从选项差别看，需要辨析：必ずしも～わけではない表示不一定；はずがない表示强烈推断不可能；わけにはいかない是因情理或责任而不能；に違いない表示肯定性推断。",
+      "error_cause_confirmed_by_user": false,
+      "notes": "对应前轮复测：2026-11-09-chat-n2-r1-Q06；用户对判题提出合理质疑：去掉「必ずしも」后，「使いこなせるはずがない」本身可在适当依据下构成自然句；保留原题「必ずしも」则 C 为自然的部分否定答案。此次仍按原题计错，质疑不代表用户主动更改答案。；每题提交后即时解析；既往语法曝光存在，非整卷独立盲测；答题用时/信心/是否猜题未知。",
+      "source_ids": [
+        "chat-n2-20261109-r2"
+      ],
+      "source_label": "2026-11-09 聊天原创 N2 语法第二轮 Q07",
+      "batch_id": "chat-n2-20261109-r2",
+      "answered_at_utc": "2026-11-09T02:05:07Z",
+      "translation_zh": "虽然接受过培训，也并不一定能够熟练使用新系统。",
+      "grammar_connection": "动词／い形容词普通形＋わけではない；名词／な形容词＋な／である＋わけではない",
+      "grammar_meaning": "否定某一概括或推论，常与必ずしも搭配表示部分否定",
+      "option_analysis": "必ずしも～わけではない表示不一定；はずがない表示强烈推断不可能；わけにはいかない是因情理或责任而不能；に違いない表示肯定性推断。",
+      "retest_example_ja": "勉強時間が長いからといって、必ずしも点数が高いわけではない。"
+    },
+    {
+      "id": "2026-11-09-chat-n2-r2-q08",
+      "date": "2026-11-09",
+      "module": "grammar",
+      "result": "incorrect",
+      "support": "immediate",
+      "attempt_kind": "first",
+      "accuracy_eligible": true,
+      "canonical_key": "grammar:ばかりに",
+      "prompt": "目先の安さだけで契約した（　　　）、後になって高額な解約金を払うことになった。",
+      "options": [
+        "にわたって",
+        "につれて",
+        "ばかりに",
+        "に先立って"
+      ],
+      "selected_option": "A",
+      "correct_option": "C",
+      "user_answer": "A · にわたって",
+      "expected_answer": "C · ばかりに",
+      "error_tags": [
+        "cause_or_purpose_semantics"
+      ],
+      "error_reason": "未获用户自述；从选项差别看，需要辨析：ばかりに突出原因造成不良结果；にわたって接表示范围的名词，不能直接接「契約した」；につれて表示渐进变化；に先立って表示事前行动。",
+      "error_cause_confirmed_by_user": false,
+      "notes": "对应前轮复测：2026-11-09-chat-n2-r1-Q08；每题提交后即时解析；既往语法曝光存在，非整卷独立盲测；答题用时/信心/是否猜题未知。",
+      "source_ids": [
+        "chat-n2-20261109-r2"
+      ],
+      "source_label": "2026-11-09 聊天原创 N2 语法第二轮 Q08",
+      "batch_id": "chat-n2-20261109-r2",
+      "answered_at_utc": "2026-11-09T02:16:52Z",
+      "translation_zh": "就因为只看眼前低价便签了合同，结果后来不得不支付高额解约金。",
+      "grammar_connection": "动词／い形容词普通形＋ばかりに；な形容词＋な／であるばかりに；名词＋であるばかりに",
+      "grammar_meaning": "就因为某个原因而招致不利结果，常带后悔或遗憾",
+      "option_analysis": "ばかりに突出原因造成不良结果；にわたって接表示范围的名词，不能直接接「契約した」；につれて表示渐进变化；に先立って表示事前行动。",
+      "retest_example_ja": "内容を確認せずに署名したばかりに、後で問題になった。"
+    },
+    {
+      "id": "2026-11-09-chat-n2-r2-q09",
+      "date": "2026-11-09",
+      "module": "grammar",
+      "result": "incorrect",
+      "support": "immediate",
+      "attempt_kind": "first",
+      "accuracy_eligible": true,
+      "canonical_key": "grammar:をめぐって",
+      "prompt": "駅前の再開発計画（　　　）、住民と市役所の間で激しい議論が続いている。",
+      "options": [
+        "に応じて",
+        "をめぐって",
+        "に先立って",
+        "にわたって"
+      ],
+      "selected_option": "A",
+      "correct_option": "B",
+      "user_answer": "A · に応じて",
+      "expected_answer": "B · をめぐって",
+      "error_tags": [
+        "discussion_topic"
+      ],
+      "error_reason": "未获用户自述；从选项差别看，需要辨析：をめぐって标记争论的议题中心，常与議論／対立／争い搭配；に応じて表示根据条件调整；にわたって表示覆盖范围；に先立って表示事前行动。",
+      "error_cause_confirmed_by_user": false,
+      "notes": "每题提交后即时解析；既往语法曝光存在，非整卷独立盲测；答题用时/信心/是否猜题未知。",
+      "source_ids": [
+        "chat-n2-20261109-r2"
+      ],
+      "source_label": "2026-11-09 聊天原创 N2 语法第二轮 Q09",
+      "batch_id": "chat-n2-20261109-r2",
+      "answered_at_utc": "2026-11-09T02:19:42Z",
+      "translation_zh": "围绕车站前的再开发计划，居民和市政府之间持续激烈争论。",
+      "grammar_connection": "名词＋をめぐって／をめぐり；名词＋をめぐる＋名词",
+      "grammar_meaning": "围绕特定议题展开讨论、争议或交涉",
+      "option_analysis": "をめぐって标记争论的议题中心，常与議論／対立／争い搭配；に応じて表示根据条件调整；にわたって表示覆盖范围；に先立って表示事前行动。",
+      "retest_example_ja": "新しい規制をめぐって、関係者の意見が分かれている。"
+    },
+    {
+      "id": "2026-11-09-chat-n2-r2-q10",
+      "date": "2026-11-09",
+      "module": "grammar",
+      "result": "correct",
+      "support": "immediate",
+      "attempt_kind": "first",
+      "accuracy_eligible": true,
+      "canonical_key": "grammar:かねない",
+      "prompt": "このまま安全対策を怠ると、重大な事故につながり（　　　）。",
+      "options": [
+        "かねる",
+        "ざるを得ない",
+        "かねない",
+        "がたい"
+      ],
+      "selected_option": "C",
+      "correct_option": "C",
+      "user_answer": "C · かねない",
+      "expected_answer": "C · かねない",
+      "error_tags": [],
+      "error_reason": null,
+      "error_cause_confirmed_by_user": false,
+      "notes": "每题提交后即时解析；既往语法曝光存在，非整卷独立盲测；答题用时/信心/是否猜题未知。",
+      "source_ids": [
+        "chat-n2-20261109-r2"
+      ],
+      "source_label": "2026-11-09 聊天原创 N2 语法第二轮 Q10",
+      "batch_id": "chat-n2-20261109-r2",
+      "answered_at_utc": "2026-11-09T02:21:08Z",
+      "translation_zh": "如果继续这样忽视安全措施，就有可能引发重大事故。",
+      "grammar_connection": "动词ます形去ます＋かねない（つながります→つながりかねない）",
+      "grammar_meaning": "可能出现不利或危险的结果，用于风险和警告",
+      "option_analysis": "かねない：有可能发生不良结果；かねる：难以做到或委婉拒绝；ざるを得ない：不得不；がたい：心理上难以接受、相信、理解等。"
+    }
+  ]
+}

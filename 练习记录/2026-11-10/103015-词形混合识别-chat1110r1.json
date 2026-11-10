@@ -1,0 +1,414 @@
+{
+  "schema_version": "1.0",
+  "session_id": "chat-n2-20261110-form-recog1",
+  "date": "2026-11-10",
+  "timezone": "Asia/Tokyo",
+  "session_status": "completed",
+  "source": "2026-11-10 与用户进行的10题原创N2四个易混语法表达的日语词形识别练习。来源为聊天原题及用户逐题首次提交，非官方真题，不包含外部教材扫描。",
+  "summary": {
+    "presented": 10,
+    "graded": 10,
+    "correct": 6,
+    "incorrect": 4,
+    "accuracy_percent": 60,
+    "wrong_item_ids": [
+      "Q01",
+      "Q06",
+      "Q09",
+      "Q10"
+    ],
+    "wrong_by_target_grammar": {
+      "ものの": 2,
+      "ばかりに": 1,
+      "わけではない": 1,
+      "限りでは": 0
+    },
+    "formal_rounds_unchanged": "前三轮13/30（43.3%），词形识别6/10单独统计"
+  },
+  "scoring_policy": "逐题即时讲解；仅记录第一次明确回答；不能将本组得分并入正式第四轮或既有三轮累计统计。曝光与重复可能影响本组得分，不构成延迟迁移掌握证明。",
+  "unknown_fields": [
+    "猜题情况",
+    "信心程度",
+    "净作答用时",
+    "未经本人证实的误选原因"
+  ],
+  "retest_plan": {
+    "dates": [
+      "2026-11-11",
+      "2026-11-13",
+      "2026-11-17"
+    ],
+    "priority": [
+      "ものの",
+      "わけではない",
+      "ばかりに",
+      "限りでは"
+    ],
+    "method": "后续正式第四轮约7道新语法/3道复测，混排而不提前透露考点；再做日语→中文、中文→日语和新句辨析；正确位置打散；正式轮与词形专项成绩分开。",
+    "observed": "ものの目标题3次答对1次，另外在Q01误选ものの；ばかりに目标题3次答对2次；わけではない目标题2次答对1次；限りでは目标题2次都正确。仅为本组样本，不表示长期掌握。"
+  },
+  "attempts": [
+    {
+      "id": "2026-11-10-chat-n2-recog1-q01",
+      "date": "2026-11-10",
+      "timezone": "Asia/Tokyo",
+      "module": "grammar_form_recognition",
+      "attempt_kind": "first",
+      "support": "immediate",
+      "accuracy_eligible_for_formal_exam": false,
+      "result": "incorrect",
+      "canonical_key": "grammar:ばかりに",
+      "prompt": "電車が遅れた（　　　）、面接に間に合わなかった。",
+      "options": [
+        "ものの",
+        "ばかりに",
+        "限りでは",
+        "わけではない"
+      ],
+      "selected_option": "A",
+      "correct_option": "B",
+      "user_answer": "A · ものの",
+      "expected_answer": "B · ばかりに",
+      "error_tags": [
+        "target:ばかりに",
+        "selected_distractor:ものの"
+      ],
+      "error_reason": "从词形与句意看，ものの＝虽然晚点但后项仍发生；ばかりに＝晚点导致没赶上面试。错选ものの，需区分转折和不良原因。；具体误选思路未由用户说明。",
+      "error_cause_confirmed_by_user": false,
+      "batch_id": "chat-n2-20261110-form-recog1",
+      "source_ids": [
+        "chat-n2-20261110-form-recog1"
+      ],
+      "source_label": "本次聊天原创 N2 语法混排词形识别，不属于第四轮正式测试",
+      "answered_at_utc": "2026-11-10T00:44:02Z",
+      "full_sentence_with_furigana": "電車（でんしゃ）が遅（おく）れたばかりに、面接（めんせつ）に間（ま）に合（あ）わなかった。",
+      "translation_zh": "就因为电车晚点，结果没赶上面试。",
+      "option_analysis": "ものの＝虽然晚点但后项仍发生；ばかりに＝晚点导致没赶上面试。错选ものの，需区分转折和不良原因。",
+      "notes": "逐题选择后立即解析；未知是否猜题、净用时和信心。此专项与正式考试轮次独立计分，不合并三轮累计成绩。"
+    },
+    {
+      "id": "2026-11-10-chat-n2-recog1-q02",
+      "date": "2026-11-10",
+      "timezone": "Asia/Tokyo",
+      "module": "grammar_form_recognition",
+      "attempt_kind": "first",
+      "support": "immediate",
+      "accuracy_eligible_for_formal_exam": false,
+      "result": "correct",
+      "canonical_key": "grammar:限りでは",
+      "prompt": "私が調べた（　　　）、この会社は海外にも支店があるようだ。",
+      "options": [
+        "ものの",
+        "わけではない",
+        "ばかりに",
+        "限りでは"
+      ],
+      "selected_option": "D",
+      "correct_option": "D",
+      "user_answer": "D · 限りでは",
+      "expected_answer": "D · 限りでは",
+      "error_tags": [],
+      "error_reason": null,
+      "error_cause_confirmed_by_user": false,
+      "batch_id": "chat-n2-20261110-form-recog1",
+      "source_ids": [
+        "chat-n2-20261110-form-recog1"
+      ],
+      "source_label": "本次聊天原创 N2 语法混排词形识别，不属于第四轮正式测试",
+      "answered_at_utc": "2026-11-10T00:52:38Z",
+      "full_sentence_with_furigana": "私（わたし）が調（しら）べた限（かぎ）りでは、この会社（かいしゃ）は海外（かいがい）にも支店（してん）があるようだ。",
+      "translation_zh": "就我调查的情况来看，这家公司似乎在海外也有分公司。",
+      "option_analysis": "限りでは＝根据已经查证的范围，作有限度的判断；并非原因或让步。",
+      "notes": "逐题选择后立即解析；未知是否猜题、净用时和信心。此专项与正式考试轮次独立计分，不合并三轮累计成绩。"
+    },
+    {
+      "id": "2026-11-10-chat-n2-recog1-q03",
+      "date": "2026-11-10",
+      "timezone": "Asia/Tokyo",
+      "module": "grammar_form_recognition",
+      "attempt_kind": "first",
+      "support": "immediate",
+      "accuracy_eligible_for_formal_exam": false,
+      "result": "correct",
+      "canonical_key": "grammar:わけではない",
+      "prompt": "便利な機能が多いからといって、誰にとっても使いやすい（　　　）。",
+      "options": [
+        "わけではない",
+        "ばかりに",
+        "限りでは",
+        "ものの"
+      ],
+      "selected_option": "A",
+      "correct_option": "A",
+      "user_answer": "A · わけではない",
+      "expected_answer": "A · わけではない",
+      "error_tags": [],
+      "error_reason": null,
+      "error_cause_confirmed_by_user": false,
+      "batch_id": "chat-n2-20261110-form-recog1",
+      "source_ids": [
+        "chat-n2-20261110-form-recog1"
+      ],
+      "source_label": "本次聊天原创 N2 语法混排词形识别，不属于第四轮正式测试",
+      "answered_at_utc": "2026-11-10T00:58:29Z",
+      "full_sentence_with_furigana": "便利（べんり）な機能（きのう）が多（おお）いからといって、誰（だれ）にとっても使（つか）いやすいわけではない。",
+      "translation_zh": "不能因为便利功能很多，就断言对所有人都容易使用。",
+      "option_analysis": "からといって＋わけではない用于否定因一事实而得出的必然推论。",
+      "notes": "逐题选择后立即解析；未知是否猜题、净用时和信心。此专项与正式考试轮次独立计分，不合并三轮累计成绩。"
+    },
+    {
+      "id": "2026-11-10-chat-n2-recog1-q04",
+      "date": "2026-11-10",
+      "timezone": "Asia/Tokyo",
+      "module": "grammar_form_recognition",
+      "attempt_kind": "first",
+      "support": "immediate",
+      "accuracy_eligible_for_formal_exam": false,
+      "result": "correct",
+      "canonical_key": "grammar:ばかりに",
+      "prompt": "余計なことを言った（　　　）、友達を怒らせてしまった。",
+      "options": [
+        "限りでは",
+        "ものの",
+        "ばかりに",
+        "わけではない"
+      ],
+      "selected_option": "C",
+      "correct_option": "C",
+      "user_answer": "C · ばかりに",
+      "expected_answer": "C · ばかりに",
+      "error_tags": [],
+      "error_reason": null,
+      "error_cause_confirmed_by_user": false,
+      "batch_id": "chat-n2-20261110-form-recog1",
+      "source_ids": [
+        "chat-n2-20261110-form-recog1"
+      ],
+      "source_label": "本次聊天原创 N2 语法混排词形识别，不属于第四轮正式测试",
+      "answered_at_utc": "2026-11-10T01:11:33Z",
+      "full_sentence_with_furigana": "余計（よけい）なことを言（い）ったばかりに、友達（ともだち）を怒（おこ）らせてしまった。",
+      "translation_zh": "就因为说了多余的话，结果惹朋友生气了。",
+      "option_analysis": "坏结果归因于前项，使用ばかりに。",
+      "notes": "逐题选择后立即解析；未知是否猜题、净用时和信心。此专项与正式考试轮次独立计分，不合并三轮累计成绩。"
+    },
+    {
+      "id": "2026-11-10-chat-n2-recog1-q05",
+      "date": "2026-11-10",
+      "timezone": "Asia/Tokyo",
+      "module": "grammar_form_recognition",
+      "attempt_kind": "first",
+      "support": "immediate",
+      "accuracy_eligible_for_formal_exam": false,
+      "result": "correct",
+      "canonical_key": "grammar:ものの",
+      "prompt": "何度も練習した（　　　）、本番では緊張して、うまく話せなかった。",
+      "options": [
+        "ばかりに",
+        "わけではない",
+        "限りでは",
+        "ものの"
+      ],
+      "selected_option": "D",
+      "correct_option": "D",
+      "user_answer": "D · ものの",
+      "expected_answer": "D · ものの",
+      "error_tags": [],
+      "error_reason": null,
+      "error_cause_confirmed_by_user": false,
+      "batch_id": "chat-n2-20261110-form-recog1",
+      "source_ids": [
+        "chat-n2-20261110-form-recog1"
+      ],
+      "source_label": "本次聊天原创 N2 语法混排词形识别，不属于第四轮正式测试",
+      "answered_at_utc": "2026-11-10T01:12:48Z",
+      "full_sentence_with_furigana": "何度（なんど）も練習（れんしゅう）したものの、本番（ほんばん）では緊張（きんちょう）して、うまく話（はな）せなかった。",
+      "translation_zh": "虽然反复练习，正式上场时还是因为紧张没说好。",
+      "option_analysis": "练习本应帮助发挥，实际不如预期，ものの表让步。",
+      "notes": "逐题选择后立即解析；未知是否猜题、净用时和信心。此专项与正式考试轮次独立计分，不合并三轮累计成绩。"
+    },
+    {
+      "id": "2026-11-10-chat-n2-recog1-q06",
+      "date": "2026-11-10",
+      "timezone": "Asia/Tokyo",
+      "module": "grammar_form_recognition",
+      "attempt_kind": "first",
+      "support": "immediate",
+      "accuracy_eligible_for_formal_exam": false,
+      "result": "incorrect",
+      "canonical_key": "grammar:わけではない",
+      "prompt": "彼が笑っているからといって、必ずしも喜んでいる（　　　）。",
+      "options": [
+        "ものの",
+        "わけではない",
+        "ばかりに",
+        "限りでは"
+      ],
+      "selected_option": "C",
+      "correct_option": "B",
+      "user_answer": "C · ばかりに",
+      "expected_answer": "B · わけではない",
+      "error_tags": [
+        "target:わけではない",
+        "selected_distractor:ばかりに"
+      ],
+      "error_reason": "从词形与句意看，误选ばかりに＝导致坏结果；本题含「からといって、必ずしも」标志，是否定必然性，应为わけではない。；具体误选思路未由用户说明。",
+      "error_cause_confirmed_by_user": false,
+      "batch_id": "chat-n2-20261110-form-recog1",
+      "source_ids": [
+        "chat-n2-20261110-form-recog1"
+      ],
+      "source_label": "本次聊天原创 N2 语法混排词形识别，不属于第四轮正式测试",
+      "answered_at_utc": "2026-11-10T01:15:32Z",
+      "full_sentence_with_furigana": "彼（かれ）が笑（わら）っているからといって、必（かなら）ずしも喜（よろこ）んでいるわけではない。",
+      "translation_zh": "不能因为他在笑，就断言他一定很高兴。",
+      "option_analysis": "误选ばかりに＝导致坏结果；本题含「からといって、必ずしも」标志，是否定必然性，应为わけではない。",
+      "notes": "逐题选择后立即解析；未知是否猜题、净用时和信心。此专项与正式考试轮次独立计分，不合并三轮累计成绩。"
+    },
+    {
+      "id": "2026-11-10-chat-n2-recog1-q07",
+      "date": "2026-11-10",
+      "timezone": "Asia/Tokyo",
+      "module": "grammar_form_recognition",
+      "attempt_kind": "first",
+      "support": "immediate",
+      "accuracy_eligible_for_formal_exam": false,
+      "result": "correct",
+      "canonical_key": "grammar:限りでは",
+      "prompt": "担当者に聞いた（　　　）、新しい規則は来月から始まるらしい。",
+      "options": [
+        "わけではない",
+        "ものの",
+        "限りでは",
+        "ばかりに"
+      ],
+      "selected_option": "C",
+      "correct_option": "C",
+      "user_answer": "C · 限りでは",
+      "expected_answer": "C · 限りでは",
+      "error_tags": [],
+      "error_reason": null,
+      "error_cause_confirmed_by_user": false,
+      "batch_id": "chat-n2-20261110-form-recog1",
+      "source_ids": [
+        "chat-n2-20261110-form-recog1"
+      ],
+      "source_label": "本次聊天原创 N2 语法混排词形识别，不属于第四轮正式测试",
+      "answered_at_utc": "2026-11-10T01:16:22Z",
+      "full_sentence_with_furigana": "担当者（たんとうしゃ）に聞（き）いた限（かぎ）りでは、新（あたら）しい規則（きそく）は来月（らいげつ）から始（はじ）まるらしい。",
+      "translation_zh": "据我向负责人打听到的情况，新规定似乎从下个月开始实施。",
+      "option_analysis": "听来的信息范围内所作判断→限りでは。",
+      "notes": "逐题选择后立即解析；未知是否猜题、净用时和信心。此专项与正式考试轮次独立计分，不合并三轮累计成绩。"
+    },
+    {
+      "id": "2026-11-10-chat-n2-recog1-q08",
+      "date": "2026-11-10",
+      "timezone": "Asia/Tokyo",
+      "module": "grammar_form_recognition",
+      "attempt_kind": "first",
+      "support": "immediate",
+      "accuracy_eligible_for_formal_exam": false,
+      "result": "correct",
+      "canonical_key": "grammar:ばかりに",
+      "prompt": "急いで返事した（　　　）、大切な条件を見落としてしまった。",
+      "options": [
+        "ばかりに",
+        "わけではない",
+        "ものの",
+        "限りでは"
+      ],
+      "selected_option": "A",
+      "correct_option": "A",
+      "user_answer": "A · ばかりに",
+      "expected_answer": "A · ばかりに",
+      "error_tags": [],
+      "error_reason": null,
+      "error_cause_confirmed_by_user": false,
+      "batch_id": "chat-n2-20261110-form-recog1",
+      "source_ids": [
+        "chat-n2-20261110-form-recog1"
+      ],
+      "source_label": "本次聊天原创 N2 语法混排词形识别，不属于第四轮正式测试",
+      "answered_at_utc": "2026-11-10T01:21:22Z",
+      "full_sentence_with_furigana": "急（いそ）いで返事（へんじ）したばかりに、大切（たいせつ）な条件（じょうけん）を見落（みお）としてしまった。",
+      "translation_zh": "就因为急着回复，结果漏看了重要条件。",
+      "option_analysis": "匆忙回复→漏看条款的不良因果，使用ばかりに。",
+      "notes": "逐题选择后立即解析；未知是否猜题、净用时和信心。此专项与正式考试轮次独立计分，不合并三轮累计成绩。"
+    },
+    {
+      "id": "2026-11-10-chat-n2-recog1-q09",
+      "date": "2026-11-10",
+      "timezone": "Asia/Tokyo",
+      "module": "grammar_form_recognition",
+      "attempt_kind": "first",
+      "support": "immediate",
+      "accuracy_eligible_for_formal_exam": false,
+      "result": "incorrect",
+      "canonical_key": "grammar:ものの",
+      "prompt": "薬を飲んだ（　　　）、熱はなかなか下がらなかった。",
+      "options": [
+        "わけではない",
+        "ものの",
+        "ばかりに",
+        "限りでは"
+      ],
+      "selected_option": "A",
+      "correct_option": "B",
+      "user_answer": "A · わけではない",
+      "expected_answer": "B · ものの",
+      "error_tags": [
+        "target:ものの",
+        "selected_distractor:わけではない"
+      ],
+      "error_reason": "从词形与句意看，误选わけではない表示否定概括；本题是服药虽完成但退烧未如预期，前后句直接转折，用ものの。；具体误选思路未由用户说明。",
+      "error_cause_confirmed_by_user": false,
+      "batch_id": "chat-n2-20261110-form-recog1",
+      "source_ids": [
+        "chat-n2-20261110-form-recog1"
+      ],
+      "source_label": "本次聊天原创 N2 语法混排词形识别，不属于第四轮正式测试",
+      "answered_at_utc": "2026-11-10T01:22:02Z",
+      "full_sentence_with_furigana": "薬（くすり）を飲（の）んだものの、熱（ねつ）はなかなか下（さ）がらなかった。",
+      "translation_zh": "虽然吃了药，烧还是迟迟不退。",
+      "option_analysis": "误选わけではない表示否定概括；本题是服药虽完成但退烧未如预期，前后句直接转折，用ものの。",
+      "notes": "逐题选择后立即解析；未知是否猜题、净用时和信心。此专项与正式考试轮次独立计分，不合并三轮累计成绩。"
+    },
+    {
+      "id": "2026-11-10-chat-n2-recog1-q10",
+      "date": "2026-11-10",
+      "timezone": "Asia/Tokyo",
+      "module": "grammar_form_recognition",
+      "attempt_kind": "first",
+      "support": "immediate",
+      "accuracy_eligible_for_formal_exam": false,
+      "result": "incorrect",
+      "canonical_key": "grammar:ものの",
+      "prompt": "友達と会う約束をした（　　　）、急な仕事が入って会えなくなった。",
+      "options": [
+        "限りでは",
+        "ばかりに",
+        "わけではない",
+        "ものの"
+      ],
+      "selected_option": "A",
+      "correct_option": "D",
+      "user_answer": "A · 限りでは",
+      "expected_answer": "D · ものの",
+      "error_tags": [
+        "target:ものの",
+        "selected_distractor:限りでは"
+      ],
+      "error_reason": "从词形与句意看，误选限りでは是信息范围限定；本题是预约已完成但未能兑现，表达转折用ものの。；具体误选思路未由用户说明。",
+      "error_cause_confirmed_by_user": false,
+      "batch_id": "chat-n2-20261110-form-recog1",
+      "source_ids": [
+        "chat-n2-20261110-form-recog1"
+      ],
+      "source_label": "本次聊天原创 N2 语法混排词形识别，不属于第四轮正式测试",
+      "answered_at_utc": "2026-11-10T01:26:46Z",
+      "full_sentence_with_furigana": "友達（ともだち）と会（あ）う約束（やくそく）をしたものの、急（きゅう）な仕事（しごと）が入（はい）って会（あ）えなくなった。",
+      "translation_zh": "虽然已经约好与朋友见面，但突然有工作安排，结果没能见面。",
+      "option_analysis": "误选限りでは是信息范围限定；本题是预约已完成但未能兑现，表达转折用ものの。",
+      "notes": "逐题选择后立即解析；未知是否猜题、净用时和信心。此专项与正式考试轮次独立计分，不合并三轮累计成绩。"
+    }
+  ]
+}

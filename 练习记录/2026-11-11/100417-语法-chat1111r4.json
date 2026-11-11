@@ -1,0 +1,665 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "chat-n2-20261110-11-grammar-round4",
+  "topic": "JLPT N2 四轮正式语法混合训练",
+  "exam_style": "原创N2风格单项选择题，不是官方真题",
+  "status": "completed",
+  "time_zone": "Asia/Tokyo",
+  "began_at_local": "2026-11-10",
+  "completed_at_local": "2026-11-11 10:04:17 +09:00",
+  "provenance": "本会话中2026-11-10至11-11间逐题展示的原题、选项、用户首次提交与既有批改；未引入外部试卷。",
+  "summary": {
+    "questions": 10,
+    "graded": 10,
+    "correct": 5,
+    "wrong": 5,
+    "accuracy_percent": 50,
+    "correct_item_ids": [
+      "Q01",
+      "Q02",
+      "Q07",
+      "Q08",
+      "Q09"
+    ],
+    "wrong_item_ids": [
+      "Q03",
+      "Q04",
+      "Q05",
+      "Q06",
+      "Q10"
+    ],
+    "wrong_target_grammars": [
+      "かねない",
+      "ものの",
+      "をきっかけに",
+      "にわたって",
+      "ざるを得ない"
+    ],
+    "formal_cumulative": {
+      "round_count": 4,
+      "correct": 18,
+      "total": 40,
+      "wrong": 22,
+      "accuracy_percent": 45
+    },
+    "separate_form_recognition": {
+      "correct": 6,
+      "total": 10,
+      "percent": 60,
+      "excluded_from_formal": true
+    },
+    "wrong_by_target_grammar_four_formal_rounds": {
+      "ものの": 4,
+      "ばかりに": 3,
+      "わけではない": 2,
+      "限りでは": 2,
+      "にわたって": 2,
+      "ないことには": 1,
+      "をめぐって": 1,
+      "うえで": 1,
+      "に限って": 1,
+      "にすぎない": 1,
+      "ざるを得ない": 2,
+      "かねない": 1,
+      "をきっかけに": 1
+    }
+  },
+  "scoring_policy": "只以首次明确提交的A/B/C/D计分。前一题回答后即有解析，因此不是独立无提示的完整模拟考试。未知猜题、信心与净用时，均不推定。独立词形识别专项6/10不得合并。",
+  "question_origin": "助手原创N2风格题目（带用户熟悉的游戏开发场景）；不是JLPT官方题、不是用户教材原题",
+  "attempts": [
+    {
+      "id": "2026-11-11-chat-n2-r4-q01",
+      "item_no": 1,
+      "source_ids": [
+        "chat-n2-20261110-11-grammar-round4"
+      ],
+      "batch_id": "chat-n2-20261110-11-grammar-round4",
+      "module": "grammar",
+      "attempt_kind": "first",
+      "date_local": "2026-11-10",
+      "answered_at_utc": "2026-11-10T01:38:31Z",
+      "prompt": "重要（じゅうよう）な資料（しりょう）は、念（ねん）のため複数（ふくすう）の場所（ばしょ）に保存（ほぞん）しておく（　　　）。",
+      "options": [
+        {
+          "letter": "A",
+          "text": "わけではない"
+        },
+        {
+          "letter": "B",
+          "text": "ばかりに"
+        },
+        {
+          "letter": "C",
+          "text": "に越したことはない"
+        },
+        {
+          "letter": "D",
+          "text": "ものの"
+        }
+      ],
+      "selected_letter": "C",
+      "selected_text": "に越したことはない",
+      "correct_letter": "C",
+      "correct_text": "に越したことはない",
+      "result": "correct",
+      "canonical_key": "grammar:に越したことはない",
+      "target_grammar": "に越したことはない",
+      "source_kind": "chat_original",
+      "full_sentence_with_furigana": "重要（じゅうよう）な資料（しりょう）は、念（ねん）のため複数（ふくすう）の場所（ばしょ）に保存（ほぞん）しておくに越（こ）したことはない。",
+      "translation_zh": "重要资料最好事先备份到多个地方，以防万一。",
+      "grammar_usage": "动词辞书形＋に越したことはない（名词、形容词接续另有类型），表示最好不过、总没有坏处。",
+      "explanation": "保存しておく表示为日后提前做好备份；に越したことはない表示理想建议，不是义务或被迫。",
+      "error_cause_confirmed_by_user": false,
+      "reason_classification": null,
+      "difficulty_type": "新语法",
+      "guessing_status": "unknown",
+      "confidence": "unknown",
+      "time_spent_seconds": null,
+      "formal_accuracy_eligible": true,
+      "recommended_retest_dates": []
+    },
+    {
+      "id": "2026-11-11-chat-n2-r4-q02",
+      "item_no": 2,
+      "source_ids": [
+        "chat-n2-20261110-11-grammar-round4"
+      ],
+      "batch_id": "chat-n2-20261110-11-grammar-round4",
+      "module": "grammar",
+      "attempt_kind": "first",
+      "date_local": "2026-11-10",
+      "answered_at_utc": "2026-11-10T01:43:24Z",
+      "prompt": "動画（どうが）編集（へんしゅう）の技術（ぎじゅつ）（　　　）、彼（かれ）はチームの中（なか）で誰（だれ）にも負（ま）けない。",
+      "options": [
+        {
+          "letter": "A",
+          "text": "に応じて"
+        },
+        {
+          "letter": "B",
+          "text": "にかけては"
+        },
+        {
+          "letter": "C",
+          "text": "にわたって"
+        },
+        {
+          "letter": "D",
+          "text": "ものの"
+        }
+      ],
+      "selected_letter": "B",
+      "selected_text": "にかけては",
+      "correct_letter": "B",
+      "correct_text": "にかけては",
+      "result": "correct",
+      "canonical_key": "grammar:にかけては",
+      "target_grammar": "にかけては",
+      "source_kind": "chat_original",
+      "full_sentence_with_furigana": "動画（どうが）編集（へんしゅう）の技術（ぎじゅつ）にかけては、彼（かれ）はチームの中（なか）で誰（だれ）にも負（ま）けない。",
+      "translation_zh": "论视频剪辑技术，他在团队里不输给任何人。",
+      "grammar_usage": "名词＋にかけては；强调某方面能力、技能或知识尤为突出。",
+      "explanation": "与に応じて（根据条件）、にわたって（跨度）、ものの（虽然）区分。",
+      "error_cause_confirmed_by_user": false,
+      "reason_classification": null,
+      "difficulty_type": "新语法",
+      "guessing_status": "unknown",
+      "confidence": "unknown",
+      "time_spent_seconds": null,
+      "formal_accuracy_eligible": true,
+      "recommended_retest_dates": []
+    },
+    {
+      "id": "2026-11-11-chat-n2-r4-q03",
+      "item_no": 3,
+      "source_ids": [
+        "chat-n2-20261110-11-grammar-round4"
+      ],
+      "batch_id": "chat-n2-20261110-11-grammar-round4",
+      "module": "grammar",
+      "attempt_kind": "first",
+      "date_local": "2026-11-10",
+      "answered_at_utc": "2026-11-10T01:48:15Z",
+      "prompt": "この表現（ひょうげん）は、読（よ）む人（ひと）によっては誤解（ごかい）を招（まね）き（　　　）ので、書（か）き直（なお）したほうがいい。",
+      "options": [
+        {
+          "letter": "A",
+          "text": "がたい"
+        },
+        {
+          "letter": "B",
+          "text": "かねる"
+        },
+        {
+          "letter": "C",
+          "text": "かねない"
+        },
+        {
+          "letter": "D",
+          "text": "っこない"
+        }
+      ],
+      "selected_letter": "B",
+      "selected_text": "かねる",
+      "correct_letter": "C",
+      "correct_text": "かねない",
+      "result": "incorrect",
+      "canonical_key": "grammar:かねない",
+      "target_grammar": "かねない",
+      "source_kind": "chat_original",
+      "full_sentence_with_furigana": "この表現（ひょうげん）は、読（よ）む人（ひと）によっては誤解（ごかい）を招（まね）きかねないので、書（か）き直（なお）したほうがいい。",
+      "translation_zh": "这种表达可能引起一些读者的误解，所以最好修改一下。",
+      "grammar_usage": "动词ます形去ます＋かねない，表示可能发生不利或令人担忧的情况。",
+      "explanation": "用户误选B『かねる＝难以做到』；正确C『かねない＝可能发生不良结果』。这里只能确认词形选择错误，不能断言具体心理原因。",
+      "error_cause_confirmed_by_user": false,
+      "reason_classification": "可观察到的词形误选与接续区别；具体心理原因未知",
+      "difficulty_type": "新语法",
+      "guessing_status": "unknown",
+      "confidence": "unknown",
+      "time_spent_seconds": null,
+      "formal_accuracy_eligible": true,
+      "recommended_retest_dates": [
+        "2026-11-12",
+        "2026-11-14",
+        "2026-11-18"
+      ]
+    },
+    {
+      "id": "2026-11-11-chat-n2-r4-q04",
+      "item_no": 4,
+      "source_ids": [
+        "chat-n2-20261110-11-grammar-round4"
+      ],
+      "batch_id": "chat-n2-20261110-11-grammar-round4",
+      "module": "grammar",
+      "attempt_kind": "first",
+      "date_local": "2026-11-10",
+      "answered_at_utc": "2026-11-10T02:26:49Z",
+      "prompt": "新（あたら）しいシステムを導入（どうにゅう）した（　　　）、作業（さぎょう）の効率（こうりつ）は思（おも）ったほど上（あ）がらなかった。",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ばかりに"
+        },
+        {
+          "letter": "B",
+          "text": "に応じて"
+        },
+        {
+          "letter": "C",
+          "text": "限りでは"
+        },
+        {
+          "letter": "D",
+          "text": "ものの"
+        }
+      ],
+      "selected_letter": "C",
+      "selected_text": "限りでは",
+      "correct_letter": "D",
+      "correct_text": "ものの",
+      "result": "incorrect",
+      "canonical_key": "grammar:ものの",
+      "target_grammar": "ものの",
+      "source_kind": "chat_original",
+      "full_sentence_with_furigana": "新（あたら）しいシステムを導入（どうにゅう）したものの、作業（さぎょう）の効率（こうりつ）は思（おも）ったほど上（あ）がらなかった。",
+      "translation_zh": "虽然引入了新系统，但工作效率并没有如预想般提高。",
+      "grammar_usage": "动词普通形＋ものの，表示前项事实成立，但后项与预期不符。",
+      "explanation": "用户误选C『限りでは＝据掌握情况所知』；本题需要转折而非信息范围限定。此类混淆在2026-11-10专项Q10也出现过。",
+      "error_cause_confirmed_by_user": false,
+      "reason_classification": "可观察到的词形误选与接续区别；具体心理原因未知",
+      "difficulty_type": "旧错题复测",
+      "guessing_status": "unknown",
+      "confidence": "unknown",
+      "time_spent_seconds": null,
+      "formal_accuracy_eligible": true,
+      "recommended_retest_dates": [
+        "2026-11-12",
+        "2026-11-14",
+        "2026-11-18"
+      ]
+    },
+    {
+      "id": "2026-11-11-chat-n2-r4-q05",
+      "item_no": 5,
+      "source_ids": [
+        "chat-n2-20261110-11-grammar-round4"
+      ],
+      "batch_id": "chat-n2-20261110-11-grammar-round4",
+      "module": "grammar",
+      "attempt_kind": "first",
+      "date_local": "2026-11-10",
+      "answered_at_utc": "2026-11-10T02:45:39Z",
+      "prompt": "学生（がくせい）の頃（ころ）に参加（さんか）したゲーム開発（かいはつ）イベント（　　　）、プログラミングを本格的（ほんかくてき）に勉強（べんきょう）するようになった。",
+      "options": [
+        {
+          "letter": "A",
+          "text": "にわたって"
+        },
+        {
+          "letter": "B",
+          "text": "に応じて"
+        },
+        {
+          "letter": "C",
+          "text": "をきっかけに"
+        },
+        {
+          "letter": "D",
+          "text": "にかけては"
+        }
+      ],
+      "selected_letter": "D",
+      "selected_text": "にかけては",
+      "correct_letter": "C",
+      "correct_text": "をきっかけに",
+      "result": "incorrect",
+      "canonical_key": "grammar:をきっかけに",
+      "target_grammar": "をきっかけに",
+      "source_kind": "chat_original",
+      "full_sentence_with_furigana": "学生（がくせい）の頃（ころ）に参加（さんか）したゲーム開発（かいはつ）イベントをきっかけに、プログラミングを本格的（ほんかくてき）に勉強（べんきょう）するようになった。",
+      "translation_zh": "以学生时代参加的游戏开发活动为契机，开始认真学习编程。",
+      "grammar_usage": "名词＋をきっかけに；或动词た形＋こと／のをきっかけに，表示引发变化的契机。",
+      "explanation": "用户误选D『にかけては＝论某方面很擅长』；前后关系是活动促使学习开始，不是在评价突出能力。",
+      "error_cause_confirmed_by_user": false,
+      "reason_classification": "可观察到的词形误选与接续区别；具体心理原因未知",
+      "difficulty_type": "新语法",
+      "guessing_status": "unknown",
+      "confidence": "unknown",
+      "time_spent_seconds": null,
+      "formal_accuracy_eligible": true,
+      "recommended_retest_dates": [
+        "2026-11-12",
+        "2026-11-14",
+        "2026-11-18"
+      ]
+    },
+    {
+      "id": "2026-11-11-chat-n2-r4-q06",
+      "item_no": 6,
+      "source_ids": [
+        "chat-n2-20261110-11-grammar-round4"
+      ],
+      "batch_id": "chat-n2-20261110-11-grammar-round4",
+      "module": "grammar",
+      "attempt_kind": "first",
+      "date_local": "2026-11-10",
+      "answered_at_utc": "2026-11-10T02:53:19Z",
+      "prompt": "この調査（ちょうさ）は、三年間（さんねんかん）（　　　）実施（じっし）され、地域（ちいき）の環境（かんきょう）の変化（へんか）を記録（きろく）した。",
+      "options": [
+        {
+          "letter": "A",
+          "text": "に応じて"
+        },
+        {
+          "letter": "B",
+          "text": "ものの"
+        },
+        {
+          "letter": "C",
+          "text": "にかけては"
+        },
+        {
+          "letter": "D",
+          "text": "にわたって"
+        }
+      ],
+      "selected_letter": "A",
+      "selected_text": "に応じて",
+      "correct_letter": "D",
+      "correct_text": "にわたって",
+      "result": "incorrect",
+      "canonical_key": "grammar:にわたって",
+      "target_grammar": "にわたって",
+      "source_kind": "chat_original",
+      "full_sentence_with_furigana": "この調査（ちょうさ）は、三年間（さんねんかん）にわたって実施（じっし）され、地域（ちいき）の環境（かんきょう）の変化（へんか）を記録（きろく）した。",
+      "translation_zh": "这项调查持续开展了三年，记录了当地环境的变化。",
+      "grammar_usage": "名词（时间／空间／范围）＋にわたって；修饰名词可用にわたる。表示长达、遍及。",
+      "explanation": "用户误选A『に応じて＝根据条件』；三年間在句中表示持续时间的跨度而不是调整条件。",
+      "error_cause_confirmed_by_user": false,
+      "reason_classification": "可观察到的词形误选与接续区别；具体心理原因未知",
+      "difficulty_type": "旧错题复测",
+      "guessing_status": "unknown",
+      "confidence": "unknown",
+      "time_spent_seconds": null,
+      "formal_accuracy_eligible": true,
+      "recommended_retest_dates": [
+        "2026-11-12",
+        "2026-11-14",
+        "2026-11-18"
+      ]
+    },
+    {
+      "id": "2026-11-11-chat-n2-r4-q07",
+      "item_no": 7,
+      "source_ids": [
+        "chat-n2-20261110-11-grammar-round4"
+      ],
+      "batch_id": "chat-n2-20261110-11-grammar-round4",
+      "module": "grammar",
+      "attempt_kind": "first",
+      "date_local": "2026-11-10",
+      "answered_at_utc": "2026-11-10T02:57:23Z",
+      "prompt": "今年（ことし）の売上（うりあげ）は、減少（げんしょう）するという予想（よそう）（　　　）、実際（じっさい）には大幅（おおはば）に増加（ぞうか）した。",
+      "options": [
+        {
+          "letter": "A",
+          "text": "に反して"
+        },
+        {
+          "letter": "B",
+          "text": "にあたって"
+        },
+        {
+          "letter": "C",
+          "text": "に応じて"
+        },
+        {
+          "letter": "D",
+          "text": "にわたって"
+        }
+      ],
+      "selected_letter": "A",
+      "selected_text": "に反して",
+      "correct_letter": "A",
+      "correct_text": "に反して",
+      "result": "correct",
+      "canonical_key": "grammar:に反して",
+      "target_grammar": "に反して",
+      "source_kind": "chat_original",
+      "full_sentence_with_furigana": "今年（ことし）の売上（うりあげ）は、減少（げんしょう）するという予想（よそう）に反（はん）して、実際（じっさい）には大幅（おおはば）に増加（ぞうか）した。",
+      "translation_zh": "与今年销售额会下降的预测相反，实际上销售额却大幅增长。",
+      "grammar_usage": "名词＋に反して，表示违背预测、期待、意志或规则；に反する＋名词。",
+      "explanation": "与ものの（虽然）、に応じて（根据）、にわたって（跨度）区分。",
+      "error_cause_confirmed_by_user": false,
+      "reason_classification": null,
+      "difficulty_type": "新语法",
+      "guessing_status": "unknown",
+      "confidence": "unknown",
+      "time_spent_seconds": null,
+      "formal_accuracy_eligible": true,
+      "recommended_retest_dates": []
+    },
+    {
+      "id": "2026-11-11-chat-n2-r4-q08",
+      "item_no": 8,
+      "source_ids": [
+        "chat-n2-20261110-11-grammar-round4"
+      ],
+      "batch_id": "chat-n2-20261110-11-grammar-round4",
+      "module": "grammar",
+      "attempt_kind": "first",
+      "date_local": "2026-11-11",
+      "answered_at_utc": "2026-11-11T00:37:38Z",
+      "prompt": "新（あたら）しいゲームの正式（せいしき）公開（こうかい）（　　　）、開発（かいはつ）チームは不具合（ふぐあい）を確認（かくにん）するための最終（さいしゅう）テストを実施（じっし）した。",
+      "options": [
+        {
+          "letter": "A",
+          "text": "にわたって"
+        },
+        {
+          "letter": "B",
+          "text": "に反して"
+        },
+        {
+          "letter": "C",
+          "text": "に応じて"
+        },
+        {
+          "letter": "D",
+          "text": "に先立って（にさきだって）"
+        }
+      ],
+      "selected_letter": "D",
+      "selected_text": "に先立って（にさきだって）",
+      "correct_letter": "D",
+      "correct_text": "に先立って（にさきだって）",
+      "result": "correct",
+      "canonical_key": "grammar:に先立って",
+      "target_grammar": "に先立って",
+      "source_kind": "chat_original",
+      "full_sentence_with_furigana": "新（あたら）しいゲームの正式公開（せいしきこうかい）に先立（さきだ）って、開発（かいはつ）チームは不具合（ふぐあい）を確認（かくにん）するための最終（さいしゅう）テストを実施（じっし）した。",
+      "translation_zh": "在新游戏正式发布之前，开发团队为检查Bug实施了最终测试。",
+      "grammar_usage": "名词＋に先立って；动词辞书形＋に先立って；强调在重大或正式事件之前预先采取行动。",
+      "explanation": "与にあたって／に際して『在……之际』的侧重点不同；に先立って明确说先发生。",
+      "error_cause_confirmed_by_user": false,
+      "reason_classification": null,
+      "difficulty_type": "新语法",
+      "guessing_status": "unknown",
+      "confidence": "unknown",
+      "time_spent_seconds": null,
+      "formal_accuracy_eligible": true,
+      "recommended_retest_dates": []
+    },
+    {
+      "id": "2026-11-11-chat-n2-r4-q09",
+      "item_no": 9,
+      "source_ids": [
+        "chat-n2-20261110-11-grammar-round4"
+      ],
+      "batch_id": "chat-n2-20261110-11-grammar-round4",
+      "module": "grammar",
+      "attempt_kind": "first",
+      "date_local": "2026-11-11",
+      "answered_at_utc": "2026-11-11T01:02:01Z",
+      "prompt": "このイベントは、ゲーム開発者（かいはつしゃ）（　　　）、イラストレーターや動画制作者（どうがせいさくしゃ）も参加（さんか）できる。",
+      "options": [
+        {
+          "letter": "A",
+          "text": "に限って（にかぎって）"
+        },
+        {
+          "letter": "B",
+          "text": "に反して（にはんして）"
+        },
+        {
+          "letter": "C",
+          "text": "に限らず（にかぎらず）"
+        },
+        {
+          "letter": "D",
+          "text": "に応じて（におうじて）"
+        }
+      ],
+      "selected_letter": "C",
+      "selected_text": "に限らず（にかぎらず）",
+      "correct_letter": "C",
+      "correct_text": "に限らず（にかぎらず）",
+      "result": "correct",
+      "canonical_key": "grammar:に限らず",
+      "target_grammar": "に限らず",
+      "source_kind": "chat_original",
+      "full_sentence_with_furigana": "このイベントは、ゲーム開発者（かいはつしゃ）に限（かぎ）らず、イラストレーターや動画制作者（どうがせいさくしゃ）も参加（さんか）できる。",
+      "translation_zh": "这次活动不仅限于游戏开发者，插画师和视频制作者也可以参加。",
+      "grammar_usage": "名词＋に限らず（～も），表示不仅限于前项，后项也包括。",
+      "explanation": "『に限らず＝不仅限于』对比『に限って＝仅限于／偏偏』；『限りでは』则是据已知信息范围判断。",
+      "error_cause_confirmed_by_user": false,
+      "reason_classification": null,
+      "difficulty_type": "新语法",
+      "guessing_status": "unknown",
+      "confidence": "unknown",
+      "time_spent_seconds": null,
+      "formal_accuracy_eligible": true,
+      "recommended_retest_dates": []
+    },
+    {
+      "id": "2026-11-11-chat-n2-r4-q10",
+      "item_no": 10,
+      "source_ids": [
+        "chat-n2-20261110-11-grammar-round4"
+      ],
+      "batch_id": "chat-n2-20261110-11-grammar-round4",
+      "module": "grammar",
+      "attempt_kind": "first",
+      "date_local": "2026-11-11",
+      "answered_at_utc": "2026-11-11T01:04:17Z",
+      "prompt": "重大（じゅうだい）な不具合（ふぐあい）が見（み）つかったため、予定（よてい）していたゲームの公開（こうかい）を延期（えんき）せ（　　　）。",
+      "options": [
+        {
+          "letter": "A",
+          "text": "かねなかった"
+        },
+        {
+          "letter": "B",
+          "text": "ざるを得なかった（ざるをえなかった）"
+        },
+        {
+          "letter": "C",
+          "text": "ものの"
+        },
+        {
+          "letter": "D",
+          "text": "わけではなかった"
+        }
+      ],
+      "selected_letter": "D",
+      "selected_text": "わけではなかった",
+      "correct_letter": "B",
+      "correct_text": "ざるを得なかった（ざるをえなかった）",
+      "result": "incorrect",
+      "canonical_key": "grammar:ざるを得ない",
+      "target_grammar": "ざるを得ない",
+      "source_kind": "chat_original",
+      "full_sentence_with_furigana": "重大（じゅうだい）な不具合（ふぐあい）が見（み）つかったため、予定（よてい）していたゲームの公開（こうかい）を延期（えんき）せざるを得（え）なかった。",
+      "translation_zh": "由于发现了重大Bug，不得不推迟原定的游戏发布日期。",
+      "grammar_usage": "动词ない形去掉ない＋ざるを得ない（する→せざるを得ない；来る→こざるを得ない），过去式ざるを得なかった；表示被迫采取行动。",
+      "explanation": "用户误选D『わけではなかった＝并不是……』；延期せ＋わけではなかった在语法接续上不成立。题目已给延期せ，正确接续是『延期せざるを得なかった』；并应与『かねない＝可能发生不良后果』区分。",
+      "error_cause_confirmed_by_user": false,
+      "reason_classification": "可观察到的词形误选与接续区别；具体心理原因未知",
+      "difficulty_type": "旧错题复测",
+      "guessing_status": "unknown",
+      "confidence": "unknown",
+      "time_spent_seconds": null,
+      "formal_accuracy_eligible": true,
+      "recommended_retest_dates": [
+        "2026-11-12",
+        "2026-11-14",
+        "2026-11-18"
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "id": "R4Q03",
+      "target": "かねない",
+      "selected": "かねる",
+      "correct": "かねない",
+      "reason_known": "答题首次选项已知，具体心理原因未由用户说明",
+      "potential_confusion": "用户误选B『かねる＝难以做到』；正确C『かねない＝可能发生不良结果』。这里只能确认词形选择错误，不能断言具体心理原因。"
+    },
+    {
+      "id": "R4Q04",
+      "target": "ものの",
+      "selected": "限りでは",
+      "correct": "ものの",
+      "reason_known": "答题首次选项已知，具体心理原因未由用户说明",
+      "potential_confusion": "用户误选C『限りでは＝据掌握情况所知』；本题需要转折而非信息范围限定。此类混淆在2026-11-10专项Q10也出现过。"
+    },
+    {
+      "id": "R4Q05",
+      "target": "をきっかけに",
+      "selected": "にかけては",
+      "correct": "をきっかけに",
+      "reason_known": "答题首次选项已知，具体心理原因未由用户说明",
+      "potential_confusion": "用户误选D『にかけては＝论某方面很擅长』；前后关系是活动促使学习开始，不是在评价突出能力。"
+    },
+    {
+      "id": "R4Q06",
+      "target": "にわたって",
+      "selected": "に応じて",
+      "correct": "にわたって",
+      "reason_known": "答题首次选项已知，具体心理原因未由用户说明",
+      "potential_confusion": "用户误选A『に応じて＝根据条件』；三年間在句中表示持续时间的跨度而不是调整条件。"
+    },
+    {
+      "id": "R4Q10",
+      "target": "ざるを得ない",
+      "selected": "わけではなかった",
+      "correct": "ざるを得なかった（ざるをえなかった）",
+      "reason_known": "答题首次选项已知，具体心理原因未由用户说明",
+      "potential_confusion": "用户误选D『わけではなかった＝并不是……』；延期せ＋わけではなかった在语法接续上不成立。题目已给延期せ，正确接续是『延期せざるを得なかった』；并应与『かねない＝可能发生不良后果』区分。"
+    }
+  ],
+  "review_plan": {
+    "next_round": "第五轮仍以约7道新语法、3道此前正式错题变式复习混排；不在作答前透露复习考点。",
+    "priority_order": [
+      "ものの",
+      "ざるを得ない",
+      "にわたって",
+      "かねない",
+      "をきっかけに",
+      "ばかりに"
+    ],
+    "methods": [
+      "先识别日语词形对应的中文固定标签，再验证接续及前后句逻辑",
+      "混排にかけては/をきっかけに、かねる/かねない、に応じて/にわたって",
+      "使用新句按+1/+3/+7天延迟复测，首次成绩独立保留"
+    ],
+    "review_dates": [
+      "2026-11-12",
+      "2026-11-14",
+      "2026-11-18"
+    ],
+    "note": "错题复习回答与原题答案不能反向改写原始答题记录，猜题情况仍未知。"
+  }
+}

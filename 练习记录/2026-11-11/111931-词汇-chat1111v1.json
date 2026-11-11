@@ -1,0 +1,556 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "chat-n2-20261111-vocab-round1",
+  "module": "JLPT N2 vocabulary",
+  "status": "completed",
+  "source_kind": "assistant_original_not_official_exam",
+  "date": "2026-11-11",
+  "timezone": "Asia/Tokyo",
+  "completed_at_local": "2026-11-11 11:19:31 +09:00",
+  "summary": {
+    "questions": 10,
+    "answered": 10,
+    "correct": 5,
+    "wrong": 5,
+    "accuracy_percent": 50,
+    "wrong_item_ids": [
+      "Q03",
+      "Q04",
+      "Q06",
+      "Q08",
+      "Q09"
+    ],
+    "weak_lexemes": [
+      "促す（うながす）",
+      "配慮（はいりょ）",
+      "滞る（とどこおる）",
+      "見送る（みおくる）",
+      "賄う（まかなう）"
+    ],
+    "wrong_by_question_type": {
+      "reading": 3,
+      "usage": 1,
+      "synonym_meaning": 1
+    },
+    "formal_grammar_rounds_separate": {
+      "correct": 18,
+      "total": 40,
+      "percent": 45
+    },
+    "form_recognition_separate": {
+      "correct": 6,
+      "total": 10,
+      "percent": 60
+    }
+  },
+  "scoring_policy": "逐题提交的首次回答才计分，且每题批改后即时讲解；不依赖自报计时，猜题情况/信心未知。本组与语法正式四轮、词形专项分别统计，不互相冲销。",
+  "attempts": [
+    {
+      "id": "2026-11-11-chat-n2-vocab1-q01",
+      "batch_id": "chat-n2-20261111-vocab-round1",
+      "question_no": 1,
+      "source": "本次聊天原创N2风格词汇题；非JLPT官方真题",
+      "module": "vocabulary",
+      "type": "文脉规定（词义、常见搭配）",
+      "attempt_kind": "first",
+      "date_local": "2026-11-11",
+      "answered_at_utc": "2026-11-11T01:30:47Z",
+      "prompt": "重要（じゅうよう）な契約（けいやく）なので、内容（ないよう）を十分（じゅうぶん）に確認（かくにん）してから、（　　　）に判断（はんだん）してください。",
+      "options": [
+        {
+          "label": "A",
+          "value": "穏やか（おだやか）"
+        },
+        {
+          "label": "B",
+          "value": "慎重（しんちょう）"
+        },
+        {
+          "label": "C",
+          "value": "曖昧（あいまい）"
+        },
+        {
+          "label": "D",
+          "value": "大幅（おおはば）"
+        }
+      ],
+      "selected_option": "B",
+      "selected_text": "慎重（しんちょう）",
+      "correct_option": "B",
+      "correct_text": "慎重（しんちょう）",
+      "result": "correct",
+      "target_lexeme": "慎重（しんちょう）",
+      "complete_sentence_with_furigana": "重要（じゅうよう）な契約（けいやく）なので、内容（ないよう）を十分（じゅうぶん）に確認（かくにん）してから、慎重（しんちょう）に判断（はんだん）してください。",
+      "translation_zh": "因为是重要合同，请充分确认内容之后慎重判断。",
+      "explanation": "慎重に判断する=慎重判断。穏やか＝温和；曖昧＝含糊；大幅＝大幅度。",
+      "observed_error": null,
+      "error_reason_confirmed_by_user": false,
+      "guessing_status": "unknown",
+      "confidence": "unknown",
+      "time_spent_seconds": null,
+      "recommended_retest_dates": []
+    },
+    {
+      "id": "2026-11-11-chat-n2-vocab1-q02",
+      "batch_id": "chat-n2-20261111-vocab-round1",
+      "question_no": 2,
+      "source": "本次聊天原创N2风格词汇题；非JLPT官方真题",
+      "module": "vocabulary",
+      "type": "言い換え類義（近义词）",
+      "attempt_kind": "first",
+      "date_local": "2026-11-11",
+      "answered_at_utc": "2026-11-11T01:31:43Z",
+      "prompt": "突然（とつぜん）の質問（しつもん）に、彼（かれ）は戸惑（とまど）った。问题：下列哪个选项与「戸惑った」的意思最接近？",
+      "options": [
+        {
+          "label": "A",
+          "value": "納得（なっとく）した"
+        },
+        {
+          "label": "B",
+          "value": "安心（あんしん）した"
+        },
+        {
+          "label": "C",
+          "value": "困惑（こんわく）した"
+        },
+        {
+          "label": "D",
+          "value": "感心（かんしん）した"
+        }
+      ],
+      "selected_option": "C",
+      "selected_text": "困惑（こんわく）した",
+      "correct_option": "C",
+      "correct_text": "困惑（こんわく）した",
+      "result": "correct",
+      "target_lexeme": "戸惑う（とまどう）",
+      "complete_sentence_with_furigana": "突然（とつぜん）の質問（しつもん）に、彼（かれ）は戸惑（とまど）った。",
+      "translation_zh": "他面对突如其来的问题，一时间不知所措。",
+      "explanation": "戸惑う＝面对意外情况不知如何应对；困惑する＝困惑／为难（最接近）；納得＝理解并接受；安心＝放心；感心＝佩服。",
+      "observed_error": null,
+      "error_reason_confirmed_by_user": false,
+      "guessing_status": "unknown",
+      "confidence": "unknown",
+      "time_spent_seconds": null,
+      "recommended_retest_dates": []
+    },
+    {
+      "id": "2026-11-11-chat-n2-vocab1-q03",
+      "batch_id": "chat-n2-20261111-vocab-round1",
+      "question_no": 3,
+      "source": "本次聊天原创N2风格词汇题；非JLPT官方真题",
+      "module": "vocabulary",
+      "type": "漢字読み（汉字读音）",
+      "attempt_kind": "first",
+      "date_local": "2026-11-11",
+      "answered_at_utc": "2026-11-11T01:34:29Z",
+      "prompt": "係員（かかりいん）は参加者（さんかしゃ）に早（はや）めの集合（しゅうごう）を促した。问题：「促した」的正确读音是什么？",
+      "options": [
+        {
+          "label": "A",
+          "value": "ほどこした"
+        },
+        {
+          "label": "B",
+          "value": "うながした"
+        },
+        {
+          "label": "C",
+          "value": "うかがった"
+        },
+        {
+          "label": "D",
+          "value": "もよおした"
+        }
+      ],
+      "selected_option": "C",
+      "selected_text": "うかがった",
+      "correct_option": "B",
+      "correct_text": "うながした",
+      "result": "incorrect",
+      "target_lexeme": "促す（うながす）",
+      "complete_sentence_with_furigana": "係員（かかりいん）は参加者（さんかしゃ）に早（はや）めの集合（しゅうごう）を促（うなが）した。",
+      "translation_zh": "工作人员敦促参加者提前集合。",
+      "explanation": "促す（うながす）＝敦促，促した＝うながした。A 施す（ほどこす）＝施加；C 伺う（うかがう）＝请教／拜访（自谦）；D 催す（もよおす）＝举办／产生某种感觉。",
+      "observed_error": "首次选择C『うかがった』，实际对应伺う，不能作为促した的读音。具体误选心理原因未陈述。",
+      "error_reason_confirmed_by_user": false,
+      "guessing_status": "unknown",
+      "confidence": "unknown",
+      "time_spent_seconds": null,
+      "recommended_retest_dates": [
+        "2026-11-12",
+        "2026-11-14",
+        "2026-11-18"
+      ]
+    },
+    {
+      "id": "2026-11-11-chat-n2-vocab1-q04",
+      "batch_id": "chat-n2-20261111-vocab-round1",
+      "question_no": 4,
+      "source": "本次聊天原创N2风格词汇题；非JLPT官方真题",
+      "module": "vocabulary",
+      "type": "語彙の用法（词汇用法）",
+      "attempt_kind": "first",
+      "date_local": "2026-11-11",
+      "answered_at_utc": "2026-11-11T01:40:21Z",
+      "prompt": "下列哪一个句子中，「配慮（はいりょ）」的使用最自然、最正确？",
+      "options": [
+        {
+          "label": "A",
+          "value": "売上（うりあげ）を配慮して、今月（こんげつ）の数字（すうじ）を確認（かくにん）した。"
+        },
+        {
+          "label": "B",
+          "value": "周囲（しゅうい）の人（ひと）に配慮して、夜（よる）は大（おお）きな音（おと）を出（だ）さないようにした。"
+        },
+        {
+          "label": "C",
+          "value": "新（あたら）しいソフトを配慮した。"
+        },
+        {
+          "label": "D",
+          "value": "パソコンにファイルを配慮した。"
+        }
+      ],
+      "selected_option": "C",
+      "selected_text": "新（あたら）しいソフトを配慮した。",
+      "correct_option": "B",
+      "correct_text": "周囲（しゅうい）の人（ひと）に配慮して、夜（よる）は大（おお）きな音（おと）を出（だ）さないようにした。",
+      "result": "incorrect",
+      "target_lexeme": "配慮（はいりょ）",
+      "complete_sentence_with_furigana": "周囲（しゅうい）の人（ひと）に配慮（はいりょ）して、夜（よる）は大（おお）きな音（おと）を出（だ）さないようにした。",
+      "translation_zh": "顾及周围的人，晚上尽量不发出太大的声音。",
+      "explanation": "配慮する＝顾及、体谅；周囲の人に配慮する／安全に配慮する。考慮（こうりょ）＝考虑因素；検討（けんとう）＝研究方案。",
+      "observed_error": "首次选择C『新しいソフトを配慮した』，把配慮用于软件评估不自然；应说『新しいソフトの導入を検討した』。具体误选心理原因未陈述。",
+      "error_reason_confirmed_by_user": false,
+      "guessing_status": "unknown",
+      "confidence": "unknown",
+      "time_spent_seconds": null,
+      "recommended_retest_dates": [
+        "2026-11-12",
+        "2026-11-14",
+        "2026-11-18"
+      ]
+    },
+    {
+      "id": "2026-11-11-chat-n2-vocab1-q05",
+      "batch_id": "chat-n2-20261111-vocab-round1",
+      "question_no": 5,
+      "source": "本次聊天原创N2风格词汇题；非JLPT官方真题",
+      "module": "vocabulary",
+      "type": "文脉规定（词义）",
+      "attempt_kind": "first",
+      "date_local": "2026-11-11",
+      "answered_at_utc": "2026-11-11T01:41:39Z",
+      "prompt": "エラーが起（お）こる条件（じょうけん）を確認（かくにん）するため、テスト環境（かんきょう）でも同（おな）じ現象（げんしょう）を（　　　）した。",
+      "options": [
+        {
+          "label": "A",
+          "value": "復旧（ふっきゅう）"
+        },
+        {
+          "label": "B",
+          "value": "維持（いじ）"
+        },
+        {
+          "label": "C",
+          "value": "省略（しょうりゃく）"
+        },
+        {
+          "label": "D",
+          "value": "再現（さいげん）"
+        }
+      ],
+      "selected_option": "D",
+      "selected_text": "再現（さいげん）",
+      "correct_option": "D",
+      "correct_text": "再現（さいげん）",
+      "result": "correct",
+      "target_lexeme": "再現（さいげん）",
+      "complete_sentence_with_furigana": "エラーが起（お）こる条件（じょうけん）を確認（かくにん）するため、テスト環境（かんきょう）でも同（おな）じ現象（げんしょう）を再現（さいげん）した。",
+      "translation_zh": "为确认错误发生的条件，在测试环境里复现了同样的现象。",
+      "explanation": "再現＝让现象再次出现；復旧＝恢复到正常；維持＝维持现状；省略＝省去部分。",
+      "observed_error": null,
+      "error_reason_confirmed_by_user": false,
+      "guessing_status": "unknown",
+      "confidence": "unknown",
+      "time_spent_seconds": null,
+      "recommended_retest_dates": []
+    },
+    {
+      "id": "2026-11-11-chat-n2-vocab1-q06",
+      "batch_id": "chat-n2-20261111-vocab-round1",
+      "question_no": 6,
+      "source": "本次聊天原创N2风格词汇题；非JLPT官方真题",
+      "module": "vocabulary",
+      "type": "漢字読み（汉字读音）",
+      "attempt_kind": "first",
+      "date_local": "2026-11-11",
+      "answered_at_utc": "2026-11-11T01:46:55Z",
+      "prompt": "必要（ひつよう）な部品（ぶひん）が届（とど）かず、修理（しゅうり）の作業（さぎょう）が滞っている。问题：「滞っている」的正确读音是什么？",
+      "options": [
+        {
+          "label": "A",
+          "value": "ためらっている"
+        },
+        {
+          "label": "B",
+          "value": "とどまっている"
+        },
+        {
+          "label": "C",
+          "value": "とどこおっている"
+        },
+        {
+          "label": "D",
+          "value": "とどいている"
+        }
+      ],
+      "selected_option": "B",
+      "selected_text": "とどまっている",
+      "correct_option": "C",
+      "correct_text": "とどこおっている",
+      "result": "incorrect",
+      "target_lexeme": "滞る（とどこおる）",
+      "complete_sentence_with_furigana": "必要（ひつよう）な部品（ぶひん）が届（とど）かず、修理（しゅうり）の作業（さぎょう）が滞（とどこお）っている。",
+      "translation_zh": "必要零件尚未送到，维修工作因此停滞。",
+      "explanation": "滞る（とどこおる）＝进度停滞；滞っている＝とどこおっている。B 留まる（とどまる）＝停留；A ためらう＝犹豫；D 届く（とどく）＝到达。",
+      "observed_error": "首次选择B『とどまっている』，对应留まる／止まる，与滞る（とどこおる）的读音不同。具体误选心理原因未陈述。",
+      "error_reason_confirmed_by_user": false,
+      "guessing_status": "unknown",
+      "confidence": "unknown",
+      "time_spent_seconds": null,
+      "recommended_retest_dates": [
+        "2026-11-12",
+        "2026-11-14",
+        "2026-11-18"
+      ]
+    },
+    {
+      "id": "2026-11-11-chat-n2-vocab1-q07",
+      "batch_id": "chat-n2-20261111-vocab-round1",
+      "question_no": 7,
+      "source": "本次聊天原创N2风格词汇题；非JLPT官方真题",
+      "module": "vocabulary",
+      "type": "文脉规定（词义、复合动词）",
+      "attempt_kind": "first",
+      "date_local": "2026-11-11",
+      "answered_at_utc": "2026-11-11T01:48:29Z",
+      "prompt": "会議（かいぎ）で意見（いけん）がまとまらなかったため、この議題（ぎだい）を次回（じかい）の会議（かいぎ）に（　　　）ことになった。",
+      "options": [
+        {
+          "label": "A",
+          "value": "取り消す（とりけす）"
+        },
+        {
+          "label": "B",
+          "value": "持ち越す（もちこす）"
+        },
+        {
+          "label": "C",
+          "value": "引き受ける（ひきうける）"
+        },
+        {
+          "label": "D",
+          "value": "取り戻す（とりもどす）"
+        }
+      ],
+      "selected_option": "B",
+      "selected_text": "持ち越す（もちこす）",
+      "correct_option": "B",
+      "correct_text": "持ち越す（もちこす）",
+      "result": "correct",
+      "target_lexeme": "持ち越す（もちこす）",
+      "complete_sentence_with_furigana": "会議（かいぎ）で意見（いけん）がまとまらなかったため、この議題（ぎだい）を次回（じかい）の会議（かいぎ）に持（も）ち越（こ）すことになった。",
+      "translation_zh": "会议未达成一致，决定将议题留到下次会议再讨论。",
+      "explanation": "持ち越す＝把未完成事项留到下一次；取り消す＝取消；引き受ける＝承担；取り戻す＝取回。",
+      "observed_error": null,
+      "error_reason_confirmed_by_user": false,
+      "guessing_status": "unknown",
+      "confidence": "unknown",
+      "time_spent_seconds": null,
+      "recommended_retest_dates": []
+    },
+    {
+      "id": "2026-11-11-chat-n2-vocab1-q08",
+      "batch_id": "chat-n2-20261111-vocab-round1",
+      "question_no": 8,
+      "source": "本次聊天原创N2风格词汇题；非JLPT官方真题",
+      "module": "vocabulary",
+      "type": "言い換え類義（词语多义／近义表达）",
+      "attempt_kind": "first",
+      "date_local": "2026-11-11",
+      "answered_at_utc": "2026-11-11T02:07:05Z",
+      "prompt": "予算（よさん）の都合（つごう）で、新（あたら）しい機材（きざい）の購入（こうにゅう）は今回（こんかい）見送（みおく）ることになった。问题：下列哪个表达最接近句中「見送る」的意思？",
+      "options": [
+        {
+          "label": "A",
+          "value": "今回は購入（こうにゅう）を控（ひか）える"
+        },
+        {
+          "label": "B",
+          "value": "予定（よてい）より早（はや）く購入する"
+        },
+        {
+          "label": "C",
+          "value": "別（べつ）の会社（かいしゃ）に購入を任（まか）せる"
+        },
+        {
+          "label": "D",
+          "value": "必（かなら）ず購入する"
+        }
+      ],
+      "selected_option": "C",
+      "selected_text": "別（べつ）の会社（かいしゃ）に購入を任（まか）せる",
+      "correct_option": "A",
+      "correct_text": "今回は購入（こうにゅう）を控（ひか）える",
+      "result": "incorrect",
+      "target_lexeme": "見送る（みおくる）",
+      "complete_sentence_with_furigana": "予算（よさん）の都合（つごう）で、新（あたら）しい機材（きざい）の購入（こうにゅう）は今回（こんかい）見送（みおく）ることになった。",
+      "translation_zh": "出于预算原因，决定此次不购买新设备。",
+      "explanation": "見送る＝送别；也可表示这次暂不实施／放弃当前机会，未必以后一定实施。今回は購入を控える＝这次先不买；任せる＝把工作委托别人。",
+      "observed_error": "首次选择C『別の会社に購入を任せる』＝将采购交给别的公司；但見送る表达本次不实施，而非更换执行者。具体误选心理原因未陈述。",
+      "error_reason_confirmed_by_user": false,
+      "guessing_status": "unknown",
+      "confidence": "unknown",
+      "time_spent_seconds": null,
+      "recommended_retest_dates": [
+        "2026-11-12",
+        "2026-11-14",
+        "2026-11-18"
+      ]
+    },
+    {
+      "id": "2026-11-11-chat-n2-vocab1-q09",
+      "batch_id": "chat-n2-20261111-vocab-round1",
+      "question_no": 9,
+      "source": "本次聊天原创N2风格词汇题；非JLPT官方真题",
+      "module": "vocabulary",
+      "type": "漢字読み（汉字读音）",
+      "attempt_kind": "first",
+      "date_local": "2026-11-11",
+      "answered_at_utc": "2026-11-11T02:18:28Z",
+      "prompt": "イベントの運営（うんえい）費用（ひよう）は、参加費（さんかひ）だけで賄っている。问题：「賄っている」的正确读音是什么？",
+      "options": [
+        {
+          "label": "A",
+          "value": "つぐなっている"
+        },
+        {
+          "label": "B",
+          "value": "おぎなっている"
+        },
+        {
+          "label": "C",
+          "value": "まかなっている"
+        },
+        {
+          "label": "D",
+          "value": "うしなっている"
+        }
+      ],
+      "selected_option": "D",
+      "selected_text": "うしなっている",
+      "correct_option": "C",
+      "correct_text": "まかなっている",
+      "result": "incorrect",
+      "target_lexeme": "賄う（まかなう）",
+      "complete_sentence_with_furigana": "イベントの運営費用（うんえいひよう）は、参加費（さんかひ）だけで賄（まかな）っている。",
+      "translation_zh": "活动运营费用仅靠参加费就能承担。",
+      "explanation": "賄う（まかなう）＝负担所需费用，賄っている＝まかなっている。A 償う（つぐなう）＝赔偿；B 補う（おぎなう）＝弥补不足；D 失う（うしなう）＝失去。",
+      "observed_error": "首次选择D『うしなっている』，对应失う（失去），与賄う（まかなう）不同。具体误选心理原因未陈述。",
+      "error_reason_confirmed_by_user": false,
+      "guessing_status": "unknown",
+      "confidence": "unknown",
+      "time_spent_seconds": null,
+      "recommended_retest_dates": [
+        "2026-11-12",
+        "2026-11-14",
+        "2026-11-18"
+      ]
+    },
+    {
+      "id": "2026-11-11-chat-n2-vocab1-q10",
+      "batch_id": "chat-n2-20261111-vocab-round1",
+      "question_no": 10,
+      "source": "本次聊天原创N2风格词汇题；非JLPT官方真题",
+      "module": "vocabulary",
+      "type": "文脉规定（固定搭配）",
+      "attempt_kind": "first",
+      "date_local": "2026-11-11",
+      "answered_at_utc": "2026-11-11T02:19:31Z",
+      "prompt": "システムの不具合（ふぐあい）が相次（あいつ）いだため、会社（かいしゃ）は緊急（きんきゅう）の（　　　）を講（こう）じた。",
+      "options": [
+        {
+          "label": "A",
+          "value": "指摘（してき）"
+        },
+        {
+          "label": "B",
+          "value": "推測（すいそく）"
+        },
+        {
+          "label": "C",
+          "value": "措置（そち）"
+        },
+        {
+          "label": "D",
+          "value": "誤解（ごかい）"
+        }
+      ],
+      "selected_option": "C",
+      "selected_text": "措置（そち）",
+      "correct_option": "C",
+      "correct_text": "措置（そち）",
+      "result": "correct",
+      "target_lexeme": "措置（そち）",
+      "complete_sentence_with_furigana": "システムの不具合（ふぐあい）が相次（あいつ）いだため、会社（かいしゃ）は緊急（きんきゅう）の措置（そち）を講（こう）じた。",
+      "translation_zh": "由于系统故障接连发生，公司采取了紧急措施。",
+      "explanation": "措置を講じる／対策を講じる＝采取措施；指摘する＝指出问题；推測する＝推测原因；誤解を招く＝引起误解。",
+      "observed_error": null,
+      "error_reason_confirmed_by_user": false,
+      "guessing_status": "unknown",
+      "confidence": "unknown",
+      "time_spent_seconds": null,
+      "recommended_retest_dates": []
+    }
+  ],
+  "review_plan": {
+    "priority": "3道汉字读音全部错误：优先训练汉字↔假名；随后再练词义／固定搭配。",
+    "weak": [
+      {
+        "term": "促す（うながす）",
+        "error": "把『促した』的读音误选为『うかがった』",
+        "review": "促す＝敦促；行動を促す；与伺う（うかがう）分清。"
+      },
+      {
+        "term": "配慮（はいりょ）",
+        "error": "误将配慮用于『新しいソフトを配慮した』",
+        "review": "周囲の人に配慮する＝顾及别人；考慮＝考虑因素，検討＝研究方案。"
+      },
+      {
+        "term": "滞る（とどこおる）",
+        "error": "误读『滞っている』为『とどまっている』",
+        "review": "作業が滞る＝进展受阻；留まる／止まる（とどまる）＝停留。"
+      },
+      {
+        "term": "見送る（みおくる）",
+        "error": "把暂缓购买理解成由他人代买",
+        "review": "購入を見送る＝这次先不买；『任せる』则是委托别人。"
+      },
+      {
+        "term": "賄う（まかなう）",
+        "error": "误读『賄っている』为『うしなっている』",
+        "review": "費用を賄う＝负担费用；失う＝失去。"
+      }
+    ],
+    "next_quiz_mix": "约40%汉字读音、30%词义与近义词、30%搭配和用法。穿插新句复测5个错项；不在出题前公布答案。",
+    "delay_review_dates": [
+      "2026-11-12",
+      "2026-11-14",
+      "2026-11-18"
+    ],
+    "note": "只作为建议复习时间，不是已完成复测；即时讲解下的5/10不等同正式JLPT预测分数。"
+  }
+}

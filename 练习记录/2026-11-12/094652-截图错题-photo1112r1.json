@@ -1,0 +1,318 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "photo-20261112-grammar15",
+  "module": "Japanese grammar screenshot review",
+  "status": "analysis_archived_submission_unconfirmed",
+  "date": "2026-11-12",
+  "timezone": "Asia/Tokyo",
+  "recorded_at_local": "2026-11-12 09:46:52 +09:00",
+  "source_kind": "user_provided_external_exercise_screenshots",
+  "source_url": null,
+  "source_title": null,
+  "source_note": "本次聊天提供的15题截图；原网站、教材页码与原作答时间未确认。只归档题目文字和分析，不上传原始截图。",
+  "attempt_kind": "unknown",
+  "original_attempt_date": null,
+  "submission_status": "not_confirmed",
+  "official_answer_key_verified": false,
+  "guessing_status": "unknown",
+  "confidence": "unknown",
+  "time_spent_seconds": null,
+  "prompting_conditions": "unknown",
+  "statistical_boundary": "截图上可见的选择与语法分析答案核对，不是正式提交成绩。多题显示“未答复”，不得把暂选冒称平台判分或首次成绩；不计入正式语法四轮18/40，不增加模考完成量或教材掌握数。",
+  "summary": {
+    "screenshots_question_count": 15,
+    "selection_matches_analysis_count": 10,
+    "selection_differs_from_analysis_count": 5,
+    "review_question_numbers": [
+      2,
+      9,
+      10,
+      12,
+      13
+    ],
+    "explicitly_ambiguous_question_numbers": [
+      9
+    ],
+    "formal_score": null,
+    "score_note": "10/15仅指选择与本次分析建议一致的题数；第9题保留歧义，不宣称五题均为无争议的语法错误。"
+  },
+  "selection_index": [
+    {
+      "question_no": 1,
+      "selected_option": "b",
+      "analysis_expected_option": "b",
+      "result": "matches_analysis",
+      "official_grade": null
+    },
+    {
+      "question_no": 2,
+      "selected_option": "a",
+      "analysis_expected_option": "d",
+      "result": "needs_review",
+      "official_grade": null
+    },
+    {
+      "question_no": 3,
+      "selected_option": "a",
+      "analysis_expected_option": "a",
+      "result": "matches_analysis",
+      "official_grade": null
+    },
+    {
+      "question_no": 4,
+      "selected_option": "c",
+      "analysis_expected_option": "c",
+      "result": "matches_analysis",
+      "official_grade": null
+    },
+    {
+      "question_no": 5,
+      "selected_option": "d",
+      "analysis_expected_option": "d",
+      "result": "matches_analysis",
+      "official_grade": null
+    },
+    {
+      "question_no": 6,
+      "selected_option": "c",
+      "analysis_expected_option": "c",
+      "result": "matches_analysis",
+      "official_grade": null
+    },
+    {
+      "question_no": 7,
+      "selected_option": "c",
+      "analysis_expected_option": "c",
+      "result": "matches_analysis",
+      "official_grade": null
+    },
+    {
+      "question_no": 8,
+      "selected_option": "a",
+      "analysis_expected_option": "a",
+      "result": "matches_analysis",
+      "official_grade": null
+    },
+    {
+      "question_no": 9,
+      "selected_option": "a",
+      "analysis_expected_option": "c",
+      "result": "differs_from_analysis_with_ambiguity",
+      "official_grade": null
+    },
+    {
+      "question_no": 10,
+      "selected_option": "d",
+      "analysis_expected_option": "c",
+      "result": "needs_review",
+      "official_grade": null
+    },
+    {
+      "question_no": 11,
+      "selected_option": "d",
+      "analysis_expected_option": "d",
+      "result": "matches_analysis",
+      "official_grade": null
+    },
+    {
+      "question_no": 12,
+      "selected_option": "a",
+      "analysis_expected_option": "d",
+      "result": "needs_review",
+      "official_grade": null
+    },
+    {
+      "question_no": 13,
+      "selected_option": "b",
+      "analysis_expected_option": "c",
+      "result": "needs_review",
+      "official_grade": null
+    },
+    {
+      "question_no": 14,
+      "selected_option": "a",
+      "analysis_expected_option": "a",
+      "result": "matches_analysis",
+      "official_grade": null
+    },
+    {
+      "question_no": 15,
+      "selected_option": "d",
+      "analysis_expected_option": "d",
+      "result": "matches_analysis",
+      "official_grade": null
+    }
+  ],
+  "review_items": [
+    {
+      "question_no": 2,
+      "prompt": "すみません、大学の試験《　》聞きたいのですが…。",
+      "options": {
+        "a": "にとって",
+        "b": "に向いて",
+        "c": "に対して",
+        "d": "について"
+      },
+      "selected_option": "a",
+      "expected_option": "d",
+      "target": "について／にとって",
+      "completed_sentence": "すみません、大学の試験について聞きたいのですが…。",
+      "translation_zh": "不好意思，我想问一下关于大学考试的事情……",
+      "explanation": "「Nについて」表示所问、所谈的内容或话题，試験について聞く＝询问关于考试的事。「Nにとって」表示评价所立足的对象或立场，如私にとって大切だ＝对我来说很重要。に向いて用于方向或适合等语境，に対して表示动作或态度所针对的对象，都不替代本题的话题标记。",
+      "observed_difference": "截图选择 a「にとって」，此处需要话题标记 d「について」。选择可核实，具体误选心理原因未知。",
+      "ambiguity_note": null,
+      "reading_notes": [
+        "大学（だいがく）",
+        "試験（しけん）",
+        "聞く（きく）"
+      ],
+      "id": "photo-20261112-grammar15-q02",
+      "answer_basis": "按句意和常见语法考点分析，非已核验的平台官方答案",
+      "error_reason_confirmed_by_user": false,
+      "mastery_status": "not_established"
+    },
+    {
+      "question_no": 9,
+      "prompt": "アルバイトをやめたから今の生活はお金が《　》。",
+      "options": {
+        "a": "減ってばかりだ",
+        "b": "減ったばかりだ",
+        "c": "減るばかりだ",
+        "d": "減りばかりだ"
+      },
+      "selected_option": "a",
+      "expected_option": "c",
+      "target": "V辞书形＋ばかりだ／Vてばかりだ",
+      "completed_sentence": "アルバイトをやめたから今の生活はお金が減るばかりだ。",
+      "translation_zh": "辞掉兼职以后，现在的钱只会越来越少。",
+      "explanation": "按此题最可能的考点，表示变化的动词辞书形＋ばかりだ，强调单方向继续变化：減るばかりだ＝不断减少／越来越少。b「減ったばかりだ」偏向刚刚发生了减少；d「減りばかりだ」不符合本题所需的接续。",
+      "observed_difference": "截图选择 a「減ってばかりだ」，按题目意图建议选 c「減るばかりだ」；本项单列有歧义，不无条件判为不合语法。",
+      "ambiguity_note": "「減ってばかりだ」在日常表达中也可理解为“总在减少”，并非一概不成立。c 更贴合持续、单方向变化的常见教学考点。未取得平台官方答案或解释，不能把 a 写成任何语境下都错。",
+      "reading_notes": [
+        "生活（せいかつ）",
+        "お金（おかね）",
+        "減る（へる）"
+      ],
+      "id": "photo-20261112-grammar15-q09",
+      "answer_basis": "按句意和常见语法考点分析，非已核验的平台官方答案",
+      "error_reason_confirmed_by_user": false,
+      "mastery_status": "not_established"
+    },
+    {
+      "question_no": 10,
+      "prompt": "この病気を治す機械は、日本の有名な研究者《　》発明されました。",
+      "options": {
+        "a": "こそ",
+        "b": "のように",
+        "c": "によって",
+        "d": "に対して"
+      },
+      "selected_option": "d",
+      "expected_option": "c",
+      "target": "受身文中の動作主：によって",
+      "completed_sentence": "この病気を治す機械は、日本の有名な研究者によって発明されました。",
+      "translation_zh": "治疗这种疾病的机器，是由日本一位著名研究者发明的。",
+      "explanation": "「発明されました」是被动形式。发明、发现、创作等被动句常用「人物＋によって」标明动作实施者，即“由……”。「に対して」表示对、向、针对，不承担本句发明者的标记功能；こそ为强调，のように为像……一样。",
+      "observed_difference": "截图选择 d「に対して」，此处需以 c「によって」引出发明者。具体误选心理原因未知。",
+      "ambiguity_note": null,
+      "reading_notes": [
+        "病気（びょうき）",
+        "治す（なおす）",
+        "機械（きかい）",
+        "有名（ゆうめい）",
+        "研究者（けんきゅうしゃ）",
+        "発明（はつめい）"
+      ],
+      "id": "photo-20261112-grammar15-q10",
+      "answer_basis": "按句意和常见语法考点分析，非已核验的平台官方答案",
+      "error_reason_confirmed_by_user": false,
+      "mastery_status": "not_established"
+    },
+    {
+      "question_no": 12,
+      "prompt": "昨日《　》山田先生がしばらく休みますので、今日は私が教えます。",
+      "options": {
+        "a": "話せたように",
+        "b": "話せるように",
+        "c": "話すように",
+        "d": "話したように"
+      },
+      "selected_option": "a",
+      "expected_option": "d",
+      "target": "話した／話せた；Vた＋ように",
+      "completed_sentence": "昨日話したように、山田先生がしばらく休みますので、今日は私が教えます。",
+      "translation_zh": "正如昨天说过的，山田老师要休息一段时间，所以今天由我来教。",
+      "explanation": "「話した」是話す的普通过去式，“说过了”；「話せた」是可能形話せる的过去式，“能够说了／成功说出来了”。这里回指昨天已说明的事情，用「昨日話したように」＝正如昨天所说。c 是非过去式，b 是可能形的非过去式，均不符合该回指语境。",
+      "observed_difference": "截图选择 a「話せたように」，需要 d「話したように」。可确认混入了可能形；是否因词形混淆而误选仅属教学推测。",
+      "ambiguity_note": null,
+      "reading_notes": [
+        "昨日（きのう）",
+        "話す（はなす）",
+        "山田先生（やまだせんせい）",
+        "今日（きょう）",
+        "私（わたし）",
+        "教える（おしえる）"
+      ],
+      "id": "photo-20261112-grammar15-q12",
+      "answer_basis": "按句意和常见语法考点分析，非已核验的平台官方答案",
+      "error_reason_confirmed_by_user": false,
+      "mastery_status": "not_established"
+    },
+    {
+      "question_no": 13,
+      "prompt": "彼女は運動しないでうちでテレビを《　》。",
+      "options": {
+        "a": "見たばかりいる",
+        "b": "見るばかりだ",
+        "c": "見てばかりいる",
+        "d": "見たばかりだ"
+      },
+      "selected_option": "b",
+      "expected_option": "c",
+      "target": "Vてばかりいる／Vるばかりだ／Vたばかりだ",
+      "completed_sentence": "彼女は運動しないでうちでテレビを見てばかりいる。",
+      "translation_zh": "她不运动，老是在家看电视。",
+      "explanation": "「Vてばかりいる」表示反复或习惯性地只做某事，常带批评语气；此处“不运动，老看电视”最贴合 c。d「見たばかりだ」＝刚看完；a「見たばかりいる」接续不成立，表示刚做完应为「見たばかりだ」。",
+      "observed_difference": "截图选择 b「見るばかりだ」，按此题习惯行为语境建议选 c「見てばかりいる」。具体误选心理原因未知。",
+      "ambiguity_note": "「Vるばかりだ」也有“只是做……”的限定用法，不能把「見るばかりだ」一概说成语法错误。本题用 c 更明确表达反复、习惯性行为。",
+      "reading_notes": [
+        "彼女（かのじょ）",
+        "運動（うんどう）",
+        "見る（みる）"
+      ],
+      "id": "photo-20261112-grammar15-q13",
+      "answer_basis": "按句意和常见语法考点分析，非已核验的平台官方答案",
+      "error_reason_confirmed_by_user": false,
+      "mastery_status": "not_established"
+    }
+  ],
+  "review_plan": {
+    "status": "suggested_not_completed",
+    "anchor_date": "2026-11-12",
+    "anchor_kind": "screenshot_review_date_not_original_attempt_date",
+    "recommended_retest_dates": [
+      "2026-11-13",
+      "2026-11-15",
+      "2026-11-19"
+    ],
+    "method": "使用未见的新句混排，复测话题／评价立场、被动动作主、普通过去式／过去可能式及ばかり的三类用法。原题重做与新句迁移分开记录，不预告逐题考点；猜题及提示条件照实登记。",
+    "note": "只记录建议复习日期，未启动提醒或新练习。"
+  },
+  "bakari_contrast": [
+    {
+      "form": "Vたばかり",
+      "example": "食べたばかり",
+      "meaning_zh": "刚刚吃过"
+    },
+    {
+      "form": "变化动词辞书形＋ばかりだ",
+      "example": "お金が減るばかりだ",
+      "meaning_zh": "钱不断减少"
+    },
+    {
+      "form": "Vてばかりいる",
+      "example": "テレビを見てばかりいる",
+      "meaning_zh": "老是在看电视"
+    }
+  ]
+}
